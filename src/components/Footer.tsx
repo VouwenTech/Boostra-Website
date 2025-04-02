@@ -1,6 +1,6 @@
-
 import { Link } from 'react-router-dom';
 import { Instagram, Twitter, Linkedin, Mail, PhoneCall } from 'lucide-react';
+import boostraLogo from '@/assets/boostra-logo.svg';
 
 const Footer = () => {
   return (
@@ -9,10 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-r from-boostra-blue to-boostra-pink flex items-center justify-center">
-                <span className="text-white font-bold text-lg">B</span>
-              </div>
-              <span className="font-bold text-2xl text-boostra-dark">Boostra</span>
+              <img src={boostraLogo} alt="Boostra Logo" className="h-6 w-auto" />
             </Link>
             <p className="text-boostra-gray mb-6">
               Helping Shopify stores convert more visitors into customers through data-driven optimization.

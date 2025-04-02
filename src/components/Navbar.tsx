@@ -1,8 +1,8 @@
-
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import boostraLogo from '@/assets/boostra-logo.svg';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,10 +15,7 @@ const Navbar = () => {
     <nav className="py-5 bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-100">
       <div className="container px-4 mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-r from-boostra-blue to-boostra-pink flex items-center justify-center">
-            <span className="text-white font-bold text-lg">B</span>
-          </div>
-          <span className="font-bold text-2xl text-boostra-dark">Boostra</span>
+          <img src={boostraLogo} alt="Boostra Logo" className="h-10 w-auto" />
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">

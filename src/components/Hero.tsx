@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import handDrawnArrow from '../assets/hand-drawn-arrow.svg';
 import handDrawnCircle from '../assets/hand-drawn-circle.svg';
@@ -36,13 +35,13 @@ const Hero = () => {
           </div>
           
           <div className="order-1 md:order-2 relative">
-            <div className="bg-white p-4 rounded-lg shadow-lg transform rotate-2 mb-6 max-w-md mx-auto">
+            <div className="mb-6 max-w-2xl mx-auto">
               <img 
-                src="https://images.unsplash.com/photo-1573164574511-73c773193279?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                src="https://images.unsplash.com/photo-1573164574511-73c773193279?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                 alt="Shopify store owner working on analytics" 
                 className="rounded-md w-full h-auto"
               />
-              <div className="absolute -bottom-4 -right-4 bg-boostra-red text-white text-sm px-4 py-2 rounded-full transform rotate-3">
+              <div className="absolute -bottom-4 -right-4 bg-boostra-red text-white text-sm px-4 py-2 rounded-full">
                 +127% conversion rate
               </div>
             </div>
