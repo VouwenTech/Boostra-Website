@@ -59,10 +59,18 @@
   }
   
   .gradient-text {
-    @apply bg-gradient-to-r from-boostra-blue to-boostra-pink bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-boostra-red to-boostra-orange bg-clip-text text-transparent;
   }
   
   .card-hover {
     @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  
+  .hand-drawn-border {
+    @apply relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:border-2 before:border-boostra-red before:rounded-lg before:transform before:rotate-1;
+  }
+  
+  .hand-drawn-underline {
+    @apply relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 after:bg-boostra-red after:transform after:rotate-1;
   }
 }
