@@ -25,8 +25,8 @@ const Hero = () => {
               We help Shopify store owners optimize their websites through data-driven strategies to increase conversions, revenue, and customer satisfaction.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="rounded-full bg-boostra-red text-white hover:bg-boostra-deep-red px-8 py-6 text-lg shadow-lg hover:-translate-y-1 transition-all">
-                Book a Free Audit
+              <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-deep-blue px-8 py-6 text-lg shadow-lg hover:-translate-y-1 transition-all">
+                Book Your Audit
               </Button>
               <Button variant="outline" className="rounded-full border-boostra-blue text-boostra-blue hover:bg-boostra-blue/10 px-8 py-6 text-lg">
                 View Case Studies
@@ -37,13 +37,13 @@ const Hero = () => {
           <div className="order-1 md:order-2 relative">
             <div className="mb-6 max-w-2xl mx-auto">
               <img 
-                src="https://images.unsplash.com/photo-1573164574511-73c773193279?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1653762374114-92c970b49036" 
                 alt="Shopify store owner working on analytics" 
                 className="rounded-md w-full h-auto"
               />
-              <div className="absolute -bottom-4 -right-4 bg-boostra-red text-white text-sm px-4 py-2 rounded-full">
+              {/* <div className="absolute -bottom-4 -right-4 bg-boostra-red text-white text-sm px-4 py-2 rounded-full">
                 +127% conversion rate
-              </div>
+              </div> */}
             </div>
             <div className="absolute -bottom-10 -left-10 p-4 bg-boostra-blue/20 rounded-lg shadow-md transform -rotate-3 hidden md:block">
               <div className="flex items-center gap-2">
