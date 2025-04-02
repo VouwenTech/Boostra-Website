@@ -58,15 +58,15 @@ export default {
           foreground: 'hsl(var(--card-foreground))'
         },
         boostra: {
-          blue: '#546CF7',
-          'light-blue': '#E0E7FF',
-          yellow: '#FFCD29',
-          'light-yellow': '#FFF4CC',
-          pink: '#FFADC9',
-          'light-pink': '#FFE5EF',
-          'red': '#E84C3D',
-          'bright-red': '#FF4A4A',
-          'deep-red': '#C0392B',
+          blue: '#0EA5E9',
+          'light-blue': '#D1EDFF',
+          yellow: '#F59E0B',
+          'light-yellow': '#FFE4B5',
+          pink: '#D946EF',
+          'light-pink': '#F5D0FE',
+          'red': '#FF4A4A',
+          'bright-red': '#E84C3D',
+          'deep-red': '#B91C1C',
           'purple': '#8B5CF6',
           'orange': '#F97316',
           dark: '#1A1F2C',
@@ -132,7 +132,7 @@ export default {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'hero-pattern': 'linear-gradient(to bottom right, #FFEBE8, #FFFFFF, #E0E7FF)',
+        'hero-pattern': 'linear-gradient(to bottom right, #FFD1D1, #FFFFFF, #D1EDFF)',
       }
     }
   },

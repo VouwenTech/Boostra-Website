@@ -6,7 +6,7 @@ import handDrawnCircle from '../assets/hand-drawn-circle.svg';
 const Hero = () => {
   return (
     <section className="py-20 md:py-32 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-red-50 via-white to-blue-50 opacity-80 -z-10"></div>
+      <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-red-100 via-white to-blue-100 opacity-80 -z-10"></div>
       
       {/* Hand-drawn elements */}
       <img src={handDrawnCircle} alt="" className="absolute top-20 right-10 w-28 h-28 animate-pulse opacity-70 -z-5" />
@@ -20,16 +20,16 @@ const Hero = () => {
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-boostra-dark leading-tight">
               Turn Your Shopify Store Into a 
-              <span className="text-red-600 font-bold"> Conversion Machine</span>
+              <span className="text-boostra-red font-bold"> Conversion Machine</span>
             </h1>
             <p className="text-lg md:text-xl text-boostra-gray mb-10 max-w-2xl">
               We help Shopify store owners optimize their websites through data-driven strategies to increase conversions, revenue, and customer satisfaction.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="rounded-full bg-red-600 text-white hover:bg-red-700 px-8 py-6 text-lg shadow-lg hover:-translate-y-1 transition-all">
+              <Button className="rounded-full bg-boostra-red text-white hover:bg-boostra-deep-red px-8 py-6 text-lg shadow-lg hover:-translate-y-1 transition-all">
                 Book a Free Audit
               </Button>
-              <Button variant="outline" className="rounded-full border-boostra-blue text-boostra-blue hover:bg-boostra-light-blue px-8 py-6 text-lg">
+              <Button variant="outline" className="rounded-full border-boostra-blue text-boostra-blue hover:bg-boostra-blue/10 px-8 py-6 text-lg">
                 View Case Studies
               </Button>
             </div>
@@ -42,13 +42,13 @@ const Hero = () => {
                 alt="Shopify store owner working on analytics" 
                 className="rounded-md w-full h-auto"
               />
-              <div className="absolute -bottom-4 -right-4 bg-red-600 text-white text-sm px-4 py-2 rounded-full transform rotate-3">
+              <div className="absolute -bottom-4 -right-4 bg-boostra-red text-white text-sm px-4 py-2 rounded-full transform rotate-3">
                 +127% conversion rate
               </div>
             </div>
-            <div className="absolute -bottom-10 -left-10 p-4 bg-blue-100 rounded-lg shadow-md transform -rotate-3 hidden md:block">
+            <div className="absolute -bottom-10 -left-10 p-4 bg-boostra-blue/20 rounded-lg shadow-md transform -rotate-3 hidden md:block">
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                <div className="w-3 h-3 bg-boostra-orange rounded-full"></div>
                 <span className="text-sm font-semibold">Revenue up 43%</span>
               </div>
             </div>
