@@ -8,12 +8,14 @@ const PricingTier = ({
   name, 
   description, 
   price, 
+  originalPrice,
   features, 
   popular = false 
 }: {
   name: string,
   description: string,
   price: string,
+  originalPrice?: string,
   features: string[],
   popular?: boolean
 }) => {
@@ -21,8 +23,8 @@ const PricingTier = ({
     <div className={`rounded-2xl p-8 ${popular ? 'border-2 border-boostra-blue shadow-lg' : 'border border-gray-200'} relative`}>
       {popular && (
         <div className="absolute -top-4 right-8">
-          <span className="bg-boostra-blue text-white px-4 py-1 rounded-full text-sm font-medium">
-            Most Popular
+          <span className="bg-boostra-red text-white px-4 py-1 rounded-full text-sm font-medium">
+            Special Offer
           </span>
         </div>
       )}
@@ -31,8 +33,13 @@ const PricingTier = ({
         <p className="text-boostra-gray">{description}</p>
       </div>
       <div className="mb-6">
+        {originalPrice && (
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-2xl font-semibold text-boostra-gray line-through">${originalPrice}</span>
+            <span className="bg-boostra-red text-white px-2 py-1 rounded text-sm font-medium">Save ${parseInt(originalPrice) - parseInt(price.replace('$', ''))}</span>
+          </div>
+        )}
         <span className="text-4xl font-bold">{price}</span>
-        <span className="text-boostra-gray">/month</span>
       </div>
       <ul className="space-y-3 mb-8">
         {features.map((feature, index) => (
@@ -45,7 +52,7 @@ const PricingTier = ({
         ))}
       </ul>
       <Button 
-        className={`w-full ${popular ? 'bg-boostra-blue text-white hover:bg-boostra-blue/90' : 'bg-white border border-boostra-blue text-boostra-blue hover:bg-boostra-light-blue'} rounded-full`}
+        className={`w-full ${popular ? 'bg-boostra-red text-white hover:bg-boostra-bright-red' : 'bg-boostra-blue text-white hover:bg-boostra-blue/90'} rounded-full`}
       >
         Get Started
       </Button>
@@ -65,11 +72,11 @@ const Pricing = () => {
                 <span className="badge">PRICING</span>
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 text-boostra-dark leading-tight">
-                Simple, Transparent 
-                <span className="gradient-text"> Pricing</span>
+                CRO Audit 
+                <span className="text-boostra-red"> Packages</span>
               </h1>
               <p className="text-lg md:text-xl text-boostra-gray mb-10 max-w-2xl mx-auto">
-                Choose the right plan for your Shopify store's needs. All plans include our core analytics and optimization expertise.
+                Get expert conversion rate optimization insights for your Shopify store. Choose the audit that fits your needs.
               </p>
             </div>
           </div>
@@ -77,55 +84,44 @@ const Pricing = () => {
         
         <section className="py-16 md:py-24">
           <div className="container px-4 mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <PricingTier 
-                name="Starter" 
-                description="Perfect for new Shopify stores"
-                price="$997"
+                name="Mini CRO Audit" 
+                description="Perfect for quick wins and targeted improvements"
+                price="$750"
                 features={[
-                  "Initial store audit",
-                  "Basic analytics setup",
-                  "3 key page optimizations",
-                  "Monthly performance report",
+                  "Homepage audit",
+                  "One landing page audit",
+                  "No additional access required",
+                  "5-6 actionable recommendations",
+                  "Detailed report with findings",
                   "Email support"
                 ]}
               />
               <PricingTier 
-                name="Growth" 
-                description="For established stores ready to scale"
-                price="$1,997"
+                name="Full CRO Audit" 
+                description="Comprehensive site analysis with advanced insights"
+                price="$2,000"
+                originalPrice="3,500"
                 features={[
-                  "Comprehensive store audit",
-                  "Advanced analytics setup",
-                  "6 key page optimizations",
-                  "A/B testing program",
-                  "Bi-weekly performance reports",
-                  "Priority email & chat support"
+                  "Comprehensive site audit",
+                  "Microsoft Clarity heatmap analysis",
+                  "GA4 & Shopify Analytics review",
+                  "30-50 detailed recommendations",
+                  "Key A/B testing ideas",
+                  "Implementation roadmap",
+                  "Priority support & consultation call"
                 ]}
                 popular
-              />
-              <PricingTier 
-                name="Enterprise" 
-                description="Custom solutions for high-volume stores"
-                price="$3,997"
-                features={[
-                  "End-to-end store optimization",
-                  "Custom analytics dashboard",
-                  "Unlimited page optimizations",
-                  "Continuous A/B testing program",
-                  "Weekly strategy calls",
-                  "24/7 priority support",
-                  "Dedicated account manager"
-                ]}
               />
             </div>
             
             <div className="mt-16 text-center">
               <p className="text-boostra-gray mb-8">
-                Need a custom solution for your specific needs?
+                Need help choosing the right audit for your store?
               </p>
               <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-blue/90 px-8 py-6 text-lg">
-                Contact Us for Custom Pricing
+                Schedule a Free Consultation
               </Button>
             </div>
           </div>
