@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -36,7 +35,7 @@ const PricingTier = ({
         {originalPrice && (
           <div className="flex items-center gap-2 mb-2">
             <span className="text-2xl font-semibold text-boostra-gray line-through">${originalPrice}</span>
-            <span className="bg-boostra-red text-white px-2 py-1 rounded text-sm font-medium">Save ${parseInt(originalPrice) - parseInt(price.replace('$', ''))}</span>
+            <span className="bg-boostra-red text-white px-2 py-1 rounded text-sm font-medium">Save $1,500</span>
           </div>
         )}
         <span className="text-4xl font-bold">{price}</span>
