@@ -1,5 +1,6 @@
 
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const AboutHero = () => {
   return (
@@ -10,19 +11,34 @@ const AboutHero = () => {
             <span className="badge">ABOUT US</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-boostra-dark leading-tight">
-            Data-Driven CRO Experts for 
-            <span className="gradient-text"> Shopify Stores</span>
+            About 
+            <span className="gradient-text"> Boostra</span>
           </h1>
-          <p className="text-lg md:text-xl text-boostra-gray mb-10 max-w-2xl mx-auto">
-            Founded in 2018, Boostra has helped over 80+ Shopify stores optimize their conversion rates and grow their revenue through data-driven strategies.
-          </p>
+          <div className="text-lg md:text-xl text-boostra-gray mb-10 max-w-3xl mx-auto text-left">
+            <p className="mb-6">
+              At Boostra, we specialize in uncovering the hidden revenue potential in Shopify stores around the globe. Our expert-led CRO audits are designed to identify exactly what's preventing your visitors from converting—and provide a clear, data-driven roadmap to fix it.
+            </p>
+            <p className="mb-6">
+              We don't believe in guesswork, either. Every recommendation we make is backed by analytics, user behavior insights, and industry best practices. Whether you're looking for a quick-win Mini Audit or a deep-dive Full CRO Audit, we deliver actionable insights that drive real, measurable growth.
+            </p>
+            <p className="mb-6">
+              We work with ambitious eCommerce brands, helping them fine-tune their stores for maximum conversions, higher AOV, and long-term customer retention. No fluff, no generic advice—just clear, strategic improvements that move the needle.
+            </p>
+            <p className="mb-6">
+              If you're serious about turning more visitors into customers, let's talk.
+            </p>
+          </div>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-blue/90 px-8 py-6 text-lg">
-              Meet Our Team
-            </Button>
-            <Button variant="outline" className="rounded-full border-boostra-blue text-boostra-blue hover:bg-boostra-light-blue px-8 py-6 text-lg">
-              Our Process
-            </Button>
+            <Link to="/services">
+              <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-blue/90 px-8 py-6 text-lg">
+                View Our Services
+              </Button>
+            </Link>
+            <Link to="/pricing">
+              <Button variant="outline" className="rounded-full border-boostra-blue text-boostra-blue hover:bg-boostra-light-blue px-8 py-6 text-lg">
+                See Pricing
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
