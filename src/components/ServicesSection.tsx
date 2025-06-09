@@ -1,5 +1,5 @@
 
-import { BarChart3, LineChart, MousePointer, ShoppingBag, Rocket, Megaphone } from 'lucide-react';
+import { BarChart3, Zap, ShoppingBag, TrendingUp, Target, CheckSquare } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const ServiceCard = ({ icon, title, description }: {
@@ -37,33 +37,33 @@ const ServicesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard
             icon={<BarChart3 className="text-boostra-dark" size={24} />}
-            title="Analytics Setup & Tracking"
-            description="We implement robust analytics systems to track user behavior, sales funnels, and key metrics that drive business decisions."
+            title="CRO Audit"
+            description="A full audit assessing your store's UX, checkout flow, and technical performance to identify conversion blockers and missed revenue opportunities, and giving you all the juicy data that comes along with it."
           />
           <ServiceCard
-            icon={<MousePointer className="text-boostra-dark" size={24} />}
-            title="Conversion Rate Optimization"
-            description="Through methodical A/B testing and data analysis, we optimize your store to convert more visitors into paying customers."
+            icon={<Zap className="text-boostra-dark" size={24} />}
+            title="Mini Audit"
+            description="A small audit focusing on the Homepage and one landing page (of your choice) that will pinpoint quick wins and low-effort improvements to increase conversions. This one is perfect for stores looking for actionable insights without a deep dive."
           />
           <ServiceCard
             icon={<ShoppingBag className="text-boostra-dark" size={24} />}
-            title="Shopify Store Audits"
-            description="Comprehensive evaluation of your store's UX, checkout process, and technical performance to identify improvement opportunities."
+            title="Checkout & Mobile Optimization"
+            description="Included in the full CRO Audit, we conduct a specialized analysis of your checkout process and mobile experience to reduce friction, decrease cart abandonment, and improve your conversion rates."
           />
           <ServiceCard
-            icon={<LineChart className="text-boostra-dark" size={24} />}
-            title="Performance Monitoring"
-            description="Continuous monitoring of KPIs and performance metrics with regular reports to track growth and identify issues."
+            icon={<Target className="text-boostra-dark" size={24} />}
+            title="Data-Driven Insights & Recommendations"
+            description="We analyze user behavior, heatmaps, and session recordings throughout the full CRO Audit to provide data-backed recommendations tailored to your store's unique challenges and goals."
           />
           <ServiceCard
-            icon={<Rocket className="text-boostra-dark" size={24} />}
-            title="Growth Strategy"
-            description="Custom growth roadmaps based on your specific business goals, market position, and customer segments."
+            icon={<TrendingUp className="text-boostra-dark" size={24} />}
+            title="Revenue Growth Strategy"
+            description="Based on the audit findings in the CRO Audit, we'll outline strategic recommendations to help you increase your Average Order Value (AOV), reduce churn, and improve customer retention."
           />
           <ServiceCard
-            icon={<Megaphone className="text-boostra-dark" size={24} />}
-            title="Marketing Optimization"
-            description="Refine your marketing channels and campaigns using data-driven insights to maximize ROI and customer acquisition."
+            icon={<CheckSquare className="text-boostra-dark" size={24} />}
+            title="Priority Action Plan"
+            description="We'll give you a structured, step-by-step action plan, ensuring you have a clear roadmap to implement all the necessary changes for better conversions."
           />
         </div>
       </div>
