@@ -1,4 +1,6 @@
+
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 import handDrawnArrow from '../assets/hand-drawn-arrow.svg';
 import handDrawnCircle from '../assets/hand-drawn-circle.svg';
 
@@ -25,12 +27,11 @@ const Hero = () => {
               We help Shopify store owners optimize their websites through data-driven strategies to increase conversions, revenue, and customer satisfaction.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-deep-blue px-8 py-6 text-lg shadow-lg hover:-translate-y-1 transition-all">
-                Book Your Audit
-              </Button>
-              <Button variant="outline" className="rounded-full border-boostra-blue text-boostra-blue hover:bg-boostra-blue/10 px-8 py-6 text-lg">
-                View Case Studies
-              </Button>
+              <Link to="/contact">
+                <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-deep-blue px-8 py-6 text-lg shadow-lg hover:-translate-y-1 transition-all">
+                  Book Your Audit
+                </Button>
+              </Link>
             </div>
           </div>
           
