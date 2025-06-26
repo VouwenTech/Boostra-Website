@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { Mail, PhoneCall } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import boostraLogo from '@/assets/boostra-logo.svg';
 
 const Footer = () => {
@@ -59,14 +59,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-boostra-gray">
                 <Mail size={18} />
-                <a href="mailto:hello@boostra.com" className="hover:text-boostra-blue transition-colors">
-                  hello@boostra.com
-                </a>
-              </li>
-              <li className="flex items-center gap-2 text-boostra-gray">
-                <PhoneCall size={18} />
-                <a href="tel:+1234567890" className="hover:text-boostra-blue transition-colors">
-                  (123) 456-7890
+                <a href="mailto:byron@boostra.agency" className="hover:text-boostra-blue transition-colors">
+                  byron@boostra.agency
                 </a>
               </li>
             </ul>
