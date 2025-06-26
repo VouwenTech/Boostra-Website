@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -27,9 +28,6 @@ const Navbar = () => {
           </Link>
           <Link to="/services" className="text-boostra-dark font-medium hover:text-boostra-blue transition-colors">
             Services
-          </Link>
-          <Link to="/case-studies" className="text-boostra-dark font-medium hover:text-boostra-blue transition-colors">
-            Case Studies
           </Link>
           <Link to="/pricing" className="text-boostra-dark font-medium hover:text-boostra-blue transition-colors">
             Pricing
@@ -68,13 +66,6 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Services
-            </Link>
-            <Link 
-              to="/case-studies" 
-              className="text-boostra-dark font-medium hover:text-boostra-blue transition-colors py-2"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Case Studies
             </Link>
             <Link 
               to="/pricing" 

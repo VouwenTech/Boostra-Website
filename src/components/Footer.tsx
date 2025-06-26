@@ -1,5 +1,6 @@
+
 import { Link } from 'react-router-dom';
-import { Instagram, Twitter, Linkedin, Mail, PhoneCall } from 'lucide-react';
+import { Mail, PhoneCall } from 'lucide-react';
 import boostraLogo from '@/assets/boostra-logo.svg';
 
 const Footer = () => {
@@ -14,17 +15,6 @@ const Footer = () => {
             <p className="text-boostra-gray mb-6">
               Helping Shopify stores convert more visitors into customers through data-driven optimization.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-boostra-gray hover:text-boostra-blue transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-boostra-gray hover:text-boostra-blue transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-boostra-gray hover:text-boostra-blue transition-colors">
-                <Linkedin size={20} />
-              </a>
-            </div>
           </div>
           
           <div className="col-span-1">
@@ -33,21 +23,6 @@ const Footer = () => {
               <li>
                 <Link to="/about" className="text-boostra-gray hover:text-boostra-blue transition-colors">
                   About Us
-                </Link>
-              </li>
-              <li>
-                <Link to="/team" className="text-boostra-gray hover:text-boostra-blue transition-colors">
-                  Team
-                </Link>
-              </li>
-              <li>
-                <Link to="/careers" className="text-boostra-gray hover:text-boostra-blue transition-colors">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-boostra-gray hover:text-boostra-blue transition-colors">
-                  Blog
                 </Link>
               </li>
             </ul>
