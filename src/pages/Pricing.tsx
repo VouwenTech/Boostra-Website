@@ -50,11 +50,13 @@ const PricingTier = ({
           </li>
         ))}
       </ul>
-      <Button 
-        className={`w-full ${popular ? 'bg-boostra-red text-white hover:bg-boostra-bright-red' : 'bg-boostra-blue text-white hover:bg-boostra-blue/90'} rounded-full`}
-      >
-        Get Started
-      </Button>
+      <a href="mailto:byron@boostra.agency">
+        <Button 
+          className={`w-full ${popular ? 'bg-boostra-red text-white hover:bg-boostra-bright-red' : 'bg-boostra-blue text-white hover:bg-boostra-blue/90'} rounded-full`}
+        >
+          Get Started
+        </Button>
+      </a>
     </div>
   );
 };
@@ -119,9 +121,11 @@ const Pricing = () => {
               <p className="text-boostra-gray mb-8">
                 Need help choosing the right audit for your store?
               </p>
-              <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-blue/90 px-8 py-6 text-lg">
-                Schedule a Free Consultation
-              </Button>
+              <a href="mailto:byron@boostra.agency">
+                <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-blue/90 px-8 py-6 text-lg">
+                  Schedule a Free Consultation
+                </Button>
+              </a>
             </div>
           </div>
         </section>

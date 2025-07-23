@@ -32,9 +32,11 @@ const Navbar = () => {
           <Link to="/pricing" className="text-boostra-dark font-medium hover:text-boostra-blue transition-colors">
             Pricing
           </Link>
-          <Button className="bg-boostra-blue text-white rounded-full hover:bg-boostra-blue/90">
-            Contact Us
-          </Button>
+          <a href="mailto:byron@boostra.agency">
+            <Button className="bg-boostra-blue text-white rounded-full hover:bg-boostra-blue/90">
+              Contact Us
+            </Button>
+          </a>
         </div>
         
         <button className="md:hidden" onClick={toggleMenu}>
@@ -74,9 +76,11 @@ const Navbar = () => {
             >
               Pricing
             </Link>
-            <Button className="bg-boostra-blue text-white rounded-full hover:bg-boostra-blue/90 w-full">
-              Contact Us
-            </Button>
+            <a href="mailto:byron@boostra.agency">
+              <Button className="bg-boostra-blue text-white rounded-full hover:bg-boostra-blue/90 w-full">
+                Contact Us
+              </Button>
+            </a>
           </div>
         </div>
       )}

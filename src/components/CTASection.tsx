@@ -16,12 +16,12 @@ const CTASection = () => {
             Take the first step toward optimizing your store with our free conversion audit. Find out exactly where your store is leaving money on the table.
           </p>
           <div className="flex justify-center">
-            <Link to="/contact">
+            <a href="mailto:byron@boostra.agency">
               <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-blue/90 px-8 py-6 text-lg">
                 Book a Free Audit
                 <ArrowRight className="ml-2" size={18} />
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
