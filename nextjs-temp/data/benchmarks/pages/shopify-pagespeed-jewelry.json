@@ -9,16 +9,88 @@
   "percentiles": {
     "p10": 28.8,
     "p25": 37.5,
-    "p50": 50.0,
-    "p75": 59.0,
-    "p90": 66.0,
+    "p50": 50,
+    "p75": 59,
+    "p90": 66,
     "mean": 48.33,
     "std_dev": 15.34,
-    "min_value": 6.0,
-    "max_value": 83.0
+    "min_value": 6,
+    "max_value": 83
   },
   "thresholds": {
-    "good": 90.0,
-    "bad": 50.0
+    "good": 90,
+    "bad": 50
+  },
+  "content_generated_at": "2026-01-04T14:29:22.710Z",
+  "last_updated": "2026-01-04T14:29:22.710Z",
+  "version": 1,
+  "seo": {
+    "title": "PageSpeed Score Benchmarks for Shopify Jewelry Stores (2026)",
+    "meta_description": "How does your jewelry and accessories store compare? See pagespeed score benchmarks from 103 Shopify jewelry stores. Median: 50, Top 10%: 66.",
+    "keywords": [
+      "shopify jewelry benchmark",
+      "pagespeed score shopify",
+      "jewelry store performance",
+      "ecommerce pagespeed score benchmark",
+      "shopify speed benchmarks",
+      "jewelry ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "50",
+      "label": "Median PageSpeed",
+      "context": "Top 10% score 66+ points"
+    },
+    "key_findings": [
+      "The average Jewelry store scores 48 on PageSpeed, falling into Google's \"poor\" category",
+      "Top 10% of stores achieve scores of 66+, giving them a significant competitive advantage",
+      "There's a 37 point gap between top and bottom performers in this niche",
+      "Some stores in this niche fall below Google's minimum acceptable threshold"
+    ],
+    "how_to_improve": [
+      "Audit and remove unused CSS and JavaScript to reduce page weight",
+      "Implement efficient caching strategies for static assets",
+      "Optimize your Shopify theme by removing unnecessary apps and code",
+      "Use optimized, properly-sized images throughout your store",
+      "Minimize main-thread work by deferring non-critical JavaScript",
+      "Reduce the impact of third-party scripts like analytics and chat widgets",
+      "Consider a performance-focused Shopify theme if your current theme is bloated"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-jewelry",
+      "title": "LCP - Jewelry"
+    },
+    {
+      "slug": "shopify-trust-gaps-jewelry",
+      "title": "Trust Gap - Jewelry"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "PageSpeed Score Benchmarks for Shopify Jewelry Stores",
+    "description": "Performance benchmark data for 103 Shopify stores in the jewelry and accessories industry, measuring pagespeed score.",
+    "url": "https://boostra.io/benchmarks/shopify-pagespeed-jewelry",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-jewelry",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "PageSpeed Score",
+      "value": 50,
+      "description": "Median pagespeed score across 103 stores"
+    }
   }
 }

@@ -11,14 +11,86 @@
     "p25": 5906.5,
     "p50": 13313.5,
     "p75": 29093.25,
-    "p90": 36642.0,
+    "p90": 36642,
     "mean": 18553.04,
     "std_dev": 15996.66,
-    "min_value": 1269.0,
-    "max_value": 97057.0
+    "min_value": 1269,
+    "max_value": 97057
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.706Z",
+  "last_updated": "2026-01-04T14:29:22.706Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Automotive Stores (2026)",
+    "meta_description": "How does your automotive parts and accessories store compare? See largest contentful paint benchmarks from 143 Shopify automotive stores. Median: 13.3s, Top 10%: 3.8s.",
+    "keywords": [
+      "shopify automotive benchmark",
+      "largest contentful paint shopify",
+      "automotive store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "automotive ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "13.3s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 3.8s or faster"
+    },
+    "key_findings": [
+      "The median Automotive store has an LCP of 13.3s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 3.8s - 72% faster than the median",
+      "A 10x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-automotive",
+      "title": "PageSpeed - Automotive"
+    },
+    {
+      "slug": "shopify-trust-gaps-automotive",
+      "title": "Trust Gap - Automotive"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Automotive Stores",
+    "description": "Performance benchmark data for 143 Shopify stores in the automotive parts and accessories industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-automotive",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-automotive",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 13313.5,
+      "description": "Median largest contentful paint across 143 stores"
+    }
   }
 }

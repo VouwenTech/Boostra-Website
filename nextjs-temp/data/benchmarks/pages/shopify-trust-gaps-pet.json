@@ -7,18 +7,90 @@
   "sample_size": 81,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 0.0,
-    "p25": 0.0,
-    "p50": 1.0,
-    "p75": 2.0,
-    "p90": 3.0,
+    "p10": 0,
+    "p25": 0,
+    "p50": 1,
+    "p75": 2,
+    "p90": 3,
     "mean": 1.21,
     "std_dev": 1.16,
-    "min_value": 0.0,
-    "max_value": 3.0
+    "min_value": 0,
+    "max_value": 3
   },
   "thresholds": {
-    "good": 0.0,
-    "bad": 2.0
+    "good": 0,
+    "bad": 2
+  },
+  "content_generated_at": "2026-01-04T14:29:22.712Z",
+  "last_updated": "2026-01-04T14:29:22.712Z",
+  "version": 1,
+  "seo": {
+    "title": "Trust Gaps Benchmarks for Shopify Pets Stores (2026)",
+    "meta_description": "How does your pet supplies store compare? See trust gaps benchmarks from 81 Shopify pets stores. Median: 1, Top 10%: 0.",
+    "keywords": [
+      "shopify pet benchmark",
+      "trust gaps shopify",
+      "pets store performance",
+      "ecommerce trust gap score benchmark",
+      "shopify speed benchmarks",
+      "pets ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "1",
+      "label": "Median Trust Gap",
+      "context": "Best stores achieve 0 or lower"
+    },
+    "key_findings": [
+      "The median Pets store has a trust gap of 1, indicating moderate trust signal implementation",
+      "Best-in-class stores (P10) achieve trust gap scores of just 0, showing strong trust signal optimization",
+      "The 3 point spread between top and bottom performers shows trust optimization is a key differentiator",
+      "Pets shoppers have specific trust expectations that most stores partially address"
+    ],
+    "how_to_improve": [
+      "Add authentic customer reviews and ratings prominently on product pages",
+      "Display trust badges, security seals, and payment icons clearly",
+      "Include detailed shipping and return policy information",
+      "Show real-time inventory and social proof (e.g., 'X people viewing')",
+      "Add founder story or 'About Us' content to build brand authenticity",
+      "Implement live chat or clear contact options for customer questions",
+      "Display any press mentions, certifications, or industry awards"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-pet",
+      "title": "LCP - Pet"
+    },
+    {
+      "slug": "shopify-pagespeed-pet",
+      "title": "PageSpeed - Pet"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Trust Gaps Benchmarks for Shopify Pets Stores",
+    "description": "Performance benchmark data for 81 Shopify stores in the pet supplies industry, measuring trust gaps.",
+    "url": "https://boostra.io/benchmarks/shopify-trust-gaps-pet",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-trust-gaps-pet",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Trust Gaps",
+      "value": 1,
+      "description": "Median trust gaps across 81 stores"
+    }
   }
 }

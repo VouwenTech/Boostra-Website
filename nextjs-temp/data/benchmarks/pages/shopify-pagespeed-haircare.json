@@ -8,17 +8,89 @@
   "data_date": "2026-01-04",
   "percentiles": {
     "p10": 33.4,
-    "p25": 43.0,
-    "p50": 51.0,
-    "p75": 56.0,
+    "p25": 43,
+    "p50": 51,
+    "p75": 56,
     "p90": 65.9,
     "mean": 49.83,
     "std_dev": 12.85,
-    "min_value": 28.0,
-    "max_value": 72.0
+    "min_value": 28,
+    "max_value": 72
   },
   "thresholds": {
-    "good": 90.0,
-    "bad": 50.0
+    "good": 90,
+    "bad": 50
+  },
+  "content_generated_at": "2026-01-04T14:29:22.710Z",
+  "last_updated": "2026-01-04T14:29:22.710Z",
+  "version": 1,
+  "seo": {
+    "title": "PageSpeed Score Benchmarks for Shopify Haircare Stores (2026)",
+    "meta_description": "How does your haircare store compare? See pagespeed score benchmarks from 13 Shopify haircare stores. Median: 51, Top 10%: 66.",
+    "keywords": [
+      "shopify haircare benchmark",
+      "pagespeed score shopify",
+      "haircare store performance",
+      "ecommerce pagespeed score benchmark",
+      "shopify speed benchmarks",
+      "haircare ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "51",
+      "label": "Median PageSpeed",
+      "context": "Top 10% score 66+ points"
+    },
+    "key_findings": [
+      "The average Haircare store scores 50 on PageSpeed, falling into Google's \"poor\" category",
+      "Top 10% of stores achieve scores of 66+, giving them a significant competitive advantage",
+      "There's a 33 point gap between top and bottom performers in this niche",
+      "Some stores in this niche fall below Google's minimum acceptable threshold"
+    ],
+    "how_to_improve": [
+      "Audit and remove unused CSS and JavaScript to reduce page weight",
+      "Implement efficient caching strategies for static assets",
+      "Optimize your Shopify theme by removing unnecessary apps and code",
+      "Use optimized, properly-sized images throughout your store",
+      "Minimize main-thread work by deferring non-critical JavaScript",
+      "Reduce the impact of third-party scripts like analytics and chat widgets",
+      "Consider a performance-focused Shopify theme if your current theme is bloated"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-haircare",
+      "title": "LCP - Haircare"
+    },
+    {
+      "slug": "shopify-trust-gaps-haircare",
+      "title": "Trust Gap - Haircare"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "PageSpeed Score Benchmarks for Shopify Haircare Stores",
+    "description": "Performance benchmark data for 13 Shopify stores in the haircare industry, measuring pagespeed score.",
+    "url": "https://boostra.io/benchmarks/shopify-pagespeed-haircare",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-haircare",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "PageSpeed Score",
+      "value": 51,
+      "description": "Median pagespeed score across 13 stores"
+    }
   }
 }

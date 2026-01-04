@@ -7,18 +7,90 @@
   "sample_size": 11,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 0.0,
-    "p25": 0.0,
-    "p50": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p50": 0,
     "p75": 1.5,
-    "p90": 2.0,
+    "p90": 2,
     "mean": 0.73,
     "std_dev": 1.1,
-    "min_value": 0.0,
-    "max_value": 3.0
+    "min_value": 0,
+    "max_value": 3
   },
   "thresholds": {
-    "good": 0.0,
-    "bad": 2.0
+    "good": 0,
+    "bad": 2
+  },
+  "content_generated_at": "2026-01-04T14:29:22.713Z",
+  "last_updated": "2026-01-04T14:29:22.713Z",
+  "version": 1,
+  "seo": {
+    "title": "Trust Gaps Benchmarks for Shopify Watches Stores (2026)",
+    "meta_description": "How does your watches and timepieces store compare? See trust gaps benchmarks from 11 Shopify watches stores. Median: 0, Top 10%: 0.",
+    "keywords": [
+      "shopify watches benchmark",
+      "trust gaps shopify",
+      "watches store performance",
+      "ecommerce trust gap score benchmark",
+      "shopify speed benchmarks",
+      "watches ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "0",
+      "label": "Median Trust Gap",
+      "context": "Best stores achieve 0 or lower"
+    },
+    "key_findings": [
+      "The median Watches store has a trust gap of 0, indicating moderate trust signal implementation",
+      "Best-in-class stores (P10) achieve trust gap scores of just 0, showing strong trust signal optimization",
+      "The 2 point spread between top and bottom performers shows trust optimization is a key differentiator",
+      "Watches shoppers have specific trust expectations that most stores partially address"
+    ],
+    "how_to_improve": [
+      "Add authentic customer reviews and ratings prominently on product pages",
+      "Display trust badges, security seals, and payment icons clearly",
+      "Include detailed shipping and return policy information",
+      "Show real-time inventory and social proof (e.g., 'X people viewing')",
+      "Add founder story or 'About Us' content to build brand authenticity",
+      "Implement live chat or clear contact options for customer questions",
+      "Display any press mentions, certifications, or industry awards"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-watches",
+      "title": "LCP - Watches"
+    },
+    {
+      "slug": "shopify-pagespeed-watches",
+      "title": "PageSpeed - Watches"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Trust Gaps Benchmarks for Shopify Watches Stores",
+    "description": "Performance benchmark data for 11 Shopify stores in the watches and timepieces industry, measuring trust gaps.",
+    "url": "https://boostra.io/benchmarks/shopify-trust-gaps-watches",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-trust-gaps-watches",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Trust Gaps",
+      "value": 0,
+      "description": "Median trust gaps across 11 stores"
+    }
   }
 }

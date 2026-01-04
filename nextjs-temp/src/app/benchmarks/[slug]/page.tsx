@@ -9,6 +9,31 @@ import { BenchmarkHero } from "@/components/benchmarks/BenchmarkHero";
 import { PercentilesTable } from "@/components/benchmarks/PercentilesTable";
 import { CompareWidget } from "@/components/benchmarks/CompareWidget";
 import { Button } from "@/components/ui/button";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
+// Metric explanations for the "What is X?" section
+const METRIC_INFO: Record<string, {
+  whatIs: string;
+  whyMatters: string;
+  howMeasured: string;
+}> = {
+  lcp_ms: {
+    whatIs: "Largest Contentful Paint (LCP) measures the time it takes for the largest visible content element—typically a hero image, video, or large text block—to fully render on the screen.",
+    whyMatters: "LCP is one of Google's three Core Web Vitals, directly impacting your search rankings. Studies show that pages with LCP under 2.5 seconds have 24% lower bounce rates. For ecommerce, every second of delay can reduce conversions by up to 7%.",
+    howMeasured: "We use Google Lighthouse to test each store's homepage under simulated mobile conditions (4G network, mid-tier device). The LCP value represents the time from page request to when the largest element becomes visible.",
+  },
+  pagespeed_score: {
+    whatIs: "PageSpeed Score is Google's comprehensive performance metric, rating your site from 0-100 based on multiple factors including loading speed, interactivity, and visual stability.",
+    whyMatters: "Higher PageSpeed scores correlate strongly with better SEO rankings, lower bounce rates, and higher conversion rates. Google has confirmed page experience is a ranking factor, and scores below 50 are flagged as 'poor' in Search Console.",
+    howMeasured: "We run each store through Google's PageSpeed Insights API, which combines lab data from Lighthouse with real-world Chrome User Experience data. The score weights metrics like LCP, FID, CLS, and Time to Interactive.",
+  },
+  trust_gap_score: {
+    whatIs: "Trust Gap Score measures how well your store meets shopper expectations for trust signals—the elements that convince visitors your store is legitimate, secure, and reliable.",
+    whyMatters: "Online shoppers are increasingly cautious. 81% of consumers need to trust a brand before buying. Trust signals like reviews, security badges, clear policies, and social proof directly impact whether visitors convert or abandon their carts.",
+    howMeasured: "We analyze each store for the presence and quality of key trust elements: customer reviews, security badges, payment icons, shipping/return policies, contact information, social proof, and brand authenticity signals. Lower scores indicate better trust optimization.",
+  },
+};
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -56,6 +81,8 @@ export default async function BenchmarkPage({ params }: PageProps) {
     notFound();
   }
 
+  const metricInfo = METRIC_INFO[data.metric];
+
   return (
     <div className="min-h-screen bg-white">
       {/* JSON-LD Structured Data */}
@@ -66,7 +93,9 @@ export default async function BenchmarkPage({ params }: PageProps) {
         />
       )}
 
-      <BenchmarkHero
+      <Navbar />
+      <main>
+        <BenchmarkHero
         nicheLabel={data.niche_label}
         metricLabel={data.metric_label}
         heroStat={data.content?.hero_stat}
@@ -83,6 +112,29 @@ export default async function BenchmarkPage({ params }: PageProps) {
               metric={data.metric}
               thresholds={data.thresholds}
             />
+
+            {/* What is this metric? */}
+            {metricInfo && (
+              <div className="my-10 p-6 bg-gradient-to-br from-boostra-blue/5 to-boostra-blue/10 rounded-xl">
+                <h2 className="text-2xl font-bold mb-6">
+                  What is {data.metric_label}?
+                </h2>
+                <div className="space-y-4">
+                  <div>
+                    <h3 className="font-semibold text-boostra-dark mb-1">Definition</h3>
+                    <p className="text-muted-foreground">{metricInfo.whatIs}</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-boostra-dark mb-1">Why It Matters</h3>
+                    <p className="text-muted-foreground">{metricInfo.whyMatters}</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-boostra-dark mb-1">How We Measure It</h3>
+                    <p className="text-muted-foreground">{metricInfo.howMeasured}</p>
+                  </div>
+                </div>
+              </div>
+            )}
 
             {data.content?.key_findings && data.content.key_findings.length > 0 && (
               <div className="my-8">
@@ -113,14 +165,6 @@ export default async function BenchmarkPage({ params }: PageProps) {
               </div>
             )}
 
-            {data.content?.methodology && (
-              <div className="my-8 p-6 bg-muted/50 rounded-lg">
-                <h3 className="font-semibold mb-2">Methodology</h3>
-                <p className="text-sm text-muted-foreground">
-                  {data.content.methodology}
-                </p>
-              </div>
-            )}
           </div>
 
           {/* Sidebar */}
@@ -172,6 +216,8 @@ export default async function BenchmarkPage({ params }: PageProps) {
           ← View All Benchmarks
         </Link>
       </section>
+      </main>
+      <Footer />
     </div>
   );
 }

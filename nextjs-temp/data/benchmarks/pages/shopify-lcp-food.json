@@ -9,16 +9,96 @@
   "percentiles": {
     "p10": 5200.1,
     "p25": 7694.75,
-    "p50": 13054.0,
+    "p50": 13054,
     "p75": 22307.75,
     "p90": 34138.5,
     "mean": 17462.79,
     "std_dev": 14430.22,
-    "min_value": 2527.0,
-    "max_value": 80270.0
+    "min_value": 2527,
+    "max_value": 80270
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.707Z",
+  "last_updated": "2026-01-04T14:29:22.707Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Food & Gourmet Stores (2026)",
+    "meta_description": "How does your food and beverages store compare? See largest contentful paint benchmarks from 73 Shopify food & gourmet stores. Median: 13.1s, Top 10%: 5.2s.",
+    "keywords": [
+      "shopify food benchmark",
+      "largest contentful paint shopify",
+      "food & gourmet store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "food & gourmet ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "13.1s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 5.2s or faster"
+    },
+    "key_findings": [
+      "The median Food & Gourmet store has an LCP of 13.1s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 5.2s - 60% faster than the median",
+      "A 7x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-food",
+      "title": "PageSpeed - Food"
+    },
+    {
+      "slug": "shopify-trust-gaps-food",
+      "title": "Trust Gap - Food"
+    },
+    {
+      "slug": "shopify-lcp-supplements",
+      "title": "LCP - Supplements"
+    },
+    {
+      "slug": "shopify-lcp-tea",
+      "title": "LCP - Tea"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Food & Gourmet Stores",
+    "description": "Performance benchmark data for 73 Shopify stores in the food and beverages industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-food",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-food",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 13054,
+      "description": "Median largest contentful paint across 73 stores"
+    }
   }
 }

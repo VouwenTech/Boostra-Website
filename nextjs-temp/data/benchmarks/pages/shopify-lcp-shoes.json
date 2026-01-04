@@ -8,17 +8,89 @@
   "data_date": "2026-01-04",
   "percentiles": {
     "p10": 3625.6,
-    "p25": 4762.0,
-    "p50": 9916.0,
+    "p25": 4762,
+    "p50": 9916,
     "p75": 19650.5,
-    "p90": 25007.0,
+    "p90": 25007,
     "mean": 12782.05,
     "std_dev": 8806.5,
-    "min_value": 2547.0,
-    "max_value": 32052.0
+    "min_value": 2547,
+    "max_value": 32052
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.708Z",
+  "last_updated": "2026-01-04T14:29:22.708Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Shoes & Footwear Stores (2026)",
+    "meta_description": "How does your footwear store compare? See largest contentful paint benchmarks from 40 Shopify shoes & footwear stores. Median: 9.9s, Top 10%: 3.6s.",
+    "keywords": [
+      "shopify shoes benchmark",
+      "largest contentful paint shopify",
+      "shoes & footwear store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "shoes & footwear ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "9.9s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 3.6s or faster"
+    },
+    "key_findings": [
+      "The median Shoes & Footwear store has an LCP of 9.9s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 3.6s - 63% faster than the median",
+      "A 7x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-shoes",
+      "title": "PageSpeed - Shoes"
+    },
+    {
+      "slug": "shopify-trust-gaps-shoes",
+      "title": "Trust Gap - Shoes"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Shoes & Footwear Stores",
+    "description": "Performance benchmark data for 40 Shopify stores in the footwear industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-shoes",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-shoes",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 9916,
+      "description": "Median largest contentful paint across 40 stores"
+    }
   }
 }

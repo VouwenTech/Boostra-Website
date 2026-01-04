@@ -8,17 +8,89 @@
   "data_date": "2026-01-04",
   "percentiles": {
     "p10": 5148.6,
-    "p25": 8146.0,
-    "p50": 14569.0,
-    "p75": 25821.0,
+    "p25": 8146,
+    "p50": 14569,
+    "p75": 25821,
     "p90": 36621.8,
     "mean": 18309.62,
     "std_dev": 12912.67,
-    "min_value": 1419.0,
-    "max_value": 61280.0
+    "min_value": 1419,
+    "max_value": 61280
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.705Z",
+  "last_updated": "2026-01-04T14:29:22.706Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Art Stores (2026)",
+    "meta_description": "How does your art and collectibles store compare? See largest contentful paint benchmarks from 110 Shopify art stores. Median: 14.6s, Top 10%: 5.1s.",
+    "keywords": [
+      "shopify art benchmark",
+      "largest contentful paint shopify",
+      "art store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "art ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "14.6s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 5.1s or faster"
+    },
+    "key_findings": [
+      "The median Art store has an LCP of 14.6s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 5.1s - 65% faster than the median",
+      "A 7x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-art",
+      "title": "PageSpeed - Art"
+    },
+    {
+      "slug": "shopify-trust-gaps-art",
+      "title": "Trust Gap - Art"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Art Stores",
+    "description": "Performance benchmark data for 110 Shopify stores in the art and collectibles industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-art",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-art",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 14569,
+      "description": "Median largest contentful paint across 110 stores"
+    }
   }
 }

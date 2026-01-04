@@ -10,15 +10,87 @@
     "p10": 5004.5,
     "p25": 9351.75,
     "p50": 16155.5,
-    "p75": 20968.0,
+    "p75": 20968,
     "p90": 29071.8,
     "mean": 20947.7,
     "std_dev": 24182.46,
-    "min_value": 3240.0,
-    "max_value": 112884.0
+    "min_value": 3240,
+    "max_value": 112884
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.708Z",
+  "last_updated": "2026-01-04T14:29:22.708Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Office Stores (2026)",
+    "meta_description": "How does your office supplies store compare? See largest contentful paint benchmarks from 20 Shopify office stores. Median: 16.2s, Top 10%: 5.0s.",
+    "keywords": [
+      "shopify office benchmark",
+      "largest contentful paint shopify",
+      "office store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "office ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "16.2s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 5.0s or faster"
+    },
+    "key_findings": [
+      "The median Office store has an LCP of 16.2s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 5.0s - 69% faster than the median",
+      "A 6x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-office",
+      "title": "PageSpeed - Office"
+    },
+    {
+      "slug": "shopify-trust-gaps-office",
+      "title": "Trust Gap - Office"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Office Stores",
+    "description": "Performance benchmark data for 20 Shopify stores in the office supplies industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-office",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-office",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 16155.5,
+      "description": "Median largest contentful paint across 20 stores"
+    }
   }
 }

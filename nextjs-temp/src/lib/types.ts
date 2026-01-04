@@ -43,7 +43,6 @@ export interface BenchmarkPageData {
     hero_stat: HeroStat;
     key_findings: string[];
     how_to_improve: string[];
-    methodology: string;
   };
   related_benchmarks: Array<{ slug: string; title: string }>;
   jsonld?: object;

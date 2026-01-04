@@ -8,17 +8,89 @@
   "data_date": "2026-01-04",
   "percentiles": {
     "p10": 4257.6,
-    "p25": 6721.0,
-    "p50": 13591.0,
-    "p75": 23638.0,
+    "p25": 6721,
+    "p50": 13591,
+    "p75": 23638,
     "p90": 34425.6,
     "mean": 18505.68,
     "std_dev": 15745.21,
-    "min_value": 2804.0,
-    "max_value": 57956.0
+    "min_value": 2804,
+    "max_value": 57956
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.708Z",
+  "last_updated": "2026-01-04T14:29:22.708Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Sports Stores (2026)",
+    "meta_description": "How does your sports equipment store compare? See largest contentful paint benchmarks from 20 Shopify sports stores. Median: 13.6s, Top 10%: 4.3s.",
+    "keywords": [
+      "shopify sports benchmark",
+      "largest contentful paint shopify",
+      "sports store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "sports ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "13.6s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 4.3s or faster"
+    },
+    "key_findings": [
+      "The median Sports store has an LCP of 13.6s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 4.3s - 69% faster than the median",
+      "A 8x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-sports",
+      "title": "PageSpeed - Sports"
+    },
+    {
+      "slug": "shopify-trust-gaps-sports",
+      "title": "Trust Gap - Sports"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Sports Stores",
+    "description": "Performance benchmark data for 20 Shopify stores in the sports equipment industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-sports",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-sports",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 13591,
+      "description": "Median largest contentful paint across 20 stores"
+    }
   }
 }

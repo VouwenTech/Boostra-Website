@@ -7,18 +7,81 @@
   "sample_size": 24,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 0.0,
-    "p25": 0.0,
-    "p50": 1.0,
-    "p75": 2.0,
-    "p90": 3.0,
+    "p10": 0,
+    "p25": 0,
+    "p50": 1,
+    "p75": 2,
+    "p90": 3,
     "mean": 1.25,
     "std_dev": 1.19,
-    "min_value": 0.0,
-    "max_value": 3.0
+    "min_value": 0,
+    "max_value": 3
   },
   "thresholds": {
-    "good": 0.0,
-    "bad": 2.0
+    "good": 0,
+    "bad": 2
+  },
+  "content_generated_at": "2026-01-04T14:29:22.712Z",
+  "last_updated": "2026-01-04T14:29:22.712Z",
+  "version": 1,
+  "seo": {
+    "title": "Trust Gaps Benchmarks for Shopify Home Decor Stores (2026)",
+    "meta_description": "How does your home decor store compare? See trust gaps benchmarks from 24 Shopify home decor stores. Median: 1, Top 10%: 0.",
+    "keywords": [
+      "shopify home_decor benchmark",
+      "trust gaps shopify",
+      "home decor store performance",
+      "ecommerce trust gap score benchmark",
+      "shopify speed benchmarks",
+      "home decor ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "1",
+      "label": "Median Trust Gap",
+      "context": "Best stores achieve 0 or lower"
+    },
+    "key_findings": [
+      "The median Home Decor store has a trust gap of 1, indicating moderate trust signal implementation",
+      "Best-in-class stores (P10) achieve trust gap scores of just 0, showing strong trust signal optimization",
+      "The 3 point spread between top and bottom performers shows trust optimization is a key differentiator",
+      "Home Decor shoppers have specific trust expectations that most stores partially address"
+    ],
+    "how_to_improve": [
+      "Add authentic customer reviews and ratings prominently on product pages",
+      "Display trust badges, security seals, and payment icons clearly",
+      "Include detailed shipping and return policy information",
+      "Show real-time inventory and social proof (e.g., 'X people viewing')",
+      "Add founder story or 'About Us' content to build brand authenticity",
+      "Implement live chat or clear contact options for customer questions",
+      "Display any press mentions, certifications, or industry awards"
+    ]
+  },
+  "related_benchmarks": [],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Trust Gaps Benchmarks for Shopify Home Decor Stores",
+    "description": "Performance benchmark data for 24 Shopify stores in the home decor industry, measuring trust gaps.",
+    "url": "https://boostra.io/benchmarks/shopify-trust-gaps-home-decor",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-trust-gaps-home-decor",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Trust Gaps",
+      "value": 1,
+      "description": "Median trust gaps across 24 stores"
+    }
   }
 }

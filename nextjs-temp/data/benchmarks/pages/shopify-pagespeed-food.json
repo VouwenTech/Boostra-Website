@@ -7,18 +7,98 @@
   "sample_size": 73,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 28.0,
-    "p25": 42.0,
+    "p10": 28,
+    "p25": 42,
     "p50": 51.5,
-    "p75": 56.0,
+    "p75": 56,
     "p90": 67.2,
     "mean": 49.14,
     "std_dev": 13.67,
-    "min_value": 16.0,
-    "max_value": 76.0
+    "min_value": 16,
+    "max_value": 76
   },
   "thresholds": {
-    "good": 90.0,
-    "bad": 50.0
+    "good": 90,
+    "bad": 50
+  },
+  "content_generated_at": "2026-01-04T14:29:22.709Z",
+  "last_updated": "2026-01-04T14:29:22.709Z",
+  "version": 1,
+  "seo": {
+    "title": "PageSpeed Score Benchmarks for Shopify Food & Gourmet Stores (2026)",
+    "meta_description": "How does your food and beverages store compare? See pagespeed score benchmarks from 73 Shopify food & gourmet stores. Median: 52, Top 10%: 67.",
+    "keywords": [
+      "shopify food benchmark",
+      "pagespeed score shopify",
+      "food & gourmet store performance",
+      "ecommerce pagespeed score benchmark",
+      "shopify speed benchmarks",
+      "food & gourmet ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "52",
+      "label": "Median PageSpeed",
+      "context": "Top 10% score 67+ points"
+    },
+    "key_findings": [
+      "The average Food & Gourmet store scores 49 on PageSpeed, falling into Google's \"poor\" category",
+      "Top 10% of stores achieve scores of 67+, giving them a significant competitive advantage",
+      "There's a 39 point gap between top and bottom performers in this niche",
+      "Some stores in this niche fall below Google's minimum acceptable threshold"
+    ],
+    "how_to_improve": [
+      "Audit and remove unused CSS and JavaScript to reduce page weight",
+      "Implement efficient caching strategies for static assets",
+      "Optimize your Shopify theme by removing unnecessary apps and code",
+      "Use optimized, properly-sized images throughout your store",
+      "Minimize main-thread work by deferring non-critical JavaScript",
+      "Reduce the impact of third-party scripts like analytics and chat widgets",
+      "Consider a performance-focused Shopify theme if your current theme is bloated"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-food",
+      "title": "LCP - Food"
+    },
+    {
+      "slug": "shopify-trust-gaps-food",
+      "title": "Trust Gap - Food"
+    },
+    {
+      "slug": "shopify-pagespeed-supplements",
+      "title": "PageSpeed - Supplements"
+    },
+    {
+      "slug": "shopify-pagespeed-tea",
+      "title": "PageSpeed - Tea"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "PageSpeed Score Benchmarks for Shopify Food & Gourmet Stores",
+    "description": "Performance benchmark data for 73 Shopify stores in the food and beverages industry, measuring pagespeed score.",
+    "url": "https://boostra.io/benchmarks/shopify-pagespeed-food",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-food",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "PageSpeed Score",
+      "value": 51.5,
+      "description": "Median pagespeed score across 73 stores"
+    }
   }
 }

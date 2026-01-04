@@ -7,18 +7,90 @@
   "sample_size": 11,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 34.0,
-    "p25": 38.0,
-    "p50": 53.0,
+    "p10": 34,
+    "p25": 38,
+    "p50": 53,
     "p75": 54.5,
-    "p90": 59.0,
+    "p90": 59,
     "mean": 45.91,
     "std_dev": 16.37,
-    "min_value": 7.0,
-    "max_value": 67.0
+    "min_value": 7,
+    "max_value": 67
   },
   "thresholds": {
-    "good": 90.0,
-    "bad": 50.0
+    "good": 90,
+    "bad": 50
+  },
+  "content_generated_at": "2026-01-04T14:29:22.711Z",
+  "last_updated": "2026-01-04T14:29:22.711Z",
+  "version": 1,
+  "seo": {
+    "title": "PageSpeed Score Benchmarks for Shopify Watches Stores (2026)",
+    "meta_description": "How does your watches and timepieces store compare? See pagespeed score benchmarks from 11 Shopify watches stores. Median: 53, Top 10%: 59.",
+    "keywords": [
+      "shopify watches benchmark",
+      "pagespeed score shopify",
+      "watches store performance",
+      "ecommerce pagespeed score benchmark",
+      "shopify speed benchmarks",
+      "watches ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "53",
+      "label": "Median PageSpeed",
+      "context": "Top 10% score 59+ points"
+    },
+    "key_findings": [
+      "The average Watches store scores 46 on PageSpeed, falling into Google's \"poor\" category",
+      "Top 10% of stores achieve scores of 59+, giving them a significant competitive advantage",
+      "There's a 25 point gap between top and bottom performers in this niche",
+      "Some stores in this niche fall below Google's minimum acceptable threshold"
+    ],
+    "how_to_improve": [
+      "Audit and remove unused CSS and JavaScript to reduce page weight",
+      "Implement efficient caching strategies for static assets",
+      "Optimize your Shopify theme by removing unnecessary apps and code",
+      "Use optimized, properly-sized images throughout your store",
+      "Minimize main-thread work by deferring non-critical JavaScript",
+      "Reduce the impact of third-party scripts like analytics and chat widgets",
+      "Consider a performance-focused Shopify theme if your current theme is bloated"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-watches",
+      "title": "LCP - Watches"
+    },
+    {
+      "slug": "shopify-trust-gaps-watches",
+      "title": "Trust Gap - Watches"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "PageSpeed Score Benchmarks for Shopify Watches Stores",
+    "description": "Performance benchmark data for 11 Shopify stores in the watches and timepieces industry, measuring pagespeed score.",
+    "url": "https://boostra.io/benchmarks/shopify-pagespeed-watches",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-watches",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "PageSpeed Score",
+      "value": 53,
+      "description": "Median pagespeed score across 11 stores"
+    }
   }
 }

@@ -9,16 +9,88 @@
   "percentiles": {
     "p10": 4924.6,
     "p25": 7074.25,
-    "p50": 13250.0,
+    "p50": 13250,
     "p75": 21924.25,
     "p90": 31514.5,
     "mean": 16602.88,
     "std_dev": 11677.28,
-    "min_value": 3353.0,
-    "max_value": 46307.0
+    "min_value": 3353,
+    "max_value": 46307
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.707Z",
+  "last_updated": "2026-01-04T14:29:22.707Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Home Decor Stores (2026)",
+    "meta_description": "How does your home decor store compare? See largest contentful paint benchmarks from 24 Shopify home decor stores. Median: 13.3s, Top 10%: 4.9s.",
+    "keywords": [
+      "shopify home_decor benchmark",
+      "largest contentful paint shopify",
+      "home decor store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "home decor ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "13.3s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 4.9s or faster"
+    },
+    "key_findings": [
+      "The median Home Decor store has an LCP of 13.3s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 4.9s - 63% faster than the median",
+      "A 6x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-furniture",
+      "title": "LCP - Furniture"
+    },
+    {
+      "slug": "shopify-lcp-kitchen",
+      "title": "LCP - Kitchen"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Home Decor Stores",
+    "description": "Performance benchmark data for 24 Shopify stores in the home decor industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-home-decor",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-home-decor",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 13250,
+      "description": "Median largest contentful paint across 24 stores"
+    }
   }
 }

@@ -97,15 +97,26 @@ export async function getBenchmarkData(
   }
 }
 
-export async function getAllBenchmarks(): Promise<BenchmarkManifest["pages"]> {
+export async function getAllBenchmarks(): Promise<BenchmarkPageData[]> {
   try {
-    if (!fs.existsSync(MANIFEST_PATH)) {
+    if (!fs.existsSync(BENCHMARKS_DIR)) {
       return [];
     }
-    const manifest: BenchmarkManifest = JSON.parse(
-      fs.readFileSync(MANIFEST_PATH, "utf-8")
-    );
-    return manifest.pages;
+    const files = fs.readdirSync(BENCHMARKS_DIR).filter((f) => f.endsWith(".json"));
+    const benchmarks: BenchmarkPageData[] = [];
+
+    for (const file of files) {
+      try {
+        const data = JSON.parse(
+          fs.readFileSync(path.join(BENCHMARKS_DIR, file), "utf-8")
+        );
+        benchmarks.push(data);
+      } catch {
+        // Skip invalid files
+      }
+    }
+
+    return benchmarks;
   } catch {
     return [];
   }

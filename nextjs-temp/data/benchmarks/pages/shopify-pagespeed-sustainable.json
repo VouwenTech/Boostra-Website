@@ -7,18 +7,90 @@
   "sample_size": 34,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 41.0,
+    "p10": 41,
     "p25": 49.5,
-    "p50": 55.0,
-    "p75": 66.0,
-    "p90": 74.0,
+    "p50": 55,
+    "p75": 66,
+    "p90": 74,
     "mean": 56.32,
     "std_dev": 14.71,
-    "min_value": 15.0,
-    "max_value": 86.0
+    "min_value": 15,
+    "max_value": 86
   },
   "thresholds": {
-    "good": 90.0,
-    "bad": 50.0
+    "good": 90,
+    "bad": 50
+  },
+  "content_generated_at": "2026-01-04T14:29:22.711Z",
+  "last_updated": "2026-01-04T14:29:22.711Z",
+  "version": 1,
+  "seo": {
+    "title": "PageSpeed Score Benchmarks for Shopify Sustainable Stores (2026)",
+    "meta_description": "How does your sustainable products store compare? See pagespeed score benchmarks from 34 Shopify sustainable stores. Median: 55, Top 10%: 74.",
+    "keywords": [
+      "shopify sustainable benchmark",
+      "pagespeed score shopify",
+      "sustainable store performance",
+      "ecommerce pagespeed score benchmark",
+      "shopify speed benchmarks",
+      "sustainable ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "55",
+      "label": "Median PageSpeed",
+      "context": "Top 10% score 74+ points"
+    },
+    "key_findings": [
+      "The average Sustainable store scores 56 on PageSpeed, in the \"needs improvement\" range",
+      "Top 10% of stores achieve scores of 74+, giving them a significant competitive advantage",
+      "There's a 33 point gap between top and bottom performers in this niche",
+      "Some stores in this niche fall below Google's minimum acceptable threshold"
+    ],
+    "how_to_improve": [
+      "Audit and remove unused CSS and JavaScript to reduce page weight",
+      "Implement efficient caching strategies for static assets",
+      "Optimize your Shopify theme by removing unnecessary apps and code",
+      "Use optimized, properly-sized images throughout your store",
+      "Minimize main-thread work by deferring non-critical JavaScript",
+      "Reduce the impact of third-party scripts like analytics and chat widgets",
+      "Consider a performance-focused Shopify theme if your current theme is bloated"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-sustainable",
+      "title": "LCP - Sustainable"
+    },
+    {
+      "slug": "shopify-trust-gaps-sustainable",
+      "title": "Trust Gap - Sustainable"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "PageSpeed Score Benchmarks for Shopify Sustainable Stores",
+    "description": "Performance benchmark data for 34 Shopify stores in the sustainable products industry, measuring pagespeed score.",
+    "url": "https://boostra.io/benchmarks/shopify-pagespeed-sustainable",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-sustainable",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "PageSpeed Score",
+      "value": 55,
+      "description": "Median pagespeed score across 34 stores"
+    }
   }
 }

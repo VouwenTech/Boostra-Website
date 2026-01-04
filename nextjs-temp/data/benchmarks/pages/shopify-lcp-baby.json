@@ -7,18 +7,90 @@
   "sample_size": 16,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 3674.0,
+    "p10": 3674,
     "p25": 4092.75,
     "p50": 9478.5,
-    "p75": 15574.0,
+    "p75": 15574,
     "p90": 22398.5,
     "mean": 11137.94,
     "std_dev": 7745.77,
-    "min_value": 1885.0,
-    "max_value": 27004.0
+    "min_value": 1885,
+    "max_value": 27004
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.706Z",
+  "last_updated": "2026-01-04T14:29:22.706Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Baby Stores (2026)",
+    "meta_description": "How does your baby products store compare? See largest contentful paint benchmarks from 16 Shopify baby stores. Median: 9.5s, Top 10%: 3.7s.",
+    "keywords": [
+      "shopify baby benchmark",
+      "largest contentful paint shopify",
+      "baby store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "baby ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "9.5s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 3.7s or faster"
+    },
+    "key_findings": [
+      "The median Baby store has an LCP of 9.5s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 3.7s - 61% faster than the median",
+      "A 6x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-baby",
+      "title": "PageSpeed - Baby"
+    },
+    {
+      "slug": "shopify-trust-gaps-baby",
+      "title": "Trust Gap - Baby"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Baby Stores",
+    "description": "Performance benchmark data for 16 Shopify stores in the baby products industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-baby",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-baby",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 9478.5,
+      "description": "Median largest contentful paint across 16 stores"
+    }
   }
 }

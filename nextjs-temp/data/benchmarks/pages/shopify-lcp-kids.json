@@ -8,17 +8,93 @@
   "data_date": "2026-01-04",
   "percentiles": {
     "p10": 4398.6,
-    "p25": 6208.0,
-    "p50": 13614.0,
-    "p75": 21630.0,
+    "p25": 6208,
+    "p50": 13614,
+    "p75": 21630,
     "p90": 31669.6,
     "mean": 15997.35,
     "std_dev": 11709.42,
-    "min_value": 3013.0,
-    "max_value": 57208.0
+    "min_value": 3013,
+    "max_value": 57208
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.708Z",
+  "last_updated": "2026-01-04T14:29:22.708Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Kids Stores (2026)",
+    "meta_description": "How does your kids and baby products store compare? See largest contentful paint benchmarks from 44 Shopify kids stores. Median: 13.6s, Top 10%: 4.4s.",
+    "keywords": [
+      "shopify kids benchmark",
+      "largest contentful paint shopify",
+      "kids store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "kids ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "13.6s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 4.4s or faster"
+    },
+    "key_findings": [
+      "The median Kids store has an LCP of 13.6s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 4.4s - 68% faster than the median",
+      "A 7x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-kids",
+      "title": "PageSpeed - Kids"
+    },
+    {
+      "slug": "shopify-trust-gaps-kids",
+      "title": "Trust Gap - Kids"
+    },
+    {
+      "slug": "shopify-lcp-baby",
+      "title": "LCP - Baby"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Kids Stores",
+    "description": "Performance benchmark data for 44 Shopify stores in the kids and baby products industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-kids",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-kids",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 13614,
+      "description": "Median largest contentful paint across 44 stores"
+    }
   }
 }

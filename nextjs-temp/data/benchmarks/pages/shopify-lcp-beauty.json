@@ -8,17 +8,97 @@
   "data_date": "2026-01-04",
   "percentiles": {
     "p10": 4867.1,
-    "p25": 8110.0,
+    "p25": 8110,
     "p50": 15374.5,
     "p75": 21727.75,
     "p90": 29813.8,
     "mean": 17087.97,
     "std_dev": 12034.44,
-    "min_value": 3682.0,
-    "max_value": 59058.0
+    "min_value": 3682,
+    "max_value": 59058
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.706Z",
+  "last_updated": "2026-01-04T14:29:22.706Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Beauty Stores (2026)",
+    "meta_description": "How does your beauty and cosmetics store compare? See largest contentful paint benchmarks from 40 Shopify beauty stores. Median: 15.4s, Top 10%: 4.9s.",
+    "keywords": [
+      "shopify beauty benchmark",
+      "largest contentful paint shopify",
+      "beauty store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "beauty ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "15.4s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 4.9s or faster"
+    },
+    "key_findings": [
+      "The median Beauty store has an LCP of 15.4s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 4.9s - 68% faster than the median",
+      "A 6x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-beauty",
+      "title": "PageSpeed - Beauty"
+    },
+    {
+      "slug": "shopify-trust-gaps-beauty",
+      "title": "Trust Gap - Beauty"
+    },
+    {
+      "slug": "shopify-lcp-haircare",
+      "title": "LCP - Haircare"
+    },
+    {
+      "slug": "shopify-lcp-skincare",
+      "title": "LCP - Skincare"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Beauty Stores",
+    "description": "Performance benchmark data for 40 Shopify stores in the beauty and cosmetics industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-beauty",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-beauty",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 15374.5,
+      "description": "Median largest contentful paint across 40 stores"
+    }
   }
 }

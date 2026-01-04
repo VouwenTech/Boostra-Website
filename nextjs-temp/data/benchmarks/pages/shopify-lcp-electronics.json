@@ -8,17 +8,97 @@
   "data_date": "2026-01-04",
   "percentiles": {
     "p10": 4309.6,
-    "p25": 6557.0,
-    "p50": 12360.0,
-    "p75": 21457.0,
+    "p25": 6557,
+    "p50": 12360,
+    "p75": 21457,
     "p90": 32845.6,
     "mean": 15948.56,
     "std_dev": 12200.91,
-    "min_value": 1120.0,
-    "max_value": 73854.0
+    "min_value": 1120,
+    "max_value": 73854
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.706Z",
+  "last_updated": "2026-01-04T14:29:22.706Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Electronics Stores (2026)",
+    "meta_description": "How does your consumer electronics store compare? See largest contentful paint benchmarks from 224 Shopify electronics stores. Median: 12.4s, Top 10%: 4.3s.",
+    "keywords": [
+      "shopify electronics benchmark",
+      "largest contentful paint shopify",
+      "electronics store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "electronics ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "12.4s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 4.3s or faster"
+    },
+    "key_findings": [
+      "The median Electronics store has an LCP of 12.4s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 4.3s - 65% faster than the median",
+      "A 8x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-electronics",
+      "title": "PageSpeed - Electronics"
+    },
+    {
+      "slug": "shopify-trust-gaps-electronics",
+      "title": "Trust Gap - Electronics"
+    },
+    {
+      "slug": "shopify-lcp-gadgets",
+      "title": "LCP - Gadgets"
+    },
+    {
+      "slug": "shopify-lcp-office",
+      "title": "LCP - Office"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Electronics Stores",
+    "description": "Performance benchmark data for 224 Shopify stores in the consumer electronics industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-electronics",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-electronics",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 12360,
+      "description": "Median largest contentful paint across 224 stores"
+    }
   }
 }

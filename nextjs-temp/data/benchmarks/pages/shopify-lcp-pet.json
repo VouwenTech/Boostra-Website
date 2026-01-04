@@ -9,16 +9,88 @@
   "percentiles": {
     "p10": 4127.7,
     "p25": 7181.5,
-    "p50": 11694.0,
+    "p50": 11694,
     "p75": 23178.75,
     "p90": 37422.4,
     "mean": 17445.19,
     "std_dev": 15231.75,
-    "min_value": 2257.0,
-    "max_value": 77099.0
+    "min_value": 2257,
+    "max_value": 77099
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.708Z",
+  "last_updated": "2026-01-04T14:29:22.708Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Pets Stores (2026)",
+    "meta_description": "How does your pet supplies store compare? See largest contentful paint benchmarks from 81 Shopify pets stores. Median: 11.7s, Top 10%: 4.1s.",
+    "keywords": [
+      "shopify pet benchmark",
+      "largest contentful paint shopify",
+      "pets store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "pets ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "11.7s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 4.1s or faster"
+    },
+    "key_findings": [
+      "The median Pets store has an LCP of 11.7s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 4.1s - 65% faster than the median",
+      "A 9x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-pet",
+      "title": "PageSpeed - Pet"
+    },
+    {
+      "slug": "shopify-trust-gaps-pet",
+      "title": "Trust Gap - Pet"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Pets Stores",
+    "description": "Performance benchmark data for 81 Shopify stores in the pet supplies industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-pet",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-pet",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 11694,
+      "description": "Median largest contentful paint across 81 stores"
+    }
   }
 }

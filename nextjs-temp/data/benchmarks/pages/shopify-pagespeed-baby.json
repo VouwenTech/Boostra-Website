@@ -14,11 +14,83 @@
     "p90": 67.5,
     "mean": 49.44,
     "std_dev": 18.58,
-    "min_value": 27.0,
-    "max_value": 98.0
+    "min_value": 27,
+    "max_value": 98
   },
   "thresholds": {
-    "good": 90.0,
-    "bad": 50.0
+    "good": 90,
+    "bad": 50
+  },
+  "content_generated_at": "2026-01-04T14:29:22.709Z",
+  "last_updated": "2026-01-04T14:29:22.709Z",
+  "version": 1,
+  "seo": {
+    "title": "PageSpeed Score Benchmarks for Shopify Baby Stores (2026)",
+    "meta_description": "How does your baby products store compare? See pagespeed score benchmarks from 16 Shopify baby stores. Median: 50, Top 10%: 68.",
+    "keywords": [
+      "shopify baby benchmark",
+      "pagespeed score shopify",
+      "baby store performance",
+      "ecommerce pagespeed score benchmark",
+      "shopify speed benchmarks",
+      "baby ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "50",
+      "label": "Median PageSpeed",
+      "context": "Top 10% score 68+ points"
+    },
+    "key_findings": [
+      "The average Baby store scores 49 on PageSpeed, falling into Google's \"poor\" category",
+      "Top 10% of stores achieve scores of 68+, giving them a significant competitive advantage",
+      "There's a 36 point gap between top and bottom performers in this niche",
+      "More than half of stores in this niche fall below Google's minimum acceptable threshold"
+    ],
+    "how_to_improve": [
+      "Audit and remove unused CSS and JavaScript to reduce page weight",
+      "Implement efficient caching strategies for static assets",
+      "Optimize your Shopify theme by removing unnecessary apps and code",
+      "Use optimized, properly-sized images throughout your store",
+      "Minimize main-thread work by deferring non-critical JavaScript",
+      "Reduce the impact of third-party scripts like analytics and chat widgets",
+      "Consider a performance-focused Shopify theme if your current theme is bloated"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-lcp-baby",
+      "title": "LCP - Baby"
+    },
+    {
+      "slug": "shopify-trust-gaps-baby",
+      "title": "Trust Gap - Baby"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "PageSpeed Score Benchmarks for Shopify Baby Stores",
+    "description": "Performance benchmark data for 16 Shopify stores in the baby products industry, measuring pagespeed score.",
+    "url": "https://boostra.io/benchmarks/shopify-pagespeed-baby",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-baby",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "PageSpeed Score",
+      "value": 49.5,
+      "description": "Median pagespeed score across 16 stores"
+    }
   }
 }

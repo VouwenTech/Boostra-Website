@@ -7,18 +7,90 @@
   "sample_size": 34,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 3762.0,
+    "p10": 3762,
     "p25": 5546.5,
-    "p50": 14067.0,
+    "p50": 14067,
     "p75": 21301.5,
-    "p90": 33981.0,
+    "p90": 33981,
     "mean": 15839.45,
     "std_dev": 12862.72,
-    "min_value": 3128.0,
-    "max_value": 52281.0
+    "min_value": 3128,
+    "max_value": 52281
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.709Z",
+  "last_updated": "2026-01-04T14:29:22.709Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Sustainable Stores (2026)",
+    "meta_description": "How does your sustainable products store compare? See largest contentful paint benchmarks from 34 Shopify sustainable stores. Median: 14.1s, Top 10%: 3.8s.",
+    "keywords": [
+      "shopify sustainable benchmark",
+      "largest contentful paint shopify",
+      "sustainable store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "sustainable ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "14.1s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 3.8s or faster"
+    },
+    "key_findings": [
+      "The median Sustainable store has an LCP of 14.1s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 3.8s - 73% faster than the median",
+      "A 9x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-sustainable",
+      "title": "PageSpeed - Sustainable"
+    },
+    {
+      "slug": "shopify-trust-gaps-sustainable",
+      "title": "Trust Gap - Sustainable"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Sustainable Stores",
+    "description": "Performance benchmark data for 34 Shopify stores in the sustainable products industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-sustainable",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-sustainable",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 14067,
+      "description": "Median largest contentful paint across 34 stores"
+    }
   }
 }

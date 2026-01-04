@@ -7,18 +7,90 @@
   "sample_size": 11,
   "data_date": "2026-01-04",
   "percentiles": {
-    "p10": 3391.0,
-    "p25": 6350.0,
-    "p50": 19231.0,
-    "p75": 30645.0,
-    "p90": 40692.0,
+    "p10": 3391,
+    "p25": 6350,
+    "p50": 19231,
+    "p75": 30645,
+    "p90": 40692,
     "mean": 22246.91,
     "std_dev": 20314.27,
-    "min_value": 3147.0,
-    "max_value": 69841.0
+    "min_value": 3147,
+    "max_value": 69841
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.709Z",
+  "last_updated": "2026-01-04T14:29:22.709Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Watches Stores (2026)",
+    "meta_description": "How does your watches and timepieces store compare? See largest contentful paint benchmarks from 11 Shopify watches stores. Median: 19.2s, Top 10%: 3.4s.",
+    "keywords": [
+      "shopify watches benchmark",
+      "largest contentful paint shopify",
+      "watches store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "watches ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "19.2s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 3.4s or faster"
+    },
+    "key_findings": [
+      "The median Watches store has an LCP of 19.2s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 3.4s - 82% faster than the median",
+      "A 12x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-watches",
+      "title": "PageSpeed - Watches"
+    },
+    {
+      "slug": "shopify-trust-gaps-watches",
+      "title": "Trust Gap - Watches"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Watches Stores",
+    "description": "Performance benchmark data for 11 Shopify stores in the watches and timepieces industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-watches",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-watches",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 19231,
+      "description": "Median largest contentful paint across 11 stores"
+    }
   }
 }

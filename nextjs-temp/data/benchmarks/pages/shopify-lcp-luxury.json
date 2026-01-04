@@ -9,16 +9,88 @@
   "percentiles": {
     "p10": 4656.6,
     "p25": 7254.5,
-    "p50": 12061.0,
+    "p50": 12061,
     "p75": 25542.25,
     "p90": 34347.4,
     "mean": 18410.83,
     "std_dev": 17226.59,
-    "min_value": 1991.0,
-    "max_value": 110514.0
+    "min_value": 1991,
+    "max_value": 110514
   },
   "thresholds": {
-    "good": 2500.0,
-    "bad": 4000.0
+    "good": 2500,
+    "bad": 4000
+  },
+  "content_generated_at": "2026-01-04T14:29:22.708Z",
+  "last_updated": "2026-01-04T14:29:22.708Z",
+  "version": 1,
+  "seo": {
+    "title": "Largest Contentful Paint Benchmarks for Shopify Luxury Stores (2026)",
+    "meta_description": "How does your luxury goods store compare? See largest contentful paint benchmarks from 87 Shopify luxury stores. Median: 12.1s, Top 10%: 4.7s.",
+    "keywords": [
+      "shopify luxury benchmark",
+      "largest contentful paint shopify",
+      "luxury store performance",
+      "ecommerce lcp ms benchmark",
+      "shopify speed benchmarks",
+      "luxury ecommerce statistics",
+      "shopify store analytics"
+    ]
+  },
+  "content": {
+    "hero_stat": {
+      "value": "12.1s",
+      "label": "Median LCP",
+      "context": "Top 10% achieve 4.7s or faster"
+    },
+    "key_findings": [
+      "The median Luxury store has an LCP of 12.1s, which exceeds Google's recommended 2.5s threshold",
+      "Top-performing stores (P10) achieve LCP of 4.7s - 61% faster than the median",
+      "A 7x performance gap exists between the fastest and slowest stores in this niche",
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+    ],
+    "how_to_improve": [
+      "Optimize and compress hero images using modern formats like WebP or AVIF",
+      "Implement lazy loading for below-the-fold images and defer non-critical JavaScript",
+      "Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users",
+      "Preload critical resources and fonts to reduce render-blocking time",
+      "Minimize server response time by optimizing your hosting infrastructure",
+      "Remove or defer third-party scripts that block page rendering",
+      "Consider using a headless commerce approach for faster page loads"
+    ]
+  },
+  "related_benchmarks": [
+    {
+      "slug": "shopify-pagespeed-luxury",
+      "title": "PageSpeed - Luxury"
+    },
+    {
+      "slug": "shopify-trust-gaps-luxury",
+      "title": "Trust Gap - Luxury"
+    }
+  ],
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Largest Contentful Paint Benchmarks for Shopify Luxury Stores",
+    "description": "Performance benchmark data for 87 Shopify stores in the luxury goods industry, measuring largest contentful paint.",
+    "url": "https://boostra.io/benchmarks/shopify-lcp-luxury",
+    "dateModified": "2026-01-04",
+    "creator": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.io"
+    },
+    "distribution": {
+      "@type": "DataDownload",
+      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-luxury",
+      "encodingFormat": "text/html"
+    },
+    "variableMeasured": {
+      "@type": "PropertyValue",
+      "name": "Largest Contentful Paint",
+      "value": 12061,
+      "description": "Median largest contentful paint across 87 stores"
+    }
   }
 }
