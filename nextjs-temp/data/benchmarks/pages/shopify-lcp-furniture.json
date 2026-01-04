@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-furniture",
+  "niche": "furniture",
+  "niche_label": "Furniture",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 17,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4616.8,
+    "p25": 6801.0,
+    "p50": 10136.0,
+    "p75": 28766.0,
+    "p90": 35553.6,
+    "mean": 16488.47,
+    "std_dev": 12639.72,
+    "min_value": 3568.0,
+    "max_value": 37542.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-supplements",
+  "niche": "supplements",
+  "niche_label": "Supplements",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 35,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4238.9,
+    "p25": 5335.0,
+    "p50": 10518.0,
+    "p75": 19580.5,
+    "p90": 34384.1,
+    "mean": 15050.03,
+    "std_dev": 12788.6,
+    "min_value": 2826.0,
+    "max_value": 53873.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

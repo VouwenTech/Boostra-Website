@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-gadgets",
+  "niche": "gadgets",
+  "niche_label": "Gadgets & Tech",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 41,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4837.8,
+    "p25": 7675.0,
+    "p50": 12743.0,
+    "p75": 20871.5,
+    "p90": 38148.2,
+    "mean": 17760.18,
+    "std_dev": 14509.55,
+    "min_value": 4555.0,
+    "max_value": 63845.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

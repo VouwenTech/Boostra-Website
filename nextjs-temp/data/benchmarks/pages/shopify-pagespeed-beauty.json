@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-beauty",
+  "niche": "beauty",
+  "niche_label": "Beauty",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 40,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 26.2,
+    "p25": 34.0,
+    "p50": 49.0,
+    "p75": 56.0,
+    "p90": 62.4,
+    "mean": 46.14,
+    "std_dev": 15.26,
+    "min_value": 8.0,
+    "max_value": 75.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

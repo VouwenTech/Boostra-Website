@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-art",
+  "niche": "art",
+  "niche_label": "Art",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 110,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 5148.6,
+    "p25": 8146.0,
+    "p50": 14569.0,
+    "p75": 25821.0,
+    "p90": 36621.8,
+    "mean": 18309.62,
+    "std_dev": 12912.67,
+    "min_value": 1419.0,
+    "max_value": 61280.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

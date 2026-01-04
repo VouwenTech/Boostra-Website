@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-home-decor",
+  "niche": "home_decor",
+  "niche_label": "Home Decor",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 24,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4924.6,
+    "p25": 7074.25,
+    "p50": 13250.0,
+    "p75": 21924.25,
+    "p90": 31514.5,
+    "mean": 16602.88,
+    "std_dev": 11677.28,
+    "min_value": 3353.0,
+    "max_value": 46307.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

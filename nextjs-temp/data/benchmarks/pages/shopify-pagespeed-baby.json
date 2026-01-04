@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-baby",
+  "niche": "baby",
+  "niche_label": "Baby",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 16,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 31.5,
+    "p25": 33.75,
+    "p50": 49.5,
+    "p75": 56.25,
+    "p90": 67.5,
+    "mean": 49.44,
+    "std_dev": 18.58,
+    "min_value": 27.0,
+    "max_value": 98.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

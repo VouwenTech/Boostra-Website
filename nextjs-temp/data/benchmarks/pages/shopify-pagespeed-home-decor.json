@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-home-decor",
+  "niche": "home_decor",
+  "niche_label": "Home Decor",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 24,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 34.6,
+    "p25": 39.0,
+    "p50": 44.5,
+    "p75": 54.75,
+    "p90": 65.1,
+    "mean": 47.25,
+    "std_dev": 16.44,
+    "min_value": 12.0,
+    "max_value": 84.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-haircare",
+  "niche": "haircare",
+  "niche_label": "Haircare",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 13,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 3904.7,
+    "p25": 8840.75,
+    "p50": 13689.5,
+    "p75": 23876.5,
+    "p90": 37696.0,
+    "mean": 17857.67,
+    "std_dev": 13071.2,
+    "min_value": 3604.0,
+    "max_value": 41839.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

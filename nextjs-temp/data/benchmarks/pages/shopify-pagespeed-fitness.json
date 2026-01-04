@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-fitness",
+  "niche": "fitness",
+  "niche_label": "Fitness",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 57,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 32.0,
+    "p25": 38.5,
+    "p50": 48.0,
+    "p75": 59.5,
+    "p90": 71.6,
+    "mean": 49.58,
+    "std_dev": 16.47,
+    "min_value": 13.0,
+    "max_value": 91.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

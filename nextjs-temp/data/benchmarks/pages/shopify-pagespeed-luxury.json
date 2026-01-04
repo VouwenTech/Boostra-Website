@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-luxury",
+  "niche": "luxury",
+  "niche_label": "Luxury",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 87,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 31.0,
+    "p25": 40.0,
+    "p50": 54.0,
+    "p75": 60.0,
+    "p90": 67.9,
+    "mean": 51.3,
+    "std_dev": 16.09,
+    "min_value": 13.0,
+    "max_value": 99.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

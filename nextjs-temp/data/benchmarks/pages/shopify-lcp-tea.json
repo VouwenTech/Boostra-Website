@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-tea",
+  "niche": "tea",
+  "niche_label": "Tea",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 13,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 3292.2,
+    "p25": 4670.25,
+    "p50": 7953.5,
+    "p75": 16661.5,
+    "p90": 20582.8,
+    "mean": 12322.08,
+    "std_dev": 10933.89,
+    "min_value": 2916.0,
+    "max_value": 40661.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-gadgets",
+  "niche": "gadgets",
+  "niche_label": "Gadgets & Tech",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 41,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 29.4,
+    "p25": 40.5,
+    "p50": 48.0,
+    "p75": 56.5,
+    "p90": 65.4,
+    "mean": 47.54,
+    "std_dev": 14.76,
+    "min_value": 3.0,
+    "max_value": 73.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

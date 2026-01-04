@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-trust-gaps-home-decor",
+  "niche": "home_decor",
+  "niche_label": "Home Decor",
+  "metric": "trust_gap_score",
+  "metric_label": "Trust Gaps",
+  "sample_size": 24,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 1.0,
+    "p75": 2.0,
+    "p90": 3.0,
+    "mean": 1.25,
+    "std_dev": 1.19,
+    "min_value": 0.0,
+    "max_value": 3.0
+  },
+  "thresholds": {
+    "good": 0.0,
+    "bad": 2.0
+  }
+}

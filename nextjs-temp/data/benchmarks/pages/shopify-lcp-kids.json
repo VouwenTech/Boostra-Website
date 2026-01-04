@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-kids",
+  "niche": "kids",
+  "niche_label": "Kids",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 44,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4398.6,
+    "p25": 6208.0,
+    "p50": 13614.0,
+    "p75": 21630.0,
+    "p90": 31669.6,
+    "mean": 15997.35,
+    "std_dev": 11709.42,
+    "min_value": 3013.0,
+    "max_value": 57208.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

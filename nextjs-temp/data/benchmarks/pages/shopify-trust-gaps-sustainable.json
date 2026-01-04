@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-trust-gaps-sustainable",
+  "niche": "sustainable",
+  "niche_label": "Sustainable",
+  "metric": "trust_gap_score",
+  "metric_label": "Trust Gaps",
+  "sample_size": 34,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 1.0,
+    "p75": 2.75,
+    "p90": 3.0,
+    "mean": 1.29,
+    "std_dev": 1.19,
+    "min_value": 0.0,
+    "max_value": 3.0
+  },
+  "thresholds": {
+    "good": 0.0,
+    "bad": 2.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-electronics",
+  "niche": "electronics",
+  "niche_label": "Electronics",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 224,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4309.6,
+    "p25": 6557.0,
+    "p50": 12360.0,
+    "p75": 21457.0,
+    "p90": 32845.6,
+    "mean": 15948.56,
+    "std_dev": 12200.91,
+    "min_value": 1120.0,
+    "max_value": 73854.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

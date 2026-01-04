@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-beauty",
+  "niche": "beauty",
+  "niche_label": "Beauty",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 40,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4867.1,
+    "p25": 8110.0,
+    "p50": 15374.5,
+    "p75": 21727.75,
+    "p90": 29813.8,
+    "mean": 17087.97,
+    "std_dev": 12034.44,
+    "min_value": 3682.0,
+    "max_value": 59058.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

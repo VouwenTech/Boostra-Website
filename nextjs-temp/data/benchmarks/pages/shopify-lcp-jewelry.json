@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-jewelry",
+  "niche": "jewelry",
+  "niche_label": "Jewelry",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 103,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4438.6,
+    "p25": 6825.0,
+    "p50": 12679.0,
+    "p75": 22292.5,
+    "p90": 31630.4,
+    "mean": 16133.95,
+    "std_dev": 12936.95,
+    "min_value": 2274.0,
+    "max_value": 89709.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

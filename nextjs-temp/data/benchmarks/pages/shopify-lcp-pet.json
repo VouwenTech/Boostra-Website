@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-pet",
+  "niche": "pet",
+  "niche_label": "Pets",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 81,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4127.7,
+    "p25": 7181.5,
+    "p50": 11694.0,
+    "p75": 23178.75,
+    "p90": 37422.4,
+    "mean": 17445.19,
+    "std_dev": 15231.75,
+    "min_value": 2257.0,
+    "max_value": 77099.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

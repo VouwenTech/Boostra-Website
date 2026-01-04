@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-watches",
+  "niche": "watches",
+  "niche_label": "Watches",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 11,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 3391.0,
+    "p25": 6350.0,
+    "p50": 19231.0,
+    "p75": 30645.0,
+    "p90": 40692.0,
+    "mean": 22246.91,
+    "std_dev": 20314.27,
+    "min_value": 3147.0,
+    "max_value": 69841.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

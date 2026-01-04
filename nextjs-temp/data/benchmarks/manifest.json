@@ -1,0 +1,585 @@
+{
+  "generated_at": "2026-01-04 12:10:07.530365",
+  "total_stores_analyzed": 2500,
+  "valid_niches": [
+    "art",
+    "automotive",
+    "baby",
+    "beauty",
+    "crafts",
+    "electronics",
+    "fashion",
+    "fitness",
+    "food",
+    "furniture",
+    "gadgets",
+    "haircare",
+    "home_decor",
+    "jewelry",
+    "kids",
+    "kitchen",
+    "luxury",
+    "office",
+    "pet",
+    "shoes",
+    "skincare",
+    "sports",
+    "supplements",
+    "sustainable",
+    "tea",
+    "watches"
+  ],
+  "available_metrics": [
+    "lcp_ms",
+    "pagespeed_score",
+    "trust_gap_score"
+  ],
+  "pages": [
+    {
+      "slug": "shopify-pagespeed-fashion",
+      "title": "Shopify PageSpeed Score Benchmarks for Fashion & Apparel",
+      "niche": "fashion",
+      "metric": "pagespeed_score",
+      "sample_size": 482
+    },
+    {
+      "slug": "shopify-lcp-fashion",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Fashion & Apparel",
+      "niche": "fashion",
+      "metric": "lcp_ms",
+      "sample_size": 482
+    },
+    {
+      "slug": "shopify-trust-gaps-fashion",
+      "title": "Shopify Trust Gaps Benchmarks for Fashion & Apparel",
+      "niche": "fashion",
+      "metric": "trust_gap_score",
+      "sample_size": 482
+    },
+    {
+      "slug": "shopify-pagespeed-electronics",
+      "title": "Shopify PageSpeed Score Benchmarks for Electronics",
+      "niche": "electronics",
+      "metric": "pagespeed_score",
+      "sample_size": 224
+    },
+    {
+      "slug": "shopify-lcp-electronics",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Electronics",
+      "niche": "electronics",
+      "metric": "lcp_ms",
+      "sample_size": 224
+    },
+    {
+      "slug": "shopify-trust-gaps-electronics",
+      "title": "Shopify Trust Gaps Benchmarks for Electronics",
+      "niche": "electronics",
+      "metric": "trust_gap_score",
+      "sample_size": 224
+    },
+    {
+      "slug": "shopify-pagespeed-automotive",
+      "title": "Shopify PageSpeed Score Benchmarks for Automotive",
+      "niche": "automotive",
+      "metric": "pagespeed_score",
+      "sample_size": 143
+    },
+    {
+      "slug": "shopify-lcp-automotive",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Automotive",
+      "niche": "automotive",
+      "metric": "lcp_ms",
+      "sample_size": 143
+    },
+    {
+      "slug": "shopify-trust-gaps-automotive",
+      "title": "Shopify Trust Gaps Benchmarks for Automotive",
+      "niche": "automotive",
+      "metric": "trust_gap_score",
+      "sample_size": 143
+    },
+    {
+      "slug": "shopify-pagespeed-art",
+      "title": "Shopify PageSpeed Score Benchmarks for Art",
+      "niche": "art",
+      "metric": "pagespeed_score",
+      "sample_size": 110
+    },
+    {
+      "slug": "shopify-lcp-art",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Art",
+      "niche": "art",
+      "metric": "lcp_ms",
+      "sample_size": 110
+    },
+    {
+      "slug": "shopify-trust-gaps-art",
+      "title": "Shopify Trust Gaps Benchmarks for Art",
+      "niche": "art",
+      "metric": "trust_gap_score",
+      "sample_size": 110
+    },
+    {
+      "slug": "shopify-pagespeed-jewelry",
+      "title": "Shopify PageSpeed Score Benchmarks for Jewelry",
+      "niche": "jewelry",
+      "metric": "pagespeed_score",
+      "sample_size": 103
+    },
+    {
+      "slug": "shopify-lcp-jewelry",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Jewelry",
+      "niche": "jewelry",
+      "metric": "lcp_ms",
+      "sample_size": 103
+    },
+    {
+      "slug": "shopify-trust-gaps-jewelry",
+      "title": "Shopify Trust Gaps Benchmarks for Jewelry",
+      "niche": "jewelry",
+      "metric": "trust_gap_score",
+      "sample_size": 103
+    },
+    {
+      "slug": "shopify-pagespeed-luxury",
+      "title": "Shopify PageSpeed Score Benchmarks for Luxury",
+      "niche": "luxury",
+      "metric": "pagespeed_score",
+      "sample_size": 87
+    },
+    {
+      "slug": "shopify-lcp-luxury",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Luxury",
+      "niche": "luxury",
+      "metric": "lcp_ms",
+      "sample_size": 87
+    },
+    {
+      "slug": "shopify-trust-gaps-luxury",
+      "title": "Shopify Trust Gaps Benchmarks for Luxury",
+      "niche": "luxury",
+      "metric": "trust_gap_score",
+      "sample_size": 87
+    },
+    {
+      "slug": "shopify-pagespeed-pet",
+      "title": "Shopify PageSpeed Score Benchmarks for Pets",
+      "niche": "pet",
+      "metric": "pagespeed_score",
+      "sample_size": 81
+    },
+    {
+      "slug": "shopify-lcp-pet",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Pets",
+      "niche": "pet",
+      "metric": "lcp_ms",
+      "sample_size": 81
+    },
+    {
+      "slug": "shopify-trust-gaps-pet",
+      "title": "Shopify Trust Gaps Benchmarks for Pets",
+      "niche": "pet",
+      "metric": "trust_gap_score",
+      "sample_size": 81
+    },
+    {
+      "slug": "shopify-pagespeed-food",
+      "title": "Shopify PageSpeed Score Benchmarks for Food & Gourmet",
+      "niche": "food",
+      "metric": "pagespeed_score",
+      "sample_size": 73
+    },
+    {
+      "slug": "shopify-lcp-food",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Food & Gourmet",
+      "niche": "food",
+      "metric": "lcp_ms",
+      "sample_size": 73
+    },
+    {
+      "slug": "shopify-trust-gaps-food",
+      "title": "Shopify Trust Gaps Benchmarks for Food & Gourmet",
+      "niche": "food",
+      "metric": "trust_gap_score",
+      "sample_size": 73
+    },
+    {
+      "slug": "shopify-pagespeed-skincare",
+      "title": "Shopify PageSpeed Score Benchmarks for Skincare",
+      "niche": "skincare",
+      "metric": "pagespeed_score",
+      "sample_size": 57
+    },
+    {
+      "slug": "shopify-lcp-skincare",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Skincare",
+      "niche": "skincare",
+      "metric": "lcp_ms",
+      "sample_size": 57
+    },
+    {
+      "slug": "shopify-trust-gaps-skincare",
+      "title": "Shopify Trust Gaps Benchmarks for Skincare",
+      "niche": "skincare",
+      "metric": "trust_gap_score",
+      "sample_size": 57
+    },
+    {
+      "slug": "shopify-pagespeed-fitness",
+      "title": "Shopify PageSpeed Score Benchmarks for Fitness",
+      "niche": "fitness",
+      "metric": "pagespeed_score",
+      "sample_size": 57
+    },
+    {
+      "slug": "shopify-lcp-fitness",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Fitness",
+      "niche": "fitness",
+      "metric": "lcp_ms",
+      "sample_size": 57
+    },
+    {
+      "slug": "shopify-trust-gaps-fitness",
+      "title": "Shopify Trust Gaps Benchmarks for Fitness",
+      "niche": "fitness",
+      "metric": "trust_gap_score",
+      "sample_size": 57
+    },
+    {
+      "slug": "shopify-pagespeed-kids",
+      "title": "Shopify PageSpeed Score Benchmarks for Kids",
+      "niche": "kids",
+      "metric": "pagespeed_score",
+      "sample_size": 44
+    },
+    {
+      "slug": "shopify-lcp-kids",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Kids",
+      "niche": "kids",
+      "metric": "lcp_ms",
+      "sample_size": 44
+    },
+    {
+      "slug": "shopify-trust-gaps-kids",
+      "title": "Shopify Trust Gaps Benchmarks for Kids",
+      "niche": "kids",
+      "metric": "trust_gap_score",
+      "sample_size": 44
+    },
+    {
+      "slug": "shopify-pagespeed-gadgets",
+      "title": "Shopify PageSpeed Score Benchmarks for Gadgets & Tech",
+      "niche": "gadgets",
+      "metric": "pagespeed_score",
+      "sample_size": 41
+    },
+    {
+      "slug": "shopify-lcp-gadgets",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Gadgets & Tech",
+      "niche": "gadgets",
+      "metric": "lcp_ms",
+      "sample_size": 41
+    },
+    {
+      "slug": "shopify-trust-gaps-gadgets",
+      "title": "Shopify Trust Gaps Benchmarks for Gadgets & Tech",
+      "niche": "gadgets",
+      "metric": "trust_gap_score",
+      "sample_size": 41
+    },
+    {
+      "slug": "shopify-pagespeed-shoes",
+      "title": "Shopify PageSpeed Score Benchmarks for Shoes & Footwear",
+      "niche": "shoes",
+      "metric": "pagespeed_score",
+      "sample_size": 40
+    },
+    {
+      "slug": "shopify-lcp-shoes",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Shoes & Footwear",
+      "niche": "shoes",
+      "metric": "lcp_ms",
+      "sample_size": 40
+    },
+    {
+      "slug": "shopify-trust-gaps-shoes",
+      "title": "Shopify Trust Gaps Benchmarks for Shoes & Footwear",
+      "niche": "shoes",
+      "metric": "trust_gap_score",
+      "sample_size": 40
+    },
+    {
+      "slug": "shopify-pagespeed-beauty",
+      "title": "Shopify PageSpeed Score Benchmarks for Beauty",
+      "niche": "beauty",
+      "metric": "pagespeed_score",
+      "sample_size": 40
+    },
+    {
+      "slug": "shopify-lcp-beauty",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Beauty",
+      "niche": "beauty",
+      "metric": "lcp_ms",
+      "sample_size": 40
+    },
+    {
+      "slug": "shopify-trust-gaps-beauty",
+      "title": "Shopify Trust Gaps Benchmarks for Beauty",
+      "niche": "beauty",
+      "metric": "trust_gap_score",
+      "sample_size": 40
+    },
+    {
+      "slug": "shopify-pagespeed-supplements",
+      "title": "Shopify PageSpeed Score Benchmarks for Supplements",
+      "niche": "supplements",
+      "metric": "pagespeed_score",
+      "sample_size": 35
+    },
+    {
+      "slug": "shopify-lcp-supplements",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Supplements",
+      "niche": "supplements",
+      "metric": "lcp_ms",
+      "sample_size": 35
+    },
+    {
+      "slug": "shopify-trust-gaps-supplements",
+      "title": "Shopify Trust Gaps Benchmarks for Supplements",
+      "niche": "supplements",
+      "metric": "trust_gap_score",
+      "sample_size": 35
+    },
+    {
+      "slug": "shopify-pagespeed-sustainable",
+      "title": "Shopify PageSpeed Score Benchmarks for Sustainable",
+      "niche": "sustainable",
+      "metric": "pagespeed_score",
+      "sample_size": 34
+    },
+    {
+      "slug": "shopify-lcp-sustainable",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Sustainable",
+      "niche": "sustainable",
+      "metric": "lcp_ms",
+      "sample_size": 34
+    },
+    {
+      "slug": "shopify-trust-gaps-sustainable",
+      "title": "Shopify Trust Gaps Benchmarks for Sustainable",
+      "niche": "sustainable",
+      "metric": "trust_gap_score",
+      "sample_size": 34
+    },
+    {
+      "slug": "shopify-pagespeed-kitchen",
+      "title": "Shopify PageSpeed Score Benchmarks for Kitchen & Cookware",
+      "niche": "kitchen",
+      "metric": "pagespeed_score",
+      "sample_size": 27
+    },
+    {
+      "slug": "shopify-lcp-kitchen",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Kitchen & Cookware",
+      "niche": "kitchen",
+      "metric": "lcp_ms",
+      "sample_size": 27
+    },
+    {
+      "slug": "shopify-trust-gaps-kitchen",
+      "title": "Shopify Trust Gaps Benchmarks for Kitchen & Cookware",
+      "niche": "kitchen",
+      "metric": "trust_gap_score",
+      "sample_size": 27
+    },
+    {
+      "slug": "shopify-pagespeed-home-decor",
+      "title": "Shopify PageSpeed Score Benchmarks for Home Decor",
+      "niche": "home_decor",
+      "metric": "pagespeed_score",
+      "sample_size": 24
+    },
+    {
+      "slug": "shopify-lcp-home-decor",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Home Decor",
+      "niche": "home_decor",
+      "metric": "lcp_ms",
+      "sample_size": 24
+    },
+    {
+      "slug": "shopify-trust-gaps-home-decor",
+      "title": "Shopify Trust Gaps Benchmarks for Home Decor",
+      "niche": "home_decor",
+      "metric": "trust_gap_score",
+      "sample_size": 24
+    },
+    {
+      "slug": "shopify-pagespeed-sports",
+      "title": "Shopify PageSpeed Score Benchmarks for Sports",
+      "niche": "sports",
+      "metric": "pagespeed_score",
+      "sample_size": 20
+    },
+    {
+      "slug": "shopify-lcp-sports",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Sports",
+      "niche": "sports",
+      "metric": "lcp_ms",
+      "sample_size": 20
+    },
+    {
+      "slug": "shopify-trust-gaps-sports",
+      "title": "Shopify Trust Gaps Benchmarks for Sports",
+      "niche": "sports",
+      "metric": "trust_gap_score",
+      "sample_size": 20
+    },
+    {
+      "slug": "shopify-pagespeed-office",
+      "title": "Shopify PageSpeed Score Benchmarks for Office",
+      "niche": "office",
+      "metric": "pagespeed_score",
+      "sample_size": 20
+    },
+    {
+      "slug": "shopify-lcp-office",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Office",
+      "niche": "office",
+      "metric": "lcp_ms",
+      "sample_size": 20
+    },
+    {
+      "slug": "shopify-trust-gaps-office",
+      "title": "Shopify Trust Gaps Benchmarks for Office",
+      "niche": "office",
+      "metric": "trust_gap_score",
+      "sample_size": 20
+    },
+    {
+      "slug": "shopify-pagespeed-furniture",
+      "title": "Shopify PageSpeed Score Benchmarks for Furniture",
+      "niche": "furniture",
+      "metric": "pagespeed_score",
+      "sample_size": 17
+    },
+    {
+      "slug": "shopify-lcp-furniture",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Furniture",
+      "niche": "furniture",
+      "metric": "lcp_ms",
+      "sample_size": 17
+    },
+    {
+      "slug": "shopify-trust-gaps-furniture",
+      "title": "Shopify Trust Gaps Benchmarks for Furniture",
+      "niche": "furniture",
+      "metric": "trust_gap_score",
+      "sample_size": 17
+    },
+    {
+      "slug": "shopify-pagespeed-baby",
+      "title": "Shopify PageSpeed Score Benchmarks for Baby",
+      "niche": "baby",
+      "metric": "pagespeed_score",
+      "sample_size": 16
+    },
+    {
+      "slug": "shopify-lcp-baby",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Baby",
+      "niche": "baby",
+      "metric": "lcp_ms",
+      "sample_size": 16
+    },
+    {
+      "slug": "shopify-trust-gaps-baby",
+      "title": "Shopify Trust Gaps Benchmarks for Baby",
+      "niche": "baby",
+      "metric": "trust_gap_score",
+      "sample_size": 16
+    },
+    {
+      "slug": "shopify-pagespeed-tea",
+      "title": "Shopify PageSpeed Score Benchmarks for Tea",
+      "niche": "tea",
+      "metric": "pagespeed_score",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-lcp-tea",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Tea",
+      "niche": "tea",
+      "metric": "lcp_ms",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-trust-gaps-tea",
+      "title": "Shopify Trust Gaps Benchmarks for Tea",
+      "niche": "tea",
+      "metric": "trust_gap_score",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-pagespeed-haircare",
+      "title": "Shopify PageSpeed Score Benchmarks for Haircare",
+      "niche": "haircare",
+      "metric": "pagespeed_score",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-lcp-haircare",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Haircare",
+      "niche": "haircare",
+      "metric": "lcp_ms",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-trust-gaps-haircare",
+      "title": "Shopify Trust Gaps Benchmarks for Haircare",
+      "niche": "haircare",
+      "metric": "trust_gap_score",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-pagespeed-crafts",
+      "title": "Shopify PageSpeed Score Benchmarks for Crafts & DIY",
+      "niche": "crafts",
+      "metric": "pagespeed_score",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-lcp-crafts",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Crafts & DIY",
+      "niche": "crafts",
+      "metric": "lcp_ms",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-trust-gaps-crafts",
+      "title": "Shopify Trust Gaps Benchmarks for Crafts & DIY",
+      "niche": "crafts",
+      "metric": "trust_gap_score",
+      "sample_size": 13
+    },
+    {
+      "slug": "shopify-pagespeed-watches",
+      "title": "Shopify PageSpeed Score Benchmarks for Watches",
+      "niche": "watches",
+      "metric": "pagespeed_score",
+      "sample_size": 11
+    },
+    {
+      "slug": "shopify-lcp-watches",
+      "title": "Shopify Largest Contentful Paint Benchmarks for Watches",
+      "niche": "watches",
+      "metric": "lcp_ms",
+      "sample_size": 11
+    },
+    {
+      "slug": "shopify-trust-gaps-watches",
+      "title": "Shopify Trust Gaps Benchmarks for Watches",
+      "niche": "watches",
+      "metric": "trust_gap_score",
+      "sample_size": 11
+    }
+  ]
+}

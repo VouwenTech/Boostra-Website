@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-food",
+  "niche": "food",
+  "niche_label": "Food & Gourmet",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 73,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 5200.1,
+    "p25": 7694.75,
+    "p50": 13054.0,
+    "p75": 22307.75,
+    "p90": 34138.5,
+    "mean": 17462.79,
+    "std_dev": 14430.22,
+    "min_value": 2527.0,
+    "max_value": 80270.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

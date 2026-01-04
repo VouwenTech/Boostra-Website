@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-kitchen",
+  "niche": "kitchen",
+  "niche_label": "Kitchen & Cookware",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 27,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 41.4,
+    "p25": 49.5,
+    "p50": 53.0,
+    "p75": 58.0,
+    "p90": 63.4,
+    "mean": 53.19,
+    "std_dev": 10.84,
+    "min_value": 32.0,
+    "max_value": 85.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

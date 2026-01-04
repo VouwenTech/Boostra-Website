@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-baby",
+  "niche": "baby",
+  "niche_label": "Baby",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 16,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 3674.0,
+    "p25": 4092.75,
+    "p50": 9478.5,
+    "p75": 15574.0,
+    "p90": 22398.5,
+    "mean": 11137.94,
+    "std_dev": 7745.77,
+    "min_value": 1885.0,
+    "max_value": 27004.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

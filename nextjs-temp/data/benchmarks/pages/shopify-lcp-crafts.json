@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-crafts",
+  "niche": "crafts",
+  "niche_label": "Crafts & DIY",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 13,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 8058.0,
+    "p25": 8528.0,
+    "p50": 11682.0,
+    "p75": 31363.0,
+    "p90": 38175.2,
+    "mean": 20537.69,
+    "std_dev": 14385.78,
+    "min_value": 4851.0,
+    "max_value": 47271.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

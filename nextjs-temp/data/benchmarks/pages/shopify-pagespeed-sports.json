@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-sports",
+  "niche": "sports",
+  "niche_label": "Sports",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 20,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 27.0,
+    "p25": 33.0,
+    "p50": 47.0,
+    "p75": 59.5,
+    "p90": 70.6,
+    "mean": 47.47,
+    "std_dev": 19.33,
+    "min_value": 8.0,
+    "max_value": 87.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

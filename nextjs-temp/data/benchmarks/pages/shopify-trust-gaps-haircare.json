@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-trust-gaps-haircare",
+  "niche": "haircare",
+  "niche_label": "Haircare",
+  "metric": "trust_gap_score",
+  "metric_label": "Trust Gaps",
+  "sample_size": 13,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 0.0,
+    "p25": 0.0,
+    "p50": 1.0,
+    "p75": 1.0,
+    "p90": 2.8,
+    "mean": 0.92,
+    "std_dev": 1.12,
+    "min_value": 0.0,
+    "max_value": 3.0
+  },
+  "thresholds": {
+    "good": 0.0,
+    "bad": 2.0
+  }
+}

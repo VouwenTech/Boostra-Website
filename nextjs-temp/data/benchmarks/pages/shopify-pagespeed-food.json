@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-food",
+  "niche": "food",
+  "niche_label": "Food & Gourmet",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 73,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 28.0,
+    "p25": 42.0,
+    "p50": 51.5,
+    "p75": 56.0,
+    "p90": 67.2,
+    "mean": 49.14,
+    "std_dev": 13.67,
+    "min_value": 16.0,
+    "max_value": 76.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

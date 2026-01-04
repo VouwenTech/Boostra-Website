@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-furniture",
+  "niche": "furniture",
+  "niche_label": "Furniture",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 17,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 34.2,
+    "p25": 39.0,
+    "p50": 48.0,
+    "p75": 55.0,
+    "p90": 59.8,
+    "mean": 46.41,
+    "std_dev": 13.01,
+    "min_value": 11.0,
+    "max_value": 64.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

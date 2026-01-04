@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-office",
+  "niche": "office",
+  "niche_label": "Office",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 20,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 5004.5,
+    "p25": 9351.75,
+    "p50": 16155.5,
+    "p75": 20968.0,
+    "p90": 29071.8,
+    "mean": 20947.7,
+    "std_dev": 24182.46,
+    "min_value": 3240.0,
+    "max_value": 112884.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

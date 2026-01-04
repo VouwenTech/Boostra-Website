@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-sustainable",
+  "niche": "sustainable",
+  "niche_label": "Sustainable",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 34,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 3762.0,
+    "p25": 5546.5,
+    "p50": 14067.0,
+    "p75": 21301.5,
+    "p90": 33981.0,
+    "mean": 15839.45,
+    "std_dev": 12862.72,
+    "min_value": 3128.0,
+    "max_value": 52281.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

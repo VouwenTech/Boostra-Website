@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-art",
+  "niche": "art",
+  "niche_label": "Art",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 110,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 35.0,
+    "p25": 44.5,
+    "p50": 53.0,
+    "p75": 58.0,
+    "p90": 66.4,
+    "mean": 51.35,
+    "std_dev": 12.94,
+    "min_value": 11.0,
+    "max_value": 90.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}

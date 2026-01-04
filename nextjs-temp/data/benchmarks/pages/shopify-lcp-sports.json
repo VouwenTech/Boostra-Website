@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-lcp-sports",
+  "niche": "sports",
+  "niche_label": "Sports",
+  "metric": "lcp_ms",
+  "metric_label": "Largest Contentful Paint",
+  "sample_size": 20,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 4257.6,
+    "p25": 6721.0,
+    "p50": 13591.0,
+    "p75": 23638.0,
+    "p90": 34425.6,
+    "mean": 18505.68,
+    "std_dev": 15745.21,
+    "min_value": 2804.0,
+    "max_value": 57956.0
+  },
+  "thresholds": {
+    "good": 2500.0,
+    "bad": 4000.0
+  }
+}

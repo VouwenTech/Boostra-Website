@@ -1,0 +1,52 @@
+import { Button } from '@/components/ui/button';
+
+const Hero = () => {
+  return (
+    <section className="py-20 md:py-32 relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-red-100 via-white to-blue-100 opacity-80 -z-10"></div>
+
+      <div className="container px-4 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="order-2 md:order-1">
+            <div className="mb-6 inline-block">
+              <span className="badge">SHOPIFY SPECIALISTS</span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-boostra-dark leading-tight">
+              Turn Your Shopify Store Into a
+              <span className="text-boostra-red font-bold"> Conversion Machine</span>
+            </h1>
+            <p className="text-lg md:text-xl text-boostra-gray mb-10 max-w-2xl">
+              We help Shopify store owners optimize their websites through data-driven strategies to increase conversions, revenue, and customer satisfaction.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a href="mailto:byron@boostra.agency">
+                <Button className="rounded-full bg-boostra-blue text-white hover:bg-boostra-deep-blue px-8 py-6 text-lg shadow-lg hover:-translate-y-1 transition-all">
+                  Book Your Audit
+                </Button>
+              </a>
+            </div>
+          </div>
+
+          <div className="order-1 md:order-2 relative">
+            <div className="mb-6 max-w-2xl mx-auto">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://images.unsplash.com/photo-1653762374114-92c970b49036"
+                alt="Shopify store owner working on analytics"
+                className="rounded-md w-full h-auto"
+              />
+            </div>
+            <div className="absolute -bottom-10 -left-10 p-4 bg-boostra-blue/20 rounded-lg shadow-md transform -rotate-3 hidden md:block">
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 bg-boostra-orange rounded-full"></div>
+                <span className="text-sm font-semibold">Revenue up 43%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;

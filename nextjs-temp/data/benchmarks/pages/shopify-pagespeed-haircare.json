@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-pagespeed-haircare",
+  "niche": "haircare",
+  "niche_label": "Haircare",
+  "metric": "pagespeed_score",
+  "metric_label": "PageSpeed Score",
+  "sample_size": 13,
+  "data_date": "2026-01-04",
+  "percentiles": {
+    "p10": 33.4,
+    "p25": 43.0,
+    "p50": 51.0,
+    "p75": 56.0,
+    "p90": 65.9,
+    "mean": 49.83,
+    "std_dev": 12.85,
+    "min_value": 28.0,
+    "max_value": 72.0
+  },
+  "thresholds": {
+    "good": 90.0,
+    "bad": 50.0
+  }
+}
