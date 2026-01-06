@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   },
   description: "Data-driven CRO audits and benchmarks for Shopify merchants. Compare your store against thousands of others in your niche.",
   metadataBase: new URL("https://boostra.agency"),
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
