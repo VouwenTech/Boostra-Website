@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.710Z",
-  "last_updated": "2026-01-04T14:29:22.710Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.945Z",
+  "last_updated": "2026-01-06T09:47:48.945Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Shoes & Footwear Stores (2026)",
-    "meta_description": "How does your footwear store compare? See pagespeed score benchmarks from 40 Shopify shoes & footwear stores. Median: 56, Top 10%: 69.",
+    "meta_description": "Footwear shoppers expect fast, trustworthy stores. See how 40 Shopify shoes & footwear stores perform on pagespeed score. Median: 56, Top 10%: 69. Free benchmarks.",
     "keywords": [
-      "shopify shoes benchmark",
-      "pagespeed score shopify",
-      "shoes & footwear store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "shoes & footwear ecommerce statistics",
-      "shopify store analytics"
+      "shopify shoes pagespeed score benchmark",
+      "shoes & footwear store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify shoes performance data",
+      "best pagespeed score for shoes stores",
+      "shoes & footwear shopify optimization",
+      "how to improve pagespeed score shopify",
+      "shoes & footwear ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Shoes & Footwear store scores 54 on PageSpeed, in the \"needs improvement\" range",
       "Top 10% of stores achieve scores of 69+, giving them a significant competitive advantage",
       "There's a 37 point gap between top and bottom performers in this niche",
-      "Some stores in this niche fall below Google's minimum acceptable threshold"
+      "Some stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 40 Shopify shoes & footwear stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-shoes",
-      "title": "LCP - Shoes"
+      "title": "LCP - Shoes",
+      "anchorText": "Shoes stores (median: 9.9s)"
     },
     {
       "slug": "shopify-trust-gaps-shoes",
-      "title": "Trust Gap - Shoes"
+      "title": "Trust Gap - Shoes",
+      "anchorText": "Shoes stores (median: 1)"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Shoes & Footwear Stores",
     "description": "Performance benchmark data for 40 Shopify stores in the footwear industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-shoes",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-shoes",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-shoes",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-shoes",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 56,
       "description": "Median pagespeed score across 40 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for shoes & footwear stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify shoes & footwear stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 40 Shopify shoes & footwear stores, the median pagespeed score is 56. Top-performing stores in this niche (top 10%) achieve 69. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my shoes & footwear store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other shoes & footwear stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 56 (the median), you're in the top half of shoes & footwear stores. If you're better than 69, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Shoes & Footwear",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-shoes"
+      }
+    ]
   }
 }

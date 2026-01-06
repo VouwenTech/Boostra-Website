@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.710Z",
-  "last_updated": "2026-01-04T14:29:22.710Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.943Z",
+  "last_updated": "2026-01-06T09:47:48.943Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Furniture Stores (2026)",
-    "meta_description": "How does your furniture store compare? See pagespeed score benchmarks from 17 Shopify furniture stores. Median: 48, Top 10%: 60.",
+    "meta_description": "Homeowners and decorators expect fast, trustworthy stores. See how 17 Shopify furniture stores perform on pagespeed score. Median: 48, Top 10%: 60. Free benchmarks.",
     "keywords": [
-      "shopify furniture benchmark",
-      "pagespeed score shopify",
-      "furniture store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "furniture ecommerce statistics",
-      "shopify store analytics"
+      "shopify furniture pagespeed score benchmark",
+      "furniture store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify furniture performance data",
+      "best pagespeed score for furniture stores",
+      "furniture shopify optimization",
+      "how to improve pagespeed score shopify",
+      "furniture ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Furniture store scores 46 on PageSpeed, falling into Google's \"poor\" category",
       "Top 10% of stores achieve scores of 60+, giving them a significant competitive advantage",
       "There's a 26 point gap between top and bottom performers in this niche",
-      "More than half of stores in this niche fall below Google's minimum acceptable threshold"
+      "More than half of stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 17 Shopify furniture stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,18 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-furniture",
-      "title": "LCP - Furniture"
+      "title": "LCP - Furniture",
+      "anchorText": "Furniture stores (median: 10.1s)"
     },
     {
       "slug": "shopify-trust-gaps-furniture",
-      "title": "Trust Gap - Furniture"
+      "title": "Trust Gap - Furniture",
+      "anchorText": "Furniture stores (median: 1)"
+    },
+    {
+      "slug": "shopify-pagespeed-kitchen",
+      "title": "PageSpeed - Kitchen",
+      "anchorText": "Kitchen stores (median: 53)"
     }
   ],
   "jsonld": {
@@ -74,16 +83,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Furniture Stores",
     "description": "Performance benchmark data for 17 Shopify stores in the furniture industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-furniture",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-furniture",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-furniture",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-furniture",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +101,75 @@
       "value": 48,
       "description": "Median pagespeed score across 17 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for furniture stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Furniture purchases require extensive research given their cost and permanence. A fast site enables the thorough comparison shopping these decisions require."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify furniture stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 17 Shopify furniture stores, the median pagespeed score is 48. Top-performing stores in this niche (top 10%) achieve 60. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my furniture store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other furniture stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 48 (the median), you're in the top half of furniture stores. If you're better than 60, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Furniture",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-furniture"
+      }
+    ]
   }
 }

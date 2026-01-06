@@ -21,20 +21,21 @@
     "good": 0,
     "bad": 2
   },
-  "content_generated_at": "2026-01-04T14:29:22.712Z",
-  "last_updated": "2026-01-04T14:29:22.712Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.949Z",
+  "last_updated": "2026-01-06T09:47:48.949Z",
+  "version": 2,
   "seo": {
     "title": "Trust Gaps Benchmarks for Shopify Shoes & Footwear Stores (2026)",
-    "meta_description": "How does your footwear store compare? See trust gaps benchmarks from 40 Shopify shoes & footwear stores. Median: 1, Top 10%: 0.",
+    "meta_description": "Footwear shoppers expect fast, trustworthy stores. See how 40 Shopify shoes & footwear stores perform on trust gaps. Median: 1, Top 10%: 0. Free benchmarks.",
     "keywords": [
-      "shopify shoes benchmark",
-      "trust gaps shopify",
-      "shoes & footwear store performance",
-      "ecommerce trust gap score benchmark",
-      "shopify speed benchmarks",
-      "shoes & footwear ecommerce statistics",
-      "shopify store analytics"
+      "shopify shoes trust gaps benchmark",
+      "shoes & footwear store trust gaps",
+      "ecommerce trust gaps statistics 2026",
+      "shopify shoes performance data",
+      "best trust gaps for shoes stores",
+      "shoes & footwear shopify optimization",
+      "how to improve trust gaps shopify",
+      "shoes & footwear ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Shoes & Footwear store has a trust gap of 1, indicating moderate trust signal implementation",
       "Best-in-class stores (P10) achieve trust gap scores of just 0, showing strong trust signal optimization",
       "The 3 point spread between top and bottom performers shows trust optimization is a key differentiator",
-      "Shoes & Footwear shoppers have specific trust expectations that most stores partially address"
+      "Shoes & Footwear shoppers have specific trust expectations that most stores partially address",
+      "Source: Boostra analysis of 40 Shopify shoes & footwear stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Add authentic customer reviews and ratings prominently on product pages",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-shoes",
-      "title": "LCP - Shoes"
+      "title": "LCP - Shoes",
+      "anchorText": "Shoes stores (median: 9.9s)"
     },
     {
       "slug": "shopify-pagespeed-shoes",
-      "title": "PageSpeed - Shoes"
+      "title": "PageSpeed - Shoes",
+      "anchorText": "Shoes stores (median: 56)"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "Trust Gaps Benchmarks for Shopify Shoes & Footwear Stores",
     "description": "Performance benchmark data for 40 Shopify stores in the footwear industry, measuring trust gaps.",
-    "url": "https://boostra.io/benchmarks/shopify-trust-gaps-shoes",
+    "url": "https://boostra.agency/benchmarks/shopify-trust-gaps-shoes",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-trust-gaps-shoes",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-trust-gaps-shoes",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 1,
       "description": "Median trust gaps across 40 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Trust Gaps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Trust Gap Score measures the difference between what shoppers expect and what your store delivers in terms of trust signals. Lower scores indicate better alignment with customer expectations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Trust Gaps matter for shoes & footwear stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Trust Gap Score measures the difference between what shoppers expect and what your store delivers in terms of trust signals. Lower scores indicate better alignment with customer expectations. A score of 0 means perfect trust alignment, while higher scores indicate gaps that may hurt conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Trust Gaps for Shopify shoes & footwear stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 40 Shopify shoes & footwear stores, the median trust gaps is 1. Top-performing stores in this niche (top 10%) achieve 0. A score of 0 means perfect trust alignment, while higher scores indicate gaps that may hurt conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my shoes & footwear store's Trust Gaps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Add authentic customer reviews and ratings prominently on product pages. Display trust badges, security seals, and payment icons clearly. Include detailed shipping and return policy information. Show real-time inventory and social proof (e.g., 'X people viewing'). For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other shoes & footwear stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your trust gaps against our benchmarks. If your score is better than 1 (the median), you're in the top half of shoes & footwear stores. If you're better than 0, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Trust Gaps - Shoes & Footwear",
+        "item": "https://boostra.agency/benchmarks/shopify-trust-gaps-shoes"
+      }
+    ]
   }
 }

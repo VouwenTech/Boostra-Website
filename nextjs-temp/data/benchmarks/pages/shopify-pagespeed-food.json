@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.709Z",
-  "last_updated": "2026-01-04T14:29:22.709Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.943Z",
+  "last_updated": "2026-01-06T09:47:48.943Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Food & Gourmet Stores (2026)",
-    "meta_description": "How does your food and beverages store compare? See pagespeed score benchmarks from 73 Shopify food & gourmet stores. Median: 52, Top 10%: 67.",
+    "meta_description": "Food enthusiasts expect fast, trustworthy stores. See how 73 Shopify food & gourmet stores perform on pagespeed score. Median: 52, Top 10%: 67. Free benchmarks.",
     "keywords": [
-      "shopify food benchmark",
-      "pagespeed score shopify",
-      "food & gourmet store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "food & gourmet ecommerce statistics",
-      "shopify store analytics"
+      "shopify food pagespeed score benchmark",
+      "food & gourmet store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify food performance data",
+      "best pagespeed score for food stores",
+      "food & gourmet shopify optimization",
+      "how to improve pagespeed score shopify",
+      "food & gourmet ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Food & Gourmet store scores 49 on PageSpeed, falling into Google's \"poor\" category",
       "Top 10% of stores achieve scores of 67+, giving them a significant competitive advantage",
       "There's a 39 point gap between top and bottom performers in this niche",
-      "Some stores in this niche fall below Google's minimum acceptable threshold"
+      "Some stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 73 Shopify food & gourmet stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,19 +64,23 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-food",
-      "title": "LCP - Food"
+      "title": "LCP - Food",
+      "anchorText": "Food stores (median: 13.1s)"
     },
     {
       "slug": "shopify-trust-gaps-food",
-      "title": "Trust Gap - Food"
+      "title": "Trust Gap - Food",
+      "anchorText": "Food stores (median: 1)"
     },
     {
       "slug": "shopify-pagespeed-supplements",
-      "title": "PageSpeed - Supplements"
+      "title": "PageSpeed - Supplements",
+      "anchorText": "Supplements stores (median: 51)"
     },
     {
       "slug": "shopify-pagespeed-tea",
-      "title": "PageSpeed - Tea"
+      "title": "PageSpeed - Tea",
+      "anchorText": "Tea stores (median: 48)"
     }
   ],
   "jsonld": {
@@ -82,16 +88,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Food & Gourmet Stores",
     "description": "Performance benchmark data for 73 Shopify stores in the food and beverages industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-food",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-food",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-food",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-food",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -100,5 +106,75 @@
       "value": 51.5,
       "description": "Median pagespeed score across 73 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for food & gourmet stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Food ecommerce competes with the instant gratification of local stores. A fast, efficient online experience helps justify the wait time for delivery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify food & gourmet stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 73 Shopify food & gourmet stores, the median pagespeed score is 52. Top-performing stores in this niche (top 10%) achieve 67. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my food & gourmet store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other food & gourmet stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 52 (the median), you're in the top half of food & gourmet stores. If you're better than 67, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Food & Gourmet",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-food"
+      }
+    ]
   }
 }

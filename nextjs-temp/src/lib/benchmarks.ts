@@ -46,8 +46,10 @@ export interface BenchmarkPageData {
     how_to_improve: string[];
     methodology: string;
   };
-  related_benchmarks: Array<{ slug: string; title: string }>;
+  related_benchmarks: Array<{ slug: string; title: string; anchorText?: string }>;
   jsonld?: object;
+  faqSchema?: object;
+  breadcrumbSchema?: object;
 }
 
 export interface BenchmarkManifest {

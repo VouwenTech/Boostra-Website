@@ -21,20 +21,21 @@
     "good": 0,
     "bad": 2
   },
-  "content_generated_at": "2026-01-04T14:29:22.713Z",
-  "last_updated": "2026-01-04T14:29:22.713Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.950Z",
+  "last_updated": "2026-01-06T09:47:48.950Z",
+  "version": 2,
   "seo": {
     "title": "Trust Gaps Benchmarks for Shopify Supplements Stores (2026)",
-    "meta_description": "How does your health supplements store compare? See trust gaps benchmarks from 35 Shopify supplements stores. Median: 1, Top 10%: 0.",
+    "meta_description": "Health-conscious consumers expect fast, trustworthy stores. See how 35 Shopify supplements stores perform on trust gaps. Median: 1, Top 10%: 0. Free benchmarks.",
     "keywords": [
-      "shopify supplements benchmark",
-      "trust gaps shopify",
-      "supplements store performance",
-      "ecommerce trust gap score benchmark",
-      "shopify speed benchmarks",
-      "supplements ecommerce statistics",
-      "shopify store analytics"
+      "shopify supplements trust gaps benchmark",
+      "supplements store trust gaps",
+      "ecommerce trust gaps statistics 2026",
+      "shopify supplements performance data",
+      "best trust gaps for supplements stores",
+      "supplements shopify optimization",
+      "how to improve trust gaps shopify",
+      "supplements ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Supplements store has a trust gap of 1, indicating moderate trust signal implementation",
       "Best-in-class stores (P10) achieve trust gap scores of just 0, showing strong trust signal optimization",
       "The 3 point spread between top and bottom performers shows trust optimization is a key differentiator",
-      "Supplements shoppers have specific trust expectations that most stores partially address"
+      "Supplements shoppers have specific trust expectations that most stores partially address",
+      "Source: Boostra analysis of 35 Shopify supplements stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Add authentic customer reviews and ratings prominently on product pages",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-supplements",
-      "title": "LCP - Supplements"
+      "title": "LCP - Supplements",
+      "anchorText": "Supplements stores (median: 10.5s)"
     },
     {
       "slug": "shopify-pagespeed-supplements",
-      "title": "PageSpeed - Supplements"
+      "title": "PageSpeed - Supplements",
+      "anchorText": "Supplements stores (median: 51)"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "Trust Gaps Benchmarks for Shopify Supplements Stores",
     "description": "Performance benchmark data for 35 Shopify stores in the health supplements industry, measuring trust gaps.",
-    "url": "https://boostra.io/benchmarks/shopify-trust-gaps-supplements",
+    "url": "https://boostra.agency/benchmarks/shopify-trust-gaps-supplements",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-trust-gaps-supplements",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-trust-gaps-supplements",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 1,
       "description": "Median trust gaps across 35 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Trust Gaps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Trust Gap Score measures the difference between what shoppers expect and what your store delivers in terms of trust signals. Lower scores indicate better alignment with customer expectations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Trust Gaps matter for supplements stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Supplements are ingested, making trust paramount. Shoppers need third-party testing results, FDA facility registrations, sourcing transparency, and reviews about effectiveness."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Trust Gaps for Shopify supplements stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 35 Shopify supplements stores, the median trust gaps is 1. Top-performing stores in this niche (top 10%) achieve 0. A score of 0 means perfect trust alignment, while higher scores indicate gaps that may hurt conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my supplements store's Trust Gaps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Add authentic customer reviews and ratings prominently on product pages. Display trust badges, security seals, and payment icons clearly. Include detailed shipping and return policy information. Show real-time inventory and social proof (e.g., 'X people viewing'). For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other supplements stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your trust gaps against our benchmarks. If your score is better than 1 (the median), you're in the top half of supplements stores. If you're better than 0, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Trust Gaps - Supplements",
+        "item": "https://boostra.agency/benchmarks/shopify-trust-gaps-supplements"
+      }
+    ]
   }
 }

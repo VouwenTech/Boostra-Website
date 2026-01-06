@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.709Z",
-  "last_updated": "2026-01-04T14:29:22.709Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.943Z",
+  "last_updated": "2026-01-06T09:47:48.943Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Baby Stores (2026)",
-    "meta_description": "How does your baby products store compare? See pagespeed score benchmarks from 16 Shopify baby stores. Median: 50, Top 10%: 68.",
+    "meta_description": "New parents expect fast, trustworthy stores. See how 16 Shopify baby stores perform on pagespeed score. Median: 50, Top 10%: 68. Free benchmarks.",
     "keywords": [
-      "shopify baby benchmark",
-      "pagespeed score shopify",
-      "baby store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "baby ecommerce statistics",
-      "shopify store analytics"
+      "shopify baby pagespeed score benchmark",
+      "baby store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify baby performance data",
+      "best pagespeed score for baby stores",
+      "baby shopify optimization",
+      "how to improve pagespeed score shopify",
+      "baby ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Baby store scores 49 on PageSpeed, falling into Google's \"poor\" category",
       "Top 10% of stores achieve scores of 68+, giving them a significant competitive advantage",
       "There's a 36 point gap between top and bottom performers in this niche",
-      "More than half of stores in this niche fall below Google's minimum acceptable threshold"
+      "More than half of stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 16 Shopify baby stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-baby",
-      "title": "LCP - Baby"
+      "title": "LCP - Baby",
+      "anchorText": "Baby stores (median: 9.5s)"
     },
     {
       "slug": "shopify-trust-gaps-baby",
-      "title": "Trust Gap - Baby"
+      "title": "Trust Gap - Baby",
+      "anchorText": "Baby trust gap benchmarks"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Baby Stores",
     "description": "Performance benchmark data for 16 Shopify stores in the baby products industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-baby",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-baby",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-baby",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-baby",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 49.5,
       "description": "Median pagespeed score across 16 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for baby stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Parents prioritize convenience and reliability when shopping for their children. A fast, easy-to-use store becomes a trusted go-to for repeat baby supply purchases."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify baby stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 16 Shopify baby stores, the median pagespeed score is 50. Top-performing stores in this niche (top 10%) achieve 68. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my baby store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other baby stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 50 (the median), you're in the top half of baby stores. If you're better than 68, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Baby",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-baby"
+      }
+    ]
   }
 }

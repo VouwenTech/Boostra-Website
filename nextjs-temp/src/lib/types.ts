@@ -44,8 +44,10 @@ export interface BenchmarkPageData {
     key_findings: string[];
     how_to_improve: string[];
   };
-  related_benchmarks: Array<{ slug: string; title: string }>;
+  related_benchmarks: Array<{ slug: string; title: string; anchorText?: string }>;
   jsonld?: object;
+  faqSchema?: object;
+  breadcrumbSchema?: object;
 }
 
 export interface BenchmarkManifest {

@@ -1,0 +1,53 @@
+# Boostra - Shopify CRO & Performance Benchmarks
+> Boostra provides data-driven CRO audits and performance benchmarks for Shopify merchants.
+
+## About Boostra
+Boostra helps Shopify store owners understand how their store performs compared to industry peers and provides actionable recommendations for improvement.
+
+## Benchmarks
+We analyze 2,500+ Shopify stores across 26 industries, measuring three key performance metrics:
+
+### PageSpeed Score (0-100)
+Google's comprehensive performance metric that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates.
+- Good: 90+
+- Needs Improvement: 50-89
+- Poor: Below 50
+
+### Largest Contentful Paint (LCP)
+A Core Web Vital that measures how long it takes for the largest visible element to load. This directly impacts SEO rankings.
+- Good: Under 2.5 seconds
+- Needs Improvement: 2.5-4 seconds
+- Poor: Over 4 seconds
+
+### Trust Gap Score
+Measures how well your store meets shopper expectations for trust signals (reviews, badges, policies). Lower scores indicate better trust optimization.
+- Good: Under 20
+- Moderate: 20-50
+- Poor: Over 50
+
+## Industries Covered
+We provide benchmarks for 26 ecommerce industries including:
+Fashion, Electronics, Beauty, Pet Supplies, Food & Beverages, Jewelry, Fitness, Baby Products, Supplements, Home Decor, Furniture, Watches, Skincare, Haircare, Kitchen, Office, Sports, Automotive, Art, Crafts, Tea, Sustainable Products, Luxury Goods, Kids Products, Gadgets, and Shoes.
+
+## How to Use Our Data
+1. Find your industry benchmark page at https://boostra.agency/benchmarks
+2. Compare your store's metrics against the industry median
+3. See how you rank against top 10% performers
+4. Follow our improvement recommendations
+
+## Data Methodology
+- Data collected via Google Lighthouse API under simulated mobile conditions
+- Sample sizes range from 50 to 500+ stores per industry
+- Metrics updated quarterly
+- All stores analyzed are active Shopify stores
+
+## Contact
+For personalized CRO audits and consulting:
+- Email: byron@boostra.agency
+- Website: https://boostra.agency
+
+## Related Resources
+- All Benchmarks: https://boostra.agency/benchmarks
+- PageSpeed Benchmarks: https://boostra.agency/benchmarks#pagespeed-score
+- LCP Benchmarks: https://boostra.agency/benchmarks#lcp-ms
+- Trust Gap Benchmarks: https://boostra.agency/benchmarks#trust-gap-score

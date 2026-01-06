@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     template: "%s | Boostra",
   },
   description: "Data-driven CRO audits and benchmarks for Shopify merchants. Compare your store against thousands of others in your niche.",
-  metadataBase: new URL("https://boostra.io"),
+  metadataBase: new URL("https://boostra.agency"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://boostra.io",
+    url: "https://boostra.agency",
     siteName: "Boostra",
     title: "Boostra - CRO & Analytics for Shopify Stores",
     description: "Data-driven CRO audits and benchmarks for Shopify merchants.",

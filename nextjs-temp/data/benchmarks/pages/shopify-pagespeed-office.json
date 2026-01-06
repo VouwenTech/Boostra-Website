@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.710Z",
-  "last_updated": "2026-01-04T14:29:22.710Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.945Z",
+  "last_updated": "2026-01-06T09:47:48.945Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Office Stores (2026)",
-    "meta_description": "How does your office supplies store compare? See pagespeed score benchmarks from 20 Shopify office stores. Median: 49, Top 10%: 66.",
+    "meta_description": "Professionals and businesses expect fast, trustworthy stores. See how 20 Shopify office stores perform on pagespeed score. Median: 49, Top 10%: 66. Free benchmarks.",
     "keywords": [
-      "shopify office benchmark",
-      "pagespeed score shopify",
-      "office store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "office ecommerce statistics",
-      "shopify store analytics"
+      "shopify office pagespeed score benchmark",
+      "office store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify office performance data",
+      "best pagespeed score for office stores",
+      "office shopify optimization",
+      "how to improve pagespeed score shopify",
+      "office ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Office store scores 51 on PageSpeed, in the \"needs improvement\" range",
       "Top 10% of stores achieve scores of 66+, giving them a significant competitive advantage",
       "There's a 29 point gap between top and bottom performers in this niche",
-      "More than half of stores in this niche fall below Google's minimum acceptable threshold"
+      "More than half of stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 20 Shopify office stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-office",
-      "title": "LCP - Office"
+      "title": "LCP - Office",
+      "anchorText": "Office stores (median: 16.2s)"
     },
     {
       "slug": "shopify-trust-gaps-office",
-      "title": "Trust Gap - Office"
+      "title": "Trust Gap - Office",
+      "anchorText": "Office stores (median: 1)"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Office Stores",
     "description": "Performance benchmark data for 20 Shopify stores in the office supplies industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-office",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-office",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-office",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-office",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 49,
       "description": "Median pagespeed score across 20 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for office stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify office stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 20 Shopify office stores, the median pagespeed score is 49. Top-performing stores in this niche (top 10%) achieve 66. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my office store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other office stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 49 (the median), you're in the top half of office stores. If you're better than 66, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Office",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-office"
+      }
+    ]
   }
 }

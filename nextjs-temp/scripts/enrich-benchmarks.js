@@ -40,6 +40,85 @@ const NICHE_CONTEXT = {
   watches: { industry: "watches and timepieces", typical_products: "watches and accessories", audience: "watch enthusiasts and collectors" },
 };
 
+// Niche-specific FAQ content for unique questions per industry
+const NICHE_FAQ_CONTEXT = {
+  fashion: {
+    lcp_ms: "Fashion shoppers are highly visual and expect to see product images quickly. A slow-loading hero image or lookbook can cause immediate abandonment, especially on mobile where most fashion browsing occurs.",
+    pagespeed_score: "Fashion ecommerce is intensely competitive, with shoppers comparing multiple stores before purchasing. A faster store creates a perception of professionalism and reliability that fashion-conscious buyers value.",
+    trust_gap_score: "Fashion shoppers are particularly concerned about fit, quality, and authenticity. They need strong size guides, customer photos, and return policies to feel confident purchasing clothing they can't try on."
+  },
+  electronics: {
+    lcp_ms: "Tech-savvy electronics shoppers have high expectations for website performance. They often compare specs across multiple sites, and a slow store signals outdated technology - the opposite of what they're looking to buy.",
+    pagespeed_score: "Electronics buyers research extensively before purchasing. A high-performing store suggests technical competence and attention to detail - qualities that translate to better customer support and reliable products.",
+    trust_gap_score: "Electronics purchases involve significant investment and technical risk. Shoppers need detailed specs, warranty information, authentic reviews, and proof of authorized dealer status to feel secure."
+  },
+  beauty: {
+    lcp_ms: "Beauty shoppers browse visually, expecting high-quality product images to load instantly. Slow-loading swatches or before/after photos disrupt the discovery experience that drives beauty purchases.",
+    pagespeed_score: "Beauty ecommerce relies heavily on visual storytelling. A fast, responsive store lets shoppers explore products naturally, increasing time on site and likelihood of purchase.",
+    trust_gap_score: "Beauty products are personal and often expensive. Shoppers need ingredient lists, authentic reviews with photos, dermatologist endorsements, and clear return policies for products that may not work for their skin or preferences."
+  },
+  pet: {
+    lcp_ms: "Pet owners shop with urgency - when their pet needs something, they need it fast. A slow-loading store can send them directly to a competitor or major retailer.",
+    pagespeed_score: "Pet owners are loyal customers who make repeat purchases. A smooth, fast shopping experience builds the trust needed for them to return rather than defaulting to big-box alternatives.",
+    trust_gap_score: "Pet owners treat their animals like family and scrutinize what they buy. They need ingredient sourcing information, safety certifications, and reviews from other pet owners to trust a new brand."
+  },
+  food: {
+    lcp_ms: "Food shoppers often browse on mobile while in their kitchen or making shopping lists. Slow-loading product images interrupt their flow and send them to faster alternatives.",
+    pagespeed_score: "Food ecommerce competes with the instant gratification of local stores. A fast, efficient online experience helps justify the wait time for delivery.",
+    trust_gap_score: "Food purchases involve health and safety concerns. Shoppers need clear allergen information, sourcing details, freshness guarantees, and reviews about taste and quality."
+  },
+  jewelry: {
+    lcp_ms: "Jewelry shoppers expect a premium experience that matches the products they're considering. Slow-loading high-resolution images undermine the luxury positioning of the brand.",
+    pagespeed_score: "Jewelry is often purchased for special occasions with emotional weight. A smooth, elegant shopping experience reinforces the specialness of the purchase.",
+    trust_gap_score: "Jewelry involves significant financial investment and concerns about authenticity. Shoppers need certifications, detailed metal and stone specifications, insurance options, and generous return policies."
+  },
+  fitness: {
+    lcp_ms: "Fitness enthusiasts value efficiency and results. A slow website experience contradicts the performance mindset they bring to their workouts and purchasing decisions.",
+    pagespeed_score: "Fitness shoppers are often motivated by goals and timelines. A fast store respects their time and signals a brand that understands their results-oriented mindset.",
+    trust_gap_score: "Fitness products make performance claims that shoppers want verified. They need before/after results, athlete endorsements, ingredient transparency for supplements, and warranty information for equipment."
+  },
+  baby: {
+    lcp_ms: "New parents are often sleep-deprived and shopping during stolen moments. A slow-loading store wastes their precious time and loses them to faster alternatives.",
+    pagespeed_score: "Parents prioritize convenience and reliability when shopping for their children. A fast, easy-to-use store becomes a trusted go-to for repeat baby supply purchases.",
+    trust_gap_score: "Parents are extremely protective and cautious about products for their babies. They need safety certifications, age appropriateness details, chemical-free claims verification, and reviews from other parents."
+  },
+  sustainable: {
+    lcp_ms: "Eco-conscious shoppers often research multiple aspects of products. A slow site increases their overall time investment and may push them toward established sustainable marketplaces.",
+    pagespeed_score: "Sustainable shoppers value efficiency and thoughtful design. A lean, fast website also suggests the brand practices efficiency in other areas of their business.",
+    trust_gap_score: "Sustainable shoppers are skeptical of greenwashing. They need third-party certifications, detailed sourcing information, carbon footprint data, and transparent supply chain details."
+  },
+  luxury: {
+    lcp_ms: "Luxury shoppers expect flawless experiences that match the premium positioning of the products. Any friction, including slow loading, diminishes the perceived value of the brand.",
+    pagespeed_score: "Luxury ecommerce must replicate the attentive service of high-end retail. A fast, polished online experience demonstrates the brand's commitment to excellence.",
+    trust_gap_score: "Luxury purchases involve significant investment and concerns about counterfeits. Shoppers need authenticity guarantees, provenance details, white-glove service options, and exclusive membership benefits."
+  },
+  skincare: {
+    lcp_ms: "Skincare shoppers research ingredients and compare products extensively. Slow-loading product pages interrupt their research flow and reduce the depth of engagement.",
+    pagespeed_score: "Skincare routines involve multiple products, meaning shoppers often view many pages per session. Fast page loads dramatically improve the multi-product browsing experience.",
+    trust_gap_score: "Skincare involves applying products to your body with potential reactions. Shoppers need ingredient lists, clinical study results, dermatologist endorsements, and reviews from people with similar skin types."
+  },
+  supplements: {
+    lcp_ms: "Supplement shoppers are often health-focused and time-conscious. They research thoroughly but decide quickly - a slow site loses them during the critical decision window.",
+    pagespeed_score: "Supplement stores often have large catalogs. Fast page loads let shoppers efficiently compare products and read the detailed information they need.",
+    trust_gap_score: "Supplements are ingested, making trust paramount. Shoppers need third-party testing results, FDA facility registrations, sourcing transparency, and reviews about effectiveness."
+  },
+  home_decor: {
+    lcp_ms: "Home decor shopping is highly visual, with shoppers imagining products in their space. Slow-loading lifestyle images break the visualization experience.",
+    pagespeed_score: "Decorating involves browsing many options before deciding. Fast page loads enable the exploratory browsing behavior that leads to larger purchases.",
+    trust_gap_score: "Home decor involves significant investment and subjective taste. Shoppers need room scene photos, accurate color representation, quality close-ups, and easy returns for items that don't match their vision."
+  },
+  furniture: {
+    lcp_ms: "Furniture shoppers need to see products from multiple angles with detail shots. Slow-loading images frustrate the detailed examination process essential for big-ticket purchases.",
+    pagespeed_score: "Furniture purchases require extensive research given their cost and permanence. A fast site enables the thorough comparison shopping these decisions require.",
+    trust_gap_score: "Furniture is expensive and difficult to return. Shoppers need assembly information, material quality details, durability guarantees, and white-glove delivery options."
+  },
+  watches: {
+    lcp_ms: "Watch enthusiasts expect to examine timepieces in detail online. High-resolution images that load slowly frustrate the inspection process collectors value.",
+    pagespeed_score: "Watch shoppers often compare specifications across multiple models. Fast page loads support the detailed comparison behavior of watch enthusiasts.",
+    trust_gap_score: "Watches involve authentication concerns and significant investment. Collectors need provenance documentation, serial number verification, warranty transfers, and authentication guarantees."
+  }
+};
+
 // Metric-specific content templates
 const METRIC_CONTENT = {
   lcp_ms: {
@@ -156,11 +235,79 @@ function generateHeroStat(data, metricConfig) {
 
 function generateKeyFindings(data, metricConfig) {
   const templates = metricConfig.keyFindingTemplates;
-  // Pick 3-4 relevant findings
-  return templates
+  // Pick 3-4 relevant findings and add source citation
+  const findings = templates
     .slice(0, 4)
     .map(template => template(data))
     .filter(Boolean);
+
+  // Add source citation to the end
+  findings.push(`Source: Boostra analysis of ${data.sample_size} Shopify ${data.niche_label.toLowerCase()} stores, ${data.data_date}.`);
+
+  return findings;
+}
+
+function generateFAQSchema(data, metricConfig, nicheContext) {
+  const metricLabel = data.metric_label;
+  const nicheLabel = data.niche_label;
+  const niche = data.niche;
+
+  // Get niche-specific FAQ context
+  const nicheFAQ = NICHE_FAQ_CONTEXT[niche]?.[data.metric] || '';
+
+  // For "lower is better" metrics, show p10 as top performers; for "higher is better", show p90
+  const topPerformerValue = metricConfig.goodDirection === 'lower'
+    ? formatMetricValue(data.percentiles.p10, data.metric)
+    : formatMetricValue(data.percentiles.p90, data.metric);
+
+  const questions = [
+    {
+      "@type": "Question",
+      "name": `What is ${metricLabel}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": metricConfig.metricExplainer
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `Why does ${metricLabel} matter for ${nicheLabel.toLowerCase()} stores?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": nicheFAQ || `${metricConfig.metricExplainer} ${metricConfig.thresholdContext}`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `What is a good ${metricLabel} for Shopify ${nicheLabel.toLowerCase()} stores?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Based on Boostra's analysis of ${data.sample_size} Shopify ${nicheLabel.toLowerCase()} stores, the median ${metricLabel.toLowerCase()} is ${formatMetricValue(data.percentiles.p50, data.metric)}. Top-performing stores in this niche (top 10%) achieve ${topPerformerValue}. ${metricConfig.thresholdContext}`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `How can I improve my ${nicheLabel.toLowerCase()} store's ${metricLabel}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": metricConfig.improvementTips.slice(0, 4).join(". ") + ". For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `How does my store compare to other ${nicheLabel.toLowerCase()} stores?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `You can compare your ${metricLabel.toLowerCase()} against our benchmarks. If your score is better than ${formatMetricValue(data.percentiles.p50, data.metric)} (the median), you're in the top half of ${nicheLabel.toLowerCase()} stores. If you're better than ${topPerformerValue}, you're among the top 10% performers in your industry.`
+      }
+    }
+  ];
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": questions
+  };
 }
 
 function generateSEO(data, metricConfig, nicheContext) {
@@ -171,22 +318,26 @@ function generateSEO(data, metricConfig, nicheContext) {
     ? formatMetricValue(data.percentiles.p10, data.metric)
     : formatMetricValue(data.percentiles.p90, data.metric);
 
-  const metaDescription = `How does your ${nicheContext.industry} store compare? See ${data.metric_label.toLowerCase()} benchmarks from ${data.sample_size} Shopify ${data.niche_label.toLowerCase()} stores. Median: ${formatMetricValue(data.percentiles.p50, data.metric)}, Top 10%: ${topPerformerValue}.`;
+  // Enhanced meta description with audience-specific context and CTA
+  const audienceCapitalized = nicheContext.audience.charAt(0).toUpperCase() + nicheContext.audience.slice(1);
+  const metaDescription = `${audienceCapitalized} expect fast, trustworthy stores. See how ${data.sample_size} Shopify ${data.niche_label.toLowerCase()} stores perform on ${data.metric_label.toLowerCase()}. Median: ${formatMetricValue(data.percentiles.p50, data.metric)}, Top 10%: ${topPerformerValue}. Free benchmarks.`;
 
+  // Enhanced keywords with more specific long-tail variations
   const keywords = [
-    `shopify ${data.niche.toLowerCase()} benchmark`,
-    `${data.metric_label.toLowerCase()} shopify`,
-    `${data.niche_label.toLowerCase()} store performance`,
-    `ecommerce ${data.metric.replace(/_/g, ' ')} benchmark`,
-    `shopify speed benchmarks`,
-    `${data.niche_label.toLowerCase()} ecommerce statistics`,
-    `shopify store analytics`
+    `shopify ${data.niche.toLowerCase()} ${data.metric_label.toLowerCase()} benchmark`,
+    `${data.niche_label.toLowerCase()} store ${data.metric_label.toLowerCase()}`,
+    `ecommerce ${data.metric_label.toLowerCase()} statistics 2026`,
+    `shopify ${data.niche.toLowerCase()} performance data`,
+    `best ${data.metric_label.toLowerCase()} for ${data.niche.toLowerCase()} stores`,
+    `${data.niche_label.toLowerCase()} shopify optimization`,
+    `how to improve ${data.metric_label.toLowerCase()} shopify`,
+    `${data.niche_label.toLowerCase()} ecommerce benchmarks`
   ];
 
   return { title, meta_description: metaDescription, keywords };
 }
 
-function generateRelatedBenchmarks(data, allSlugs) {
+function generateRelatedBenchmarks(data, allSlugs, allBenchmarksData) {
   const related = [];
   const currentMetric = data.metric;
   const currentNiche = data.niche;
@@ -205,6 +356,20 @@ function generateRelatedBenchmarks(data, allSlugs) {
     kids: ['baby', 'toys'],
     food: ['tea', 'supplements'],
     home_decor: ['furniture', 'kitchen'],
+    jewelry: ['fashion', 'luxury', 'watches'],
+    luxury: ['jewelry', 'fashion', 'watches'],
+    pet: ['baby', 'food'],
+    skincare: ['beauty', 'haircare'],
+    supplements: ['fitness', 'food'],
+    watches: ['jewelry', 'luxury'],
+    furniture: ['home_decor', 'kitchen'],
+    kitchen: ['home_decor', 'furniture'],
+    sports: ['fitness'],
+    automotive: ['gadgets', 'office'],
+    art: ['crafts', 'home_decor'],
+    crafts: ['art', 'kids'],
+    tea: ['food'],
+    haircare: ['beauty', 'skincare'],
   };
 
   const relatedNiches = RELATED_NICHES[currentNiche] || [];
@@ -227,9 +392,19 @@ function generateRelatedBenchmarks(data, allSlugs) {
     }
     const metricLabel = metric === 'lcp' ? 'LCP' : metric === 'pagespeed' ? 'PageSpeed' : 'Trust Gap';
     const nicheLabel = niche.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+    // Try to get median value from the related benchmark data for richer anchor text
+    const relatedData = allBenchmarksData[slug];
+    let anchorText = `${nicheLabel} ${metricLabel.toLowerCase()} benchmarks`;
+    if (relatedData?.percentiles?.p50) {
+      const medianValue = formatMetricValue(relatedData.percentiles.p50, relatedData.metric);
+      anchorText = `${nicheLabel} stores (median: ${medianValue})`;
+    }
+
     return {
       slug,
-      title: `${metricLabel} - ${nicheLabel}`
+      title: `${metricLabel} - ${nicheLabel}`,
+      anchorText
     };
   });
 }
@@ -240,16 +415,16 @@ function generateJsonLd(data, nicheContext) {
     "@type": "Dataset",
     "name": `${data.metric_label} Benchmarks for Shopify ${data.niche_label} Stores`,
     "description": `Performance benchmark data for ${data.sample_size} Shopify stores in the ${nicheContext.industry} industry, measuring ${data.metric_label.toLowerCase()}.`,
-    "url": `https://boostra.io/benchmarks/${data.slug}`,
+    "url": `https://boostra.agency/benchmarks/${data.slug}`,
     "dateModified": data.data_date,
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": `https://boostra.io/benchmarks/${data.slug}`,
+      "contentUrl": `https://boostra.agency/benchmarks/${data.slug}`,
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -261,8 +436,35 @@ function generateJsonLd(data, nicheContext) {
   };
 }
 
+function generateBreadcrumbSchema(data) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": `${data.metric_label} - ${data.niche_label}`,
+        "item": `https://boostra.agency/benchmarks/${data.slug}`
+      }
+    ]
+  };
+}
+
 // Main enrichment function
-function enrichBenchmark(filePath, allSlugs) {
+function enrichBenchmark(filePath, allSlugs, allBenchmarksData) {
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   const metricConfig = METRIC_CONTENT[data.metric];
   const nicheContext = NICHE_CONTEXT[data.niche] || {
@@ -276,20 +478,23 @@ function enrichBenchmark(filePath, allSlugs) {
     return data;
   }
 
-  // Enrich the data
+  // Enrich the data with all SEO schemas and content
   const enriched = {
     ...data,
     content_generated_at: new Date().toISOString(),
     last_updated: new Date().toISOString(),
-    version: 1,
+    version: 2, // Bumped version for SEO enhancements
     seo: generateSEO(data, metricConfig, nicheContext),
     content: {
       hero_stat: generateHeroStat(data, metricConfig),
       key_findings: generateKeyFindings(data, metricConfig),
       how_to_improve: metricConfig.improvementTips,
     },
-    related_benchmarks: generateRelatedBenchmarks(data, allSlugs),
-    jsonld: generateJsonLd(data, nicheContext)
+    related_benchmarks: generateRelatedBenchmarks(data, allSlugs, allBenchmarksData),
+    // Structured data schemas
+    jsonld: generateJsonLd(data, nicheContext),
+    faqSchema: generateFAQSchema(data, metricConfig, nicheContext),
+    breadcrumbSchema: generateBreadcrumbSchema(data)
   };
 
   return enriched;
@@ -297,17 +502,32 @@ function enrichBenchmark(filePath, allSlugs) {
 
 // Run the enrichment
 function main() {
-  console.log('Enriching benchmark files...\n');
+  console.log('Enriching benchmark files with SEO schemas...\n');
 
   const files = fs.readdirSync(PAGES_DIR).filter(f => f.endsWith('.json'));
   const allSlugs = files.map(f => f.replace('.json', ''));
 
+  // First pass: load all benchmark data for cross-referencing
+  console.log('Loading all benchmark data for cross-referencing...');
+  const allBenchmarksData = {};
+  for (const file of files) {
+    const filePath = path.join(PAGES_DIR, file);
+    try {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      allBenchmarksData[data.slug] = data;
+    } catch (error) {
+      console.error(`✗ Error loading ${file}:`, error.message);
+    }
+  }
+  console.log(`Loaded ${Object.keys(allBenchmarksData).length} benchmarks.\n`);
+
+  // Second pass: enrich all files
   let enrichedCount = 0;
 
   for (const file of files) {
     const filePath = path.join(PAGES_DIR, file);
     try {
-      const enriched = enrichBenchmark(filePath, allSlugs);
+      const enriched = enrichBenchmark(filePath, allSlugs, allBenchmarksData);
       fs.writeFileSync(filePath, JSON.stringify(enriched, null, 2));
       console.log(`✓ Enriched: ${file}`);
       enrichedCount++;
@@ -316,7 +536,11 @@ function main() {
     }
   }
 
-  console.log(`\nEnriched ${enrichedCount} of ${files.length} benchmark files.`);
+  console.log(`\n✓ Enriched ${enrichedCount} of ${files.length} benchmark files.`);
+  console.log('\nSchemas added:');
+  console.log('  • Dataset (jsonld)');
+  console.log('  • FAQPage (faqSchema)');
+  console.log('  • BreadcrumbList (breadcrumbSchema)');
 }
 
 main();

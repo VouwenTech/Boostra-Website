@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.710Z",
-  "last_updated": "2026-01-04T14:29:22.710Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.945Z",
+  "last_updated": "2026-01-06T09:47:48.945Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Pets Stores (2026)",
-    "meta_description": "How does your pet supplies store compare? See pagespeed score benchmarks from 81 Shopify pets stores. Median: 52, Top 10%: 67.",
+    "meta_description": "Pet owners expect fast, trustworthy stores. See how 81 Shopify pets stores perform on pagespeed score. Median: 52, Top 10%: 67. Free benchmarks.",
     "keywords": [
-      "shopify pet benchmark",
-      "pagespeed score shopify",
-      "pets store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "pets ecommerce statistics",
-      "shopify store analytics"
+      "shopify pet pagespeed score benchmark",
+      "pets store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify pet performance data",
+      "best pagespeed score for pet stores",
+      "pets shopify optimization",
+      "how to improve pagespeed score shopify",
+      "pets ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Pets store scores 49 on PageSpeed, falling into Google's \"poor\" category",
       "Top 10% of stores achieve scores of 67+, giving them a significant competitive advantage",
       "There's a 39 point gap between top and bottom performers in this niche",
-      "Some stores in this niche fall below Google's minimum acceptable threshold"
+      "Some stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 81 Shopify pets stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,23 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-pet",
-      "title": "LCP - Pet"
+      "title": "LCP - Pet",
+      "anchorText": "Pet stores (median: 11.7s)"
     },
     {
       "slug": "shopify-trust-gaps-pet",
-      "title": "Trust Gap - Pet"
+      "title": "Trust Gap - Pet",
+      "anchorText": "Pet stores (median: 1)"
+    },
+    {
+      "slug": "shopify-pagespeed-baby",
+      "title": "PageSpeed - Baby",
+      "anchorText": "Baby stores (median: 50)"
+    },
+    {
+      "slug": "shopify-pagespeed-food",
+      "title": "PageSpeed - Food",
+      "anchorText": "Food stores (median: 52)"
     }
   ],
   "jsonld": {
@@ -74,16 +88,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Pets Stores",
     "description": "Performance benchmark data for 81 Shopify stores in the pet supplies industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-pet",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-pet",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-pet",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-pet",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +106,75 @@
       "value": 52,
       "description": "Median pagespeed score across 81 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for pets stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pet owners are loyal customers who make repeat purchases. A smooth, fast shopping experience builds the trust needed for them to return rather than defaulting to big-box alternatives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify pets stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 81 Shopify pets stores, the median pagespeed score is 52. Top-performing stores in this niche (top 10%) achieve 67. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my pets store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other pets stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 52 (the median), you're in the top half of pets stores. If you're better than 67, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Pets",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-pet"
+      }
+    ]
   }
 }

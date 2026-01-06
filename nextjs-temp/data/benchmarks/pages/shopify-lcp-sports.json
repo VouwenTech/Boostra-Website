@@ -21,20 +21,21 @@
     "good": 2500,
     "bad": 4000
   },
-  "content_generated_at": "2026-01-04T14:29:22.708Z",
-  "last_updated": "2026-01-04T14:29:22.708Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.941Z",
+  "last_updated": "2026-01-06T09:47:48.941Z",
+  "version": 2,
   "seo": {
     "title": "Largest Contentful Paint Benchmarks for Shopify Sports Stores (2026)",
-    "meta_description": "How does your sports equipment store compare? See largest contentful paint benchmarks from 20 Shopify sports stores. Median: 13.6s, Top 10%: 4.3s.",
+    "meta_description": "Athletes and sports fans expect fast, trustworthy stores. See how 20 Shopify sports stores perform on largest contentful paint. Median: 13.6s, Top 10%: 4.3s. Free benchmarks.",
     "keywords": [
-      "shopify sports benchmark",
-      "largest contentful paint shopify",
-      "sports store performance",
-      "ecommerce lcp ms benchmark",
-      "shopify speed benchmarks",
-      "sports ecommerce statistics",
-      "shopify store analytics"
+      "shopify sports largest contentful paint benchmark",
+      "sports store largest contentful paint",
+      "ecommerce largest contentful paint statistics 2026",
+      "shopify sports performance data",
+      "best largest contentful paint for sports stores",
+      "sports shopify optimization",
+      "how to improve largest contentful paint shopify",
+      "sports ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Sports store has an LCP of 13.6s, which exceeds Google's recommended 2.5s threshold",
       "Top-performing stores (P10) achieve LCP of 4.3s - 69% faster than the median",
       "A 8x performance gap exists between the fastest and slowest stores in this niche",
-      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold",
+      "Source: Boostra analysis of 20 Shopify sports stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Optimize and compress hero images using modern formats like WebP or AVIF",
@@ -62,11 +64,18 @@
   "related_benchmarks": [
     {
       "slug": "shopify-pagespeed-sports",
-      "title": "PageSpeed - Sports"
+      "title": "PageSpeed - Sports",
+      "anchorText": "Sports stores (median: 47)"
     },
     {
       "slug": "shopify-trust-gaps-sports",
-      "title": "Trust Gap - Sports"
+      "title": "Trust Gap - Sports",
+      "anchorText": "Sports stores (median: 1)"
+    },
+    {
+      "slug": "shopify-lcp-fitness",
+      "title": "LCP - Fitness",
+      "anchorText": "Fitness stores (median: 11.5s)"
     }
   ],
   "jsonld": {
@@ -74,16 +83,16 @@
     "@type": "Dataset",
     "name": "Largest Contentful Paint Benchmarks for Shopify Sports Stores",
     "description": "Performance benchmark data for 20 Shopify stores in the sports equipment industry, measuring largest contentful paint.",
-    "url": "https://boostra.io/benchmarks/shopify-lcp-sports",
+    "url": "https://boostra.agency/benchmarks/shopify-lcp-sports",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-sports",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-lcp-sports",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +101,75 @@
       "value": 13591,
       "description": "Median largest contentful paint across 20 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Largest Contentful Paint matter for sports stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Largest Contentful Paint for Shopify sports stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 20 Shopify sports stores, the median largest contentful paint is 13.6s. Top-performing stores in this niche (top 10%) achieve 4.3s. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my sports store's Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Optimize and compress hero images using modern formats like WebP or AVIF. Implement lazy loading for below-the-fold images and defer non-critical JavaScript. Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users. Preload critical resources and fonts to reduce render-blocking time. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other sports stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your largest contentful paint against our benchmarks. If your score is better than 13.6s (the median), you're in the top half of sports stores. If you're better than 4.3s, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Largest Contentful Paint - Sports",
+        "item": "https://boostra.agency/benchmarks/shopify-lcp-sports"
+      }
+    ]
   }
 }

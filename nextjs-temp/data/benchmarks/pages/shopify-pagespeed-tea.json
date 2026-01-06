@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.711Z",
-  "last_updated": "2026-01-04T14:29:22.711Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.946Z",
+  "last_updated": "2026-01-06T09:47:48.946Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Tea Stores (2026)",
-    "meta_description": "How does your tea and beverages store compare? See pagespeed score benchmarks from 13 Shopify tea stores. Median: 48, Top 10%: 77.",
+    "meta_description": "Tea enthusiasts expect fast, trustworthy stores. See how 13 Shopify tea stores perform on pagespeed score. Median: 48, Top 10%: 77. Free benchmarks.",
     "keywords": [
-      "shopify tea benchmark",
-      "pagespeed score shopify",
-      "tea store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "tea ecommerce statistics",
-      "shopify store analytics"
+      "shopify tea pagespeed score benchmark",
+      "tea store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify tea performance data",
+      "best pagespeed score for tea stores",
+      "tea shopify optimization",
+      "how to improve pagespeed score shopify",
+      "tea ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Tea store scores 50 on PageSpeed, falling into Google's \"poor\" category",
       "Top 10% of stores achieve scores of 77+, giving them a significant competitive advantage",
       "There's a 45 point gap between top and bottom performers in this niche",
-      "More than half of stores in this niche fall below Google's minimum acceptable threshold"
+      "More than half of stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 13 Shopify tea stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,18 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-tea",
-      "title": "LCP - Tea"
+      "title": "LCP - Tea",
+      "anchorText": "Tea stores (median: 8.0s)"
     },
     {
       "slug": "shopify-trust-gaps-tea",
-      "title": "Trust Gap - Tea"
+      "title": "Trust Gap - Tea",
+      "anchorText": "Tea stores (median: 1)"
+    },
+    {
+      "slug": "shopify-pagespeed-food",
+      "title": "PageSpeed - Food",
+      "anchorText": "Food stores (median: 52)"
     }
   ],
   "jsonld": {
@@ -74,16 +83,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Tea Stores",
     "description": "Performance benchmark data for 13 Shopify stores in the tea and beverages industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-tea",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-tea",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-tea",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-tea",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +101,75 @@
       "value": 47.5,
       "description": "Median pagespeed score across 13 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for tea stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify tea stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 13 Shopify tea stores, the median pagespeed score is 48. Top-performing stores in this niche (top 10%) achieve 77. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my tea store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other tea stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 48 (the median), you're in the top half of tea stores. If you're better than 77, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Tea",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-tea"
+      }
+    ]
   }
 }

@@ -21,20 +21,21 @@
     "good": 2500,
     "bad": 4000
   },
-  "content_generated_at": "2026-01-04T14:29:22.707Z",
-  "last_updated": "2026-01-04T14:29:22.707Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.938Z",
+  "last_updated": "2026-01-06T09:47:48.938Z",
+  "version": 2,
   "seo": {
     "title": "Largest Contentful Paint Benchmarks for Shopify Fitness Stores (2026)",
-    "meta_description": "How does your fitness and sports store compare? See largest contentful paint benchmarks from 57 Shopify fitness stores. Median: 11.5s, Top 10%: 3.9s.",
+    "meta_description": "Fitness enthusiasts expect fast, trustworthy stores. See how 57 Shopify fitness stores perform on largest contentful paint. Median: 11.5s, Top 10%: 3.9s. Free benchmarks.",
     "keywords": [
-      "shopify fitness benchmark",
-      "largest contentful paint shopify",
-      "fitness store performance",
-      "ecommerce lcp ms benchmark",
-      "shopify speed benchmarks",
-      "fitness ecommerce statistics",
-      "shopify store analytics"
+      "shopify fitness largest contentful paint benchmark",
+      "fitness store largest contentful paint",
+      "ecommerce largest contentful paint statistics 2026",
+      "shopify fitness performance data",
+      "best largest contentful paint for fitness stores",
+      "fitness shopify optimization",
+      "how to improve largest contentful paint shopify",
+      "fitness ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Fitness store has an LCP of 11.5s, which exceeds Google's recommended 2.5s threshold",
       "Top-performing stores (P10) achieve LCP of 3.9s - 66% faster than the median",
       "A 9x performance gap exists between the fastest and slowest stores in this niche",
-      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold",
+      "Source: Boostra analysis of 57 Shopify fitness stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Optimize and compress hero images using modern formats like WebP or AVIF",
@@ -62,19 +64,23 @@
   "related_benchmarks": [
     {
       "slug": "shopify-pagespeed-fitness",
-      "title": "PageSpeed - Fitness"
+      "title": "PageSpeed - Fitness",
+      "anchorText": "Fitness stores (median: 48)"
     },
     {
       "slug": "shopify-trust-gaps-fitness",
-      "title": "Trust Gap - Fitness"
+      "title": "Trust Gap - Fitness",
+      "anchorText": "Fitness stores (median: 1)"
     },
     {
       "slug": "shopify-lcp-sports",
-      "title": "LCP - Sports"
+      "title": "LCP - Sports",
+      "anchorText": "Sports stores (median: 13.6s)"
     },
     {
       "slug": "shopify-lcp-supplements",
-      "title": "LCP - Supplements"
+      "title": "LCP - Supplements",
+      "anchorText": "Supplements stores (median: 10.5s)"
     }
   ],
   "jsonld": {
@@ -82,16 +88,16 @@
     "@type": "Dataset",
     "name": "Largest Contentful Paint Benchmarks for Shopify Fitness Stores",
     "description": "Performance benchmark data for 57 Shopify stores in the fitness and sports industry, measuring largest contentful paint.",
-    "url": "https://boostra.io/benchmarks/shopify-lcp-fitness",
+    "url": "https://boostra.agency/benchmarks/shopify-lcp-fitness",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-fitness",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-lcp-fitness",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -100,5 +106,75 @@
       "value": 11463,
       "description": "Median largest contentful paint across 57 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Largest Contentful Paint matter for fitness stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fitness enthusiasts value efficiency and results. A slow website experience contradicts the performance mindset they bring to their workouts and purchasing decisions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Largest Contentful Paint for Shopify fitness stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 57 Shopify fitness stores, the median largest contentful paint is 11.5s. Top-performing stores in this niche (top 10%) achieve 3.9s. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my fitness store's Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Optimize and compress hero images using modern formats like WebP or AVIF. Implement lazy loading for below-the-fold images and defer non-critical JavaScript. Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users. Preload critical resources and fonts to reduce render-blocking time. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other fitness stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your largest contentful paint against our benchmarks. If your score is better than 11.5s (the median), you're in the top half of fitness stores. If you're better than 3.9s, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Largest Contentful Paint - Fitness",
+        "item": "https://boostra.agency/benchmarks/shopify-lcp-fitness"
+      }
+    ]
   }
 }

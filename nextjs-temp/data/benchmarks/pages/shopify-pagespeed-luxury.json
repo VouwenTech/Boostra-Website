@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.710Z",
-  "last_updated": "2026-01-04T14:29:22.710Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.945Z",
+  "last_updated": "2026-01-06T09:47:48.945Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Luxury Stores (2026)",
-    "meta_description": "How does your luxury goods store compare? See pagespeed score benchmarks from 87 Shopify luxury stores. Median: 54, Top 10%: 68.",
+    "meta_description": "Affluent consumers expect fast, trustworthy stores. See how 87 Shopify luxury stores perform on pagespeed score. Median: 54, Top 10%: 68. Free benchmarks.",
     "keywords": [
-      "shopify luxury benchmark",
-      "pagespeed score shopify",
-      "luxury store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "luxury ecommerce statistics",
-      "shopify store analytics"
+      "shopify luxury pagespeed score benchmark",
+      "luxury store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify luxury performance data",
+      "best pagespeed score for luxury stores",
+      "luxury shopify optimization",
+      "how to improve pagespeed score shopify",
+      "luxury ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Luxury store scores 51 on PageSpeed, in the \"needs improvement\" range",
       "Top 10% of stores achieve scores of 68+, giving them a significant competitive advantage",
       "There's a 37 point gap between top and bottom performers in this niche",
-      "Some stores in this niche fall below Google's minimum acceptable threshold"
+      "Some stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 87 Shopify luxury stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,23 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-luxury",
-      "title": "LCP - Luxury"
+      "title": "LCP - Luxury",
+      "anchorText": "Luxury stores (median: 12.1s)"
     },
     {
       "slug": "shopify-trust-gaps-luxury",
-      "title": "Trust Gap - Luxury"
+      "title": "Trust Gap - Luxury",
+      "anchorText": "Luxury stores (median: 1)"
+    },
+    {
+      "slug": "shopify-pagespeed-fashion",
+      "title": "PageSpeed - Fashion",
+      "anchorText": "Fashion stores (median: 51)"
+    },
+    {
+      "slug": "shopify-pagespeed-jewelry",
+      "title": "PageSpeed - Jewelry",
+      "anchorText": "Jewelry stores (median: 50)"
     }
   ],
   "jsonld": {
@@ -74,16 +88,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Luxury Stores",
     "description": "Performance benchmark data for 87 Shopify stores in the luxury goods industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-luxury",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-luxury",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-luxury",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-luxury",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +106,75 @@
       "value": 54,
       "description": "Median pagespeed score across 87 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for luxury stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Luxury ecommerce must replicate the attentive service of high-end retail. A fast, polished online experience demonstrates the brand's commitment to excellence."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify luxury stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 87 Shopify luxury stores, the median pagespeed score is 54. Top-performing stores in this niche (top 10%) achieve 68. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my luxury store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other luxury stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 54 (the median), you're in the top half of luxury stores. If you're better than 68, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Luxury",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-luxury"
+      }
+    ]
   }
 }

@@ -21,20 +21,21 @@
     "good": 2500,
     "bad": 4000
   },
-  "content_generated_at": "2026-01-04T14:29:22.708Z",
-  "last_updated": "2026-01-04T14:29:22.708Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.941Z",
+  "last_updated": "2026-01-06T09:47:48.941Z",
+  "version": 2,
   "seo": {
     "title": "Largest Contentful Paint Benchmarks for Shopify Luxury Stores (2026)",
-    "meta_description": "How does your luxury goods store compare? See largest contentful paint benchmarks from 87 Shopify luxury stores. Median: 12.1s, Top 10%: 4.7s.",
+    "meta_description": "Affluent consumers expect fast, trustworthy stores. See how 87 Shopify luxury stores perform on largest contentful paint. Median: 12.1s, Top 10%: 4.7s. Free benchmarks.",
     "keywords": [
-      "shopify luxury benchmark",
-      "largest contentful paint shopify",
-      "luxury store performance",
-      "ecommerce lcp ms benchmark",
-      "shopify speed benchmarks",
-      "luxury ecommerce statistics",
-      "shopify store analytics"
+      "shopify luxury largest contentful paint benchmark",
+      "luxury store largest contentful paint",
+      "ecommerce largest contentful paint statistics 2026",
+      "shopify luxury performance data",
+      "best largest contentful paint for luxury stores",
+      "luxury shopify optimization",
+      "how to improve largest contentful paint shopify",
+      "luxury ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Luxury store has an LCP of 12.1s, which exceeds Google's recommended 2.5s threshold",
       "Top-performing stores (P10) achieve LCP of 4.7s - 61% faster than the median",
       "A 7x performance gap exists between the fastest and slowest stores in this niche",
-      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold",
+      "Source: Boostra analysis of 87 Shopify luxury stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Optimize and compress hero images using modern formats like WebP or AVIF",
@@ -62,11 +64,23 @@
   "related_benchmarks": [
     {
       "slug": "shopify-pagespeed-luxury",
-      "title": "PageSpeed - Luxury"
+      "title": "PageSpeed - Luxury",
+      "anchorText": "Luxury stores (median: 54)"
     },
     {
       "slug": "shopify-trust-gaps-luxury",
-      "title": "Trust Gap - Luxury"
+      "title": "Trust Gap - Luxury",
+      "anchorText": "Luxury stores (median: 1)"
+    },
+    {
+      "slug": "shopify-lcp-fashion",
+      "title": "LCP - Fashion",
+      "anchorText": "Fashion stores (median: 13.6s)"
+    },
+    {
+      "slug": "shopify-lcp-jewelry",
+      "title": "LCP - Jewelry",
+      "anchorText": "Jewelry stores (median: 12.7s)"
     }
   ],
   "jsonld": {
@@ -74,16 +88,16 @@
     "@type": "Dataset",
     "name": "Largest Contentful Paint Benchmarks for Shopify Luxury Stores",
     "description": "Performance benchmark data for 87 Shopify stores in the luxury goods industry, measuring largest contentful paint.",
-    "url": "https://boostra.io/benchmarks/shopify-lcp-luxury",
+    "url": "https://boostra.agency/benchmarks/shopify-lcp-luxury",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-luxury",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-lcp-luxury",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +106,75 @@
       "value": 12061,
       "description": "Median largest contentful paint across 87 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Largest Contentful Paint matter for luxury stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Luxury shoppers expect flawless experiences that match the premium positioning of the products. Any friction, including slow loading, diminishes the perceived value of the brand."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Largest Contentful Paint for Shopify luxury stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 87 Shopify luxury stores, the median largest contentful paint is 12.1s. Top-performing stores in this niche (top 10%) achieve 4.7s. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my luxury store's Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Optimize and compress hero images using modern formats like WebP or AVIF. Implement lazy loading for below-the-fold images and defer non-critical JavaScript. Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users. Preload critical resources and fonts to reduce render-blocking time. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other luxury stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your largest contentful paint against our benchmarks. If your score is better than 12.1s (the median), you're in the top half of luxury stores. If you're better than 4.7s, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Largest Contentful Paint - Luxury",
+        "item": "https://boostra.agency/benchmarks/shopify-lcp-luxury"
+      }
+    ]
   }
 }

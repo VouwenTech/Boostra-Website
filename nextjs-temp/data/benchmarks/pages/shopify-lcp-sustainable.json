@@ -21,20 +21,21 @@
     "good": 2500,
     "bad": 4000
   },
-  "content_generated_at": "2026-01-04T14:29:22.709Z",
-  "last_updated": "2026-01-04T14:29:22.709Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.942Z",
+  "last_updated": "2026-01-06T09:47:48.942Z",
+  "version": 2,
   "seo": {
     "title": "Largest Contentful Paint Benchmarks for Shopify Sustainable Stores (2026)",
-    "meta_description": "How does your sustainable products store compare? See largest contentful paint benchmarks from 34 Shopify sustainable stores. Median: 14.1s, Top 10%: 3.8s.",
+    "meta_description": "Environmentally conscious shoppers expect fast, trustworthy stores. See how 34 Shopify sustainable stores perform on largest contentful paint. Median: 14.1s, Top 10%: 3.8s. Free benchmarks.",
     "keywords": [
-      "shopify sustainable benchmark",
-      "largest contentful paint shopify",
-      "sustainable store performance",
-      "ecommerce lcp ms benchmark",
-      "shopify speed benchmarks",
-      "sustainable ecommerce statistics",
-      "shopify store analytics"
+      "shopify sustainable largest contentful paint benchmark",
+      "sustainable store largest contentful paint",
+      "ecommerce largest contentful paint statistics 2026",
+      "shopify sustainable performance data",
+      "best largest contentful paint for sustainable stores",
+      "sustainable shopify optimization",
+      "how to improve largest contentful paint shopify",
+      "sustainable ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Sustainable store has an LCP of 14.1s, which exceeds Google's recommended 2.5s threshold",
       "Top-performing stores (P10) achieve LCP of 3.8s - 73% faster than the median",
       "A 9x performance gap exists between the fastest and slowest stores in this niche",
-      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold",
+      "Source: Boostra analysis of 34 Shopify sustainable stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Optimize and compress hero images using modern formats like WebP or AVIF",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-pagespeed-sustainable",
-      "title": "PageSpeed - Sustainable"
+      "title": "PageSpeed - Sustainable",
+      "anchorText": "Sustainable stores (median: 55)"
     },
     {
       "slug": "shopify-trust-gaps-sustainable",
-      "title": "Trust Gap - Sustainable"
+      "title": "Trust Gap - Sustainable",
+      "anchorText": "Sustainable stores (median: 1)"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "Largest Contentful Paint Benchmarks for Shopify Sustainable Stores",
     "description": "Performance benchmark data for 34 Shopify stores in the sustainable products industry, measuring largest contentful paint.",
-    "url": "https://boostra.io/benchmarks/shopify-lcp-sustainable",
+    "url": "https://boostra.agency/benchmarks/shopify-lcp-sustainable",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-sustainable",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-lcp-sustainable",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 14067,
       "description": "Median largest contentful paint across 34 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Largest Contentful Paint matter for sustainable stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Eco-conscious shoppers often research multiple aspects of products. A slow site increases their overall time investment and may push them toward established sustainable marketplaces."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Largest Contentful Paint for Shopify sustainable stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 34 Shopify sustainable stores, the median largest contentful paint is 14.1s. Top-performing stores in this niche (top 10%) achieve 3.8s. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my sustainable store's Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Optimize and compress hero images using modern formats like WebP or AVIF. Implement lazy loading for below-the-fold images and defer non-critical JavaScript. Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users. Preload critical resources and fonts to reduce render-blocking time. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other sustainable stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your largest contentful paint against our benchmarks. If your score is better than 14.1s (the median), you're in the top half of sustainable stores. If you're better than 3.8s, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Largest Contentful Paint - Sustainable",
+        "item": "https://boostra.agency/benchmarks/shopify-lcp-sustainable"
+      }
+    ]
   }
 }

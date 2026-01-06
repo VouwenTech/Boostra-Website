@@ -21,20 +21,21 @@
     "good": 2500,
     "bad": 4000
   },
-  "content_generated_at": "2026-01-04T14:29:22.707Z",
-  "last_updated": "2026-01-04T14:29:22.707Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.940Z",
+  "last_updated": "2026-01-06T09:47:48.940Z",
+  "version": 2,
   "seo": {
     "title": "Largest Contentful Paint Benchmarks for Shopify Haircare Stores (2026)",
-    "meta_description": "How does your haircare store compare? See largest contentful paint benchmarks from 13 Shopify haircare stores. Median: 13.7s, Top 10%: 3.9s.",
+    "meta_description": "Beauty-conscious consumers expect fast, trustworthy stores. See how 13 Shopify haircare stores perform on largest contentful paint. Median: 13.7s, Top 10%: 3.9s. Free benchmarks.",
     "keywords": [
-      "shopify haircare benchmark",
-      "largest contentful paint shopify",
-      "haircare store performance",
-      "ecommerce lcp ms benchmark",
-      "shopify speed benchmarks",
-      "haircare ecommerce statistics",
-      "shopify store analytics"
+      "shopify haircare largest contentful paint benchmark",
+      "haircare store largest contentful paint",
+      "ecommerce largest contentful paint statistics 2026",
+      "shopify haircare performance data",
+      "best largest contentful paint for haircare stores",
+      "haircare shopify optimization",
+      "how to improve largest contentful paint shopify",
+      "haircare ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Haircare store has an LCP of 13.7s, which exceeds Google's recommended 2.5s threshold",
       "Top-performing stores (P10) achieve LCP of 3.9s - 71% faster than the median",
       "A 10x performance gap exists between the fastest and slowest stores in this niche",
-      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold",
+      "Source: Boostra analysis of 13 Shopify haircare stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Optimize and compress hero images using modern formats like WebP or AVIF",
@@ -62,11 +64,23 @@
   "related_benchmarks": [
     {
       "slug": "shopify-pagespeed-haircare",
-      "title": "PageSpeed - Haircare"
+      "title": "PageSpeed - Haircare",
+      "anchorText": "Haircare stores (median: 51)"
     },
     {
       "slug": "shopify-trust-gaps-haircare",
-      "title": "Trust Gap - Haircare"
+      "title": "Trust Gap - Haircare",
+      "anchorText": "Haircare stores (median: 1)"
+    },
+    {
+      "slug": "shopify-lcp-beauty",
+      "title": "LCP - Beauty",
+      "anchorText": "Beauty stores (median: 15.4s)"
+    },
+    {
+      "slug": "shopify-lcp-skincare",
+      "title": "LCP - Skincare",
+      "anchorText": "Skincare stores (median: 14.7s)"
     }
   ],
   "jsonld": {
@@ -74,16 +88,16 @@
     "@type": "Dataset",
     "name": "Largest Contentful Paint Benchmarks for Shopify Haircare Stores",
     "description": "Performance benchmark data for 13 Shopify stores in the haircare industry, measuring largest contentful paint.",
-    "url": "https://boostra.io/benchmarks/shopify-lcp-haircare",
+    "url": "https://boostra.agency/benchmarks/shopify-lcp-haircare",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-haircare",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-lcp-haircare",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +106,75 @@
       "value": 13689.5,
       "description": "Median largest contentful paint across 13 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Largest Contentful Paint matter for haircare stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Largest Contentful Paint for Shopify haircare stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 13 Shopify haircare stores, the median largest contentful paint is 13.7s. Top-performing stores in this niche (top 10%) achieve 3.9s. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my haircare store's Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Optimize and compress hero images using modern formats like WebP or AVIF. Implement lazy loading for below-the-fold images and defer non-critical JavaScript. Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users. Preload critical resources and fonts to reduce render-blocking time. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other haircare stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your largest contentful paint against our benchmarks. If your score is better than 13.7s (the median), you're in the top half of haircare stores. If you're better than 3.9s, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Largest Contentful Paint - Haircare",
+        "item": "https://boostra.agency/benchmarks/shopify-lcp-haircare"
+      }
+    ]
   }
 }

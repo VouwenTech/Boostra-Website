@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.711Z",
-  "last_updated": "2026-01-04T14:29:22.711Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.945Z",
+  "last_updated": "2026-01-06T09:47:48.945Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Sustainable Stores (2026)",
-    "meta_description": "How does your sustainable products store compare? See pagespeed score benchmarks from 34 Shopify sustainable stores. Median: 55, Top 10%: 74.",
+    "meta_description": "Environmentally conscious shoppers expect fast, trustworthy stores. See how 34 Shopify sustainable stores perform on pagespeed score. Median: 55, Top 10%: 74. Free benchmarks.",
     "keywords": [
-      "shopify sustainable benchmark",
-      "pagespeed score shopify",
-      "sustainable store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "sustainable ecommerce statistics",
-      "shopify store analytics"
+      "shopify sustainable pagespeed score benchmark",
+      "sustainable store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify sustainable performance data",
+      "best pagespeed score for sustainable stores",
+      "sustainable shopify optimization",
+      "how to improve pagespeed score shopify",
+      "sustainable ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Sustainable store scores 56 on PageSpeed, in the \"needs improvement\" range",
       "Top 10% of stores achieve scores of 74+, giving them a significant competitive advantage",
       "There's a 33 point gap between top and bottom performers in this niche",
-      "Some stores in this niche fall below Google's minimum acceptable threshold"
+      "Some stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 34 Shopify sustainable stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-sustainable",
-      "title": "LCP - Sustainable"
+      "title": "LCP - Sustainable",
+      "anchorText": "Sustainable stores (median: 14.1s)"
     },
     {
       "slug": "shopify-trust-gaps-sustainable",
-      "title": "Trust Gap - Sustainable"
+      "title": "Trust Gap - Sustainable",
+      "anchorText": "Sustainable stores (median: 1)"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Sustainable Stores",
     "description": "Performance benchmark data for 34 Shopify stores in the sustainable products industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-sustainable",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-sustainable",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-sustainable",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-sustainable",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 55,
       "description": "Median pagespeed score across 34 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for sustainable stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sustainable shoppers value efficiency and thoughtful design. A lean, fast website also suggests the brand practices efficiency in other areas of their business."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify sustainable stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 34 Shopify sustainable stores, the median pagespeed score is 55. Top-performing stores in this niche (top 10%) achieve 74. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my sustainable store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other sustainable stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 55 (the median), you're in the top half of sustainable stores. If you're better than 74, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Sustainable",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-sustainable"
+      }
+    ]
   }
 }

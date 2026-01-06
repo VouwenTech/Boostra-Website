@@ -21,20 +21,21 @@
     "good": 2500,
     "bad": 4000
   },
-  "content_generated_at": "2026-01-04T14:29:22.706Z",
-  "last_updated": "2026-01-04T14:29:22.706Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.937Z",
+  "last_updated": "2026-01-06T09:47:48.937Z",
+  "version": 2,
   "seo": {
     "title": "Largest Contentful Paint Benchmarks for Shopify Baby Stores (2026)",
-    "meta_description": "How does your baby products store compare? See largest contentful paint benchmarks from 16 Shopify baby stores. Median: 9.5s, Top 10%: 3.7s.",
+    "meta_description": "New parents expect fast, trustworthy stores. See how 16 Shopify baby stores perform on largest contentful paint. Median: 9.5s, Top 10%: 3.7s. Free benchmarks.",
     "keywords": [
-      "shopify baby benchmark",
-      "largest contentful paint shopify",
-      "baby store performance",
-      "ecommerce lcp ms benchmark",
-      "shopify speed benchmarks",
-      "baby ecommerce statistics",
-      "shopify store analytics"
+      "shopify baby largest contentful paint benchmark",
+      "baby store largest contentful paint",
+      "ecommerce largest contentful paint statistics 2026",
+      "shopify baby performance data",
+      "best largest contentful paint for baby stores",
+      "baby shopify optimization",
+      "how to improve largest contentful paint shopify",
+      "baby ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Baby store has an LCP of 9.5s, which exceeds Google's recommended 2.5s threshold",
       "Top-performing stores (P10) achieve LCP of 3.7s - 61% faster than the median",
       "A 6x performance gap exists between the fastest and slowest stores in this niche",
-      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold",
+      "Source: Boostra analysis of 16 Shopify baby stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Optimize and compress hero images using modern formats like WebP or AVIF",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-pagespeed-baby",
-      "title": "PageSpeed - Baby"
+      "title": "PageSpeed - Baby",
+      "anchorText": "Baby stores (median: 50)"
     },
     {
       "slug": "shopify-trust-gaps-baby",
-      "title": "Trust Gap - Baby"
+      "title": "Trust Gap - Baby",
+      "anchorText": "Baby trust gap benchmarks"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "Largest Contentful Paint Benchmarks for Shopify Baby Stores",
     "description": "Performance benchmark data for 16 Shopify stores in the baby products industry, measuring largest contentful paint.",
-    "url": "https://boostra.io/benchmarks/shopify-lcp-baby",
+    "url": "https://boostra.agency/benchmarks/shopify-lcp-baby",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-baby",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-lcp-baby",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 9478.5,
       "description": "Median largest contentful paint across 16 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Largest Contentful Paint matter for baby stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "New parents are often sleep-deprived and shopping during stolen moments. A slow-loading store wastes their precious time and loses them to faster alternatives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Largest Contentful Paint for Shopify baby stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 16 Shopify baby stores, the median largest contentful paint is 9.5s. Top-performing stores in this niche (top 10%) achieve 3.7s. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my baby store's Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Optimize and compress hero images using modern formats like WebP or AVIF. Implement lazy loading for below-the-fold images and defer non-critical JavaScript. Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users. Preload critical resources and fonts to reduce render-blocking time. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other baby stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your largest contentful paint against our benchmarks. If your score is better than 9.5s (the median), you're in the top half of baby stores. If you're better than 3.7s, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Largest Contentful Paint - Baby",
+        "item": "https://boostra.agency/benchmarks/shopify-lcp-baby"
+      }
+    ]
   }
 }

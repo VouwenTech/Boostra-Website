@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.711Z",
-  "last_updated": "2026-01-04T14:29:22.711Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.945Z",
+  "last_updated": "2026-01-06T09:47:48.945Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Sports Stores (2026)",
-    "meta_description": "How does your sports equipment store compare? See pagespeed score benchmarks from 20 Shopify sports stores. Median: 47, Top 10%: 71.",
+    "meta_description": "Athletes and sports fans expect fast, trustworthy stores. See how 20 Shopify sports stores perform on pagespeed score. Median: 47, Top 10%: 71. Free benchmarks.",
     "keywords": [
-      "shopify sports benchmark",
-      "pagespeed score shopify",
-      "sports store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "sports ecommerce statistics",
-      "shopify store analytics"
+      "shopify sports pagespeed score benchmark",
+      "sports store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify sports performance data",
+      "best pagespeed score for sports stores",
+      "sports shopify optimization",
+      "how to improve pagespeed score shopify",
+      "sports ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Sports store scores 47 on PageSpeed, falling into Google's \"poor\" category",
       "Top 10% of stores achieve scores of 71+, giving them a significant competitive advantage",
       "There's a 44 point gap between top and bottom performers in this niche",
-      "More than half of stores in this niche fall below Google's minimum acceptable threshold"
+      "More than half of stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 20 Shopify sports stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,18 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-sports",
-      "title": "LCP - Sports"
+      "title": "LCP - Sports",
+      "anchorText": "Sports stores (median: 13.6s)"
     },
     {
       "slug": "shopify-trust-gaps-sports",
-      "title": "Trust Gap - Sports"
+      "title": "Trust Gap - Sports",
+      "anchorText": "Sports stores (median: 1)"
+    },
+    {
+      "slug": "shopify-pagespeed-fitness",
+      "title": "PageSpeed - Fitness",
+      "anchorText": "Fitness stores (median: 48)"
     }
   ],
   "jsonld": {
@@ -74,16 +83,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Sports Stores",
     "description": "Performance benchmark data for 20 Shopify stores in the sports equipment industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-sports",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-sports",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-sports",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-sports",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +101,75 @@
       "value": 47,
       "description": "Median pagespeed score across 20 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for sports stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify sports stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 20 Shopify sports stores, the median pagespeed score is 47. Top-performing stores in this niche (top 10%) achieve 71. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my sports store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other sports stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 47 (the median), you're in the top half of sports stores. If you're better than 71, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Sports",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-sports"
+      }
+    ]
   }
 }

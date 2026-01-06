@@ -21,20 +21,21 @@
     "good": 2500,
     "bad": 4000
   },
-  "content_generated_at": "2026-01-04T14:29:22.707Z",
-  "last_updated": "2026-01-04T14:29:22.707Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.940Z",
+  "last_updated": "2026-01-06T09:47:48.940Z",
+  "version": 2,
   "seo": {
     "title": "Largest Contentful Paint Benchmarks for Shopify Home Decor Stores (2026)",
-    "meta_description": "How does your home decor store compare? See largest contentful paint benchmarks from 24 Shopify home decor stores. Median: 13.3s, Top 10%: 4.9s.",
+    "meta_description": "Homeowners and decorators expect fast, trustworthy stores. See how 24 Shopify home decor stores perform on largest contentful paint. Median: 13.3s, Top 10%: 4.9s. Free benchmarks.",
     "keywords": [
-      "shopify home_decor benchmark",
-      "largest contentful paint shopify",
-      "home decor store performance",
-      "ecommerce lcp ms benchmark",
-      "shopify speed benchmarks",
-      "home decor ecommerce statistics",
-      "shopify store analytics"
+      "shopify home_decor largest contentful paint benchmark",
+      "home decor store largest contentful paint",
+      "ecommerce largest contentful paint statistics 2026",
+      "shopify home_decor performance data",
+      "best largest contentful paint for home_decor stores",
+      "home decor shopify optimization",
+      "how to improve largest contentful paint shopify",
+      "home decor ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The median Home Decor store has an LCP of 13.3s, which exceeds Google's recommended 2.5s threshold",
       "Top-performing stores (P10) achieve LCP of 4.9s - 63% faster than the median",
       "A 6x performance gap exists between the fastest and slowest stores in this niche",
-      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold"
+      "Even the fastest stores in this niche exceed Google's 2.5s \"good\" threshold",
+      "Source: Boostra analysis of 24 Shopify home decor stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Optimize and compress hero images using modern formats like WebP or AVIF",
@@ -62,11 +64,13 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-furniture",
-      "title": "LCP - Furniture"
+      "title": "LCP - Furniture",
+      "anchorText": "Furniture stores (median: 10.1s)"
     },
     {
       "slug": "shopify-lcp-kitchen",
-      "title": "LCP - Kitchen"
+      "title": "LCP - Kitchen",
+      "anchorText": "Kitchen stores (median: 16.1s)"
     }
   ],
   "jsonld": {
@@ -74,16 +78,16 @@
     "@type": "Dataset",
     "name": "Largest Contentful Paint Benchmarks for Shopify Home Decor Stores",
     "description": "Performance benchmark data for 24 Shopify stores in the home decor industry, measuring largest contentful paint.",
-    "url": "https://boostra.io/benchmarks/shopify-lcp-home-decor",
+    "url": "https://boostra.agency/benchmarks/shopify-lcp-home-decor",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-lcp-home-decor",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-lcp-home-decor",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +96,75 @@
       "value": 13250,
       "description": "Median largest contentful paint across 24 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Largest Contentful Paint (LCP) measures how long it takes for the largest visible element to load on your page. Google considers LCP a Core Web Vital, directly impacting your SEO rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Largest Contentful Paint matter for home decor stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Home decor shopping is highly visual, with shoppers imagining products in their space. Slow-loading lifestyle images break the visualization experience."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good Largest Contentful Paint for Shopify home decor stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 24 Shopify home decor stores, the median largest contentful paint is 13.3s. Top-performing stores in this niche (top 10%) achieve 4.9s. Google recommends LCP under 2.5 seconds for a 'good' user experience, with anything over 4 seconds considered poor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my home decor store's Largest Contentful Paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Optimize and compress hero images using modern formats like WebP or AVIF. Implement lazy loading for below-the-fold images and defer non-critical JavaScript. Use a Content Delivery Network (CDN) to serve assets from edge locations closer to users. Preload critical resources and fonts to reduce render-blocking time. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other home decor stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your largest contentful paint against our benchmarks. If your score is better than 13.3s (the median), you're in the top half of home decor stores. If you're better than 4.9s, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Largest Contentful Paint - Home Decor",
+        "item": "https://boostra.agency/benchmarks/shopify-lcp-home-decor"
+      }
+    ]
   }
 }

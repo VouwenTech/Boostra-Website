@@ -13,9 +13,33 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Shopify Benchmarks - CRO Data by Industry",
+  title: "Shopify Benchmarks 2026 - PageSpeed, LCP & Trust Gap by Industry | Boostra",
   description:
-    "Compare your Shopify store against thousands of others. Industry benchmarks for PageSpeed, LCP, trust signals, and more.",
+    "Free Shopify performance benchmarks across 26 industries. Compare your store's PageSpeed score, LCP, and trust signals against 2,500+ analyzed stores. Data-driven insights for CRO.",
+  keywords: [
+    "shopify benchmarks",
+    "ecommerce performance data",
+    "shopify pagespeed benchmarks",
+    "lcp benchmarks by industry",
+    "shopify store analytics",
+    "ecommerce industry statistics 2026",
+    "shopify speed optimization",
+    "trust gap score shopify",
+  ],
+  openGraph: {
+    title: "Shopify Store Benchmarks by Industry (2026)",
+    description: "Compare your store against 2,500+ Shopify stores. Free benchmarks for PageSpeed, LCP, and Trust Gap across 26 industries.",
+    type: "website",
+    url: "https://boostra.agency/benchmarks",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shopify Store Benchmarks by Industry (2026)",
+    description: "Compare your store against 2,500+ Shopify stores. Free benchmarks for PageSpeed, LCP, and Trust Gap.",
+  },
+  alternates: {
+    canonical: "https://boostra.agency/benchmarks",
+  },
 };
 
 // Metric sections with explanations
@@ -75,8 +99,38 @@ export default async function BenchmarksIndexPage() {
 
   const totalNiches = new Set(benchmarks.map((b) => b.niche)).size;
 
+  // Generate CollectionPage JSON-LD schema
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Shopify Store Benchmarks by Industry",
+    "description": "Compare your Shopify store against thousands of others. Industry benchmarks for PageSpeed, LCP, trust signals, and more.",
+    "url": "https://boostra.agency/benchmarks",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Boostra",
+      "url": "https://boostra.agency"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": benchmarks.length,
+      "itemListElement": benchmarks.slice(0, 30).map((b, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "url": `https://boostra.agency/benchmarks/${b.slug}`,
+        "name": b.seo?.title || `${b.metric_label} Benchmarks for ${b.niche_label}`
+      }))
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      {/* JSON-LD Structured Data - CollectionPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
+
       <Navbar />
       <main>
         <section className="bg-gradient-to-br from-boostra-blue/10 to-boostra-blue/5 py-16">
@@ -91,6 +145,28 @@ export default async function BenchmarksIndexPage() {
                 {manifest?.total_stores_analyzed?.toLocaleString() || "2,500+"} Shopify
                 stores across {totalNiches} industries.
               </p>
+
+              {/* Jump Links to Metric Sections */}
+              <div className="flex flex-wrap justify-center gap-3">
+                <a
+                  href="#pagespeed-score"
+                  className="px-4 py-2 bg-white rounded-full text-sm font-medium text-boostra-dark hover:bg-boostra-blue hover:text-white transition-colors shadow-sm border"
+                >
+                  PageSpeed Score
+                </a>
+                <a
+                  href="#lcp-ms"
+                  className="px-4 py-2 bg-white rounded-full text-sm font-medium text-boostra-dark hover:bg-boostra-blue hover:text-white transition-colors shadow-sm border"
+                >
+                  LCP (Loading Speed)
+                </a>
+                <a
+                  href="#trust-gap-score"
+                  className="px-4 py-2 bg-white rounded-full text-sm font-medium text-boostra-dark hover:bg-boostra-blue hover:text-white transition-colors shadow-sm border"
+                >
+                  Trust Gap Score
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -103,7 +179,7 @@ export default async function BenchmarksIndexPage() {
             <section
               key={metric.key}
               id={metric.key.replace(/_/g, "-")}
-              className="container mx-auto px-4 py-12 border-b last:border-b-0"
+              className="container mx-auto px-4 py-12 border-b last:border-b-0 scroll-mt-20"
             >
               <div className="max-w-5xl mx-auto">
                 <div className="mb-8">

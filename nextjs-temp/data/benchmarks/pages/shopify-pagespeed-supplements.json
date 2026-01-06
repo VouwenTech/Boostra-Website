@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.711Z",
-  "last_updated": "2026-01-04T14:29:22.711Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.945Z",
+  "last_updated": "2026-01-06T09:47:48.945Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Supplements Stores (2026)",
-    "meta_description": "How does your health supplements store compare? See pagespeed score benchmarks from 35 Shopify supplements stores. Median: 51, Top 10%: 74.",
+    "meta_description": "Health-conscious consumers expect fast, trustworthy stores. See how 35 Shopify supplements stores perform on pagespeed score. Median: 51, Top 10%: 74. Free benchmarks.",
     "keywords": [
-      "shopify supplements benchmark",
-      "pagespeed score shopify",
-      "supplements store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "supplements ecommerce statistics",
-      "shopify store analytics"
+      "shopify supplements pagespeed score benchmark",
+      "supplements store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify supplements performance data",
+      "best pagespeed score for supplements stores",
+      "supplements shopify optimization",
+      "how to improve pagespeed score shopify",
+      "supplements ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Supplements store scores 50 on PageSpeed, in the \"needs improvement\" range",
       "Top 10% of stores achieve scores of 74+, giving them a significant competitive advantage",
       "There's a 45 point gap between top and bottom performers in this niche",
-      "Some stores in this niche fall below Google's minimum acceptable threshold"
+      "Some stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 35 Shopify supplements stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,23 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-supplements",
-      "title": "LCP - Supplements"
+      "title": "LCP - Supplements",
+      "anchorText": "Supplements stores (median: 10.5s)"
     },
     {
       "slug": "shopify-trust-gaps-supplements",
-      "title": "Trust Gap - Supplements"
+      "title": "Trust Gap - Supplements",
+      "anchorText": "Supplements stores (median: 1)"
+    },
+    {
+      "slug": "shopify-pagespeed-fitness",
+      "title": "PageSpeed - Fitness",
+      "anchorText": "Fitness stores (median: 48)"
+    },
+    {
+      "slug": "shopify-pagespeed-food",
+      "title": "PageSpeed - Food",
+      "anchorText": "Food stores (median: 52)"
     }
   ],
   "jsonld": {
@@ -74,16 +88,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Supplements Stores",
     "description": "Performance benchmark data for 35 Shopify stores in the health supplements industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-supplements",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-supplements",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-supplements",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-supplements",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +106,75 @@
       "value": 51,
       "description": "Median pagespeed score across 35 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for supplements stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Supplement stores often have large catalogs. Fast page loads let shoppers efficiently compare products and read the detailed information they need."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify supplements stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 35 Shopify supplements stores, the median pagespeed score is 51. Top-performing stores in this niche (top 10%) achieve 74. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my supplements store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other supplements stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 51 (the median), you're in the top half of supplements stores. If you're better than 74, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Supplements",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-supplements"
+      }
+    ]
   }
 }

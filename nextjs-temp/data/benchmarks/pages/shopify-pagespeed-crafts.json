@@ -21,20 +21,21 @@
     "good": 90,
     "bad": 50
   },
-  "content_generated_at": "2026-01-04T14:29:22.709Z",
-  "last_updated": "2026-01-04T14:29:22.709Z",
-  "version": 1,
+  "content_generated_at": "2026-01-06T09:47:48.943Z",
+  "last_updated": "2026-01-06T09:47:48.943Z",
+  "version": 2,
   "seo": {
     "title": "PageSpeed Score Benchmarks for Shopify Crafts & DIY Stores (2026)",
-    "meta_description": "How does your arts and crafts store compare? See pagespeed score benchmarks from 13 Shopify crafts & diy stores. Median: 50, Top 10%: 64.",
+    "meta_description": "Crafters and hobbyists expect fast, trustworthy stores. See how 13 Shopify crafts & diy stores perform on pagespeed score. Median: 50, Top 10%: 64. Free benchmarks.",
     "keywords": [
-      "shopify crafts benchmark",
-      "pagespeed score shopify",
-      "crafts & diy store performance",
-      "ecommerce pagespeed score benchmark",
-      "shopify speed benchmarks",
-      "crafts & diy ecommerce statistics",
-      "shopify store analytics"
+      "shopify crafts pagespeed score benchmark",
+      "crafts & diy store pagespeed score",
+      "ecommerce pagespeed score statistics 2026",
+      "shopify crafts performance data",
+      "best pagespeed score for crafts stores",
+      "crafts & diy shopify optimization",
+      "how to improve pagespeed score shopify",
+      "crafts & diy ecommerce benchmarks"
     ]
   },
   "content": {
@@ -47,7 +48,8 @@
       "The average Crafts & DIY store scores 45 on PageSpeed, falling into Google's \"poor\" category",
       "Top 10% of stores achieve scores of 64+, giving them a significant competitive advantage",
       "There's a 40 point gap between top and bottom performers in this niche",
-      "Some stores in this niche fall below Google's minimum acceptable threshold"
+      "Some stores in this niche fall below Google's minimum acceptable threshold",
+      "Source: Boostra analysis of 13 Shopify crafts & diy stores, 2026-01-04."
     ],
     "how_to_improve": [
       "Audit and remove unused CSS and JavaScript to reduce page weight",
@@ -62,11 +64,23 @@
   "related_benchmarks": [
     {
       "slug": "shopify-lcp-crafts",
-      "title": "LCP - Crafts"
+      "title": "LCP - Crafts",
+      "anchorText": "Crafts stores (median: 11.7s)"
     },
     {
       "slug": "shopify-trust-gaps-crafts",
-      "title": "Trust Gap - Crafts"
+      "title": "Trust Gap - Crafts",
+      "anchorText": "Crafts stores (median: 1)"
+    },
+    {
+      "slug": "shopify-pagespeed-art",
+      "title": "PageSpeed - Art",
+      "anchorText": "Art stores (median: 53)"
+    },
+    {
+      "slug": "shopify-pagespeed-kids",
+      "title": "PageSpeed - Kids",
+      "anchorText": "Kids stores (median: 53)"
     }
   ],
   "jsonld": {
@@ -74,16 +88,16 @@
     "@type": "Dataset",
     "name": "PageSpeed Score Benchmarks for Shopify Crafts & DIY Stores",
     "description": "Performance benchmark data for 13 Shopify stores in the arts and crafts industry, measuring pagespeed score.",
-    "url": "https://boostra.io/benchmarks/shopify-pagespeed-crafts",
+    "url": "https://boostra.agency/benchmarks/shopify-pagespeed-crafts",
     "dateModified": "2026-01-04",
     "creator": {
       "@type": "Organization",
       "name": "Boostra",
-      "url": "https://boostra.io"
+      "url": "https://boostra.agency"
     },
     "distribution": {
       "@type": "DataDownload",
-      "contentUrl": "https://boostra.io/benchmarks/shopify-pagespeed-crafts",
+      "contentUrl": "https://boostra.agency/benchmarks/shopify-pagespeed-crafts",
       "encodingFormat": "text/html"
     },
     "variableMeasured": {
@@ -92,5 +106,75 @@
       "value": 50,
       "description": "Median pagespeed score across 13 stores"
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does PageSpeed Score matter for crafts & diy stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PageSpeed Score is Google's comprehensive performance metric (0-100) that evaluates your site's speed and user experience. Higher scores correlate with better SEO rankings and conversion rates. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good PageSpeed Score for Shopify crafts & diy stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Based on Boostra's analysis of 13 Shopify crafts & diy stores, the median pagespeed score is 50. Top-performing stores in this niche (top 10%) achieve 64. Scores of 90+ are considered 'good', 50-89 'needs improvement', and below 50 'poor'."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I improve my crafts & diy store's PageSpeed Score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit and remove unused CSS and JavaScript to reduce page weight. Implement efficient caching strategies for static assets. Optimize your Shopify theme by removing unnecessary apps and code. Use optimized, properly-sized images throughout your store. For a personalized analysis of your store's specific issues and opportunities, consider a professional CRO audit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does my store compare to other crafts & diy stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can compare your pagespeed score against our benchmarks. If your score is better than 50 (the median), you're in the top half of crafts & diy stores. If you're better than 64, you're among the top 10% performers in your industry."
+        }
+      }
+    ]
+  },
+  "breadcrumbSchema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boostra.agency"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Benchmarks",
+        "item": "https://boostra.agency/benchmarks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "PageSpeed Score - Crafts & DIY",
+        "item": "https://boostra.agency/benchmarks/shopify-pagespeed-crafts"
+      }
+    ]
   }
 }
